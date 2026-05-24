@@ -40,6 +40,42 @@ export default function CreateFlashcards() {
     const navigate = useNavigate();
     const { setDecks, learningPrefs } = useDecks();
     const [loading, setLoading] = useState(false);
+    const [progress, setProgress] = useState(0);
+
+    const getLoadingMessage = (p) => {
+        if (p < 20) return "Uploading and processing PDF document...";
+        if (p < 50) return "Extracting text and identifying key concepts...";
+        if (p < 75) return "Generating flashcard definitions and keywords...";
+        if (p < 92) return "Synthesizing review questions and summaries...";
+        return "Polishing your brand new study deck...";
+    };
+
+    useEffect(() => {
+        if (!loading) {
+            setProgress(0);
+            return;
+        }
+
+        setProgress(5);
+        const timer = setInterval(() => {
+            setProgress((prev) => {
+                if (prev >= 99) return prev;
+                let increment = 0;
+                if (prev < 30) {
+                    increment = Math.random() * 3 + 1; // 1-4%
+                } else if (prev < 60) {
+                    increment = Math.random() * 1.5 + 0.5; // 0.5-2%
+                } else if (prev < 85) {
+                    increment = Math.random() * 0.8 + 0.2; // 0.2-1%
+                } else {
+                    increment = Math.random() * 0.15 + 0.05; // 0.05-0.2%
+                }
+                return Math.min(prev + increment, 99);
+            });
+        }, 300);
+
+        return () => clearInterval(timer);
+    }, [loading]);
 
     const [mode, setMode] = useState("ai");
     const [files, setFiles] = useState([]);
@@ -91,6 +127,8 @@ export default function CreateFlashcards() {
 
         try {
             const { data: newDeck } = await axios.post(`${BASE}/api/generate-deck`, formData)
+            setProgress(100);
+            await new Promise((r) => setTimeout(r, 400));
             const sm2Defaults = {
                 repetition: 0,
                 interval: 0,
@@ -242,12 +280,52 @@ export default function CreateFlashcards() {
 
     if (loading) {
         return (
-            <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm">
-                <div className="flex flex-col items-center gap-4 p-6 bg-white rounded shadow">
-                    <div className="w-16 h-16 border-t-4 border-blue-600 rounded-full animate-spin"></div>
-                    <p className="text-lg text-black">
-                        Generating study deck, please wait...
-                    </p>
+            <div className="fixed inset-0 z-50 flex items-center justify-center bg-gray-900/60 backdrop-blur-md px-4">
+                <style>{`
+                    @keyframes shimmer {
+                        0% { background-position: -200% 0; }
+                        100% { background-position: 200% 0; }
+                    }
+                    .shimmer-bg {
+                        background: linear-gradient(90deg, transparent 0%, rgba(255,255,255,0.3) 50%, transparent 100%);
+                        background-size: 200% 100%;
+                        animation: shimmer 1.5s infinite linear;
+                    }
+                `}</style>
+                <div className="bg-white rounded-2xl shadow-2xl border border-gray-150 max-w-md w-full p-8 transform transition-all duration-300">
+                    <div className="flex flex-col items-center text-center">
+                        {/* Premium custom loading icon/glow */}
+                        <div className="relative mb-6 flex items-center justify-center">
+                            <div className="absolute inset-0 bg-blue-500/20 blur-xl rounded-full w-16 h-16 animate-pulse"></div>
+                            <div className="relative w-16 h-16 rounded-2xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 shadow-sm animate-bounce">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-8 h-8">
+                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                                </svg>
+                            </div>
+                        </div>
+
+                        {/* Title & Description */}
+                        <h3 className="text-xl font-bold text-gray-900 mb-2">Creating Your Deck</h3>
+                        <p className="text-sm text-gray-500 min-h-[40px] mb-6 flex items-center justify-center transition-all duration-300">
+                            {getLoadingMessage(progress)}
+                        </p>
+
+                        {/* Progress Bar */}
+                        <div className="w-full bg-gray-100 rounded-full h-3.5 overflow-hidden relative shadow-inner mb-4">
+                            <div
+                                className="bg-gradient-to-r from-blue-600 to-indigo-600 h-full rounded-full transition-all duration-300 ease-out relative"
+                                style={{ width: `${progress}%` }}
+                            >
+                                {/* Shimmering effect */}
+                                <div className="absolute inset-0 shimmer-bg"></div>
+                            </div>
+                        </div>
+
+                        {/* Percentage */}
+                        <span className="text-sm font-semibold text-blue-600 bg-blue-50 px-3 py-1 rounded-full border border-blue-100">
+                            {Math.round(progress)}%
+                        </span>
+                    </div>
                 </div>
             </div>
         );
