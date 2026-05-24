@@ -1,0 +1,135 @@
+@media (max-width: 1000px) and (orientation: landscape) {
+  /* We will add landscape specific styles here for various pages and components */
+
+  /* CreateFlashcards page scroll fix */
+  .create-flashcards-container {
+    max-height: 100vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch; /* smooth scrolling on iOS */
+  }
+
+  /* DeckDetail page font size adjustments */
+  .deckdetail-container > header h1 {
+    font-size: 1.25rem; /* smaller than desktop */
+  }
+  .deckdetail-container nav button span {
+    font-size: 1.25rem; /* reduce tab label font size */
+  }
+
+  .flashcardplayer-container {
+  max-height: 100vh !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+  padding-bottom: 1rem !important;
+}
+
+.flashcardplayer-container .perspective.card {
+  width: 90vw !important;
+  max-width: 600px !important;
+  height: 60vh !important;
+}
+
+.flashcardplayer-container .flex.flex-wrap.justify-between.tabby {
+  flex-wrap: nowrap !important;
+  justify-content: space-between !important;
+  gap: 8px !important;
+  max-width: 90vw !important;
+  overflow-x: auto !important;
+  padding-bottom: 4px !important;
+}
+
+.flashcardplayer-container button.px-6.py-2 {
+  padding: 0.4rem 0.8rem !important;
+  font-size: 0.9rem !important;
+  white-space: nowrap !important;
+  min-width: 80px !important;
+  flex-shrink: 0 !important;
+}
+
+.statspopup-container > div {
+    max-height: 80vh !important;
+    max-width: 95vw !important;
+    overflow-y: auto !important;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+    box-sizing: border-box;
+    border-radius: 1rem !important;
+  }
+
+  .smartquiz-container {
+  max-height: 100vh !important;
+  overflow-y: auto !important;
+  -webkit-overflow-scrolling: touch !important;
+}
+
+  .deckdetail-container header .flex.items-center.space-x-2 > button {
+    padding: 0.4rem 0.8rem !important;
+  }
+
+  .deckdetail-container header .flex.items-center.space-x-2 > button svg {
+    width: 1rem !important;
+    height: 1rem !important;
+  }
+
+  .deckdetail-container header .flex.items-center.space-x-2 > button span {
+    font-size: 0.75rem !important;
+  }
+
+  /* Also reduce size of tab buttons in DeckDetail */
+  .deckdetail-container nav button {
+    padding: 0.5rem 1rem !important;
+  }
+
+  .deckdetail-container nav button svg {
+    width: 1.25rem !important;
+    height: 1.25rem !important;
+  }
+
+  .deckdetail-container nav button span {
+    font-size: 1rem !important;
+  }
+
+  aside.sidebar button {
+    padding: 0.3rem 0.5rem !important;
+  }
+
+  aside.sidebar button > div.actionn {
+    width: 1.5rem !important;
+    height: 1.5rem !important;
+  }
+
+  aside.sidebar button span {
+    font-size: 0.75rem !important;
+  }
+
+  .sidebar button > div.actionn {
+  margin-left: 10px;
+}
+
+.flashcarddecktable-container {
+  padding: 1rem !important;
+}
+
+.flashcarddecktable-container h1 {
+  font-size: 1.5rem !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.flashcarddecktable-container .grid.text-sm.font-medium {
+  font-size: 0.75rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
+}
+
+.flashcarddecktable-container .space-y-2 > div {
+  padding: 0.5rem 1rem !important;
+  font-size: 0.75rem !important;
+}
+
+.collapsed {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+}
+
+
+}

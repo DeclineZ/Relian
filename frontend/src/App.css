@@ -1,0 +1,352 @@
+@import "tailwindcss";
+
+#root {
+  width: 100%;
+}
+
+.perspective {
+  perspective: 1000px;
+}
+
+.card-3d {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 0.2s;
+}
+
+/* Each face must hide the backside text */
+.card-face {
+  position: absolute;
+  inset: 0;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.75rem; /* rounded-lg */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  backface-visibility: hidden; 
+}
+
+/* Front face remains at rotateX(0deg) (i.e., unrotated) */
+.card-face.front {
+  transform: rotateX(0deg);
+  background: white;
+}
+
+/* Back face starts off flipped 180deg so it's hidden behind the front face */
+.card-face.back {
+  transform: rotateX(180deg);
+  background: white;
+}
+
+.loadingblackground {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5); /* semi-transparent black */
+  backdrop-filter: blur(8px);   /* adjust the blur radius as needed */
+  -webkit-backdrop-filter: blur(8px); /* for Safari */
+  z-index: 50;
+}
+
+.actionn {
+  transform: translateX(-12px);
+}
+
+.card {
+  width: 70%;
+  height: 60%;
+}
+
+.toplefttext {
+  color: black;
+}
+
+.tabby {
+  width: 75%
+}
+
+.tabbackground {
+  background-color:#404251;
+}
+
+.fcimage {
+  border-radius: 30px;
+}
+
+.main-title {
+  font-size: 2em;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1em;
+}
+
+.section-heading {
+  font-size: 1.5em;
+  color: #555;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+  border-bottom: 1px solid #eee;
+}
+
+.important-term {
+  font-weight: bold;
+  background-color: #f0f8ff; /* Example highlight */
+  padding: 0.1em 0.3em;
+  border-radius: 3px;
+}
+
+.key-points {
+  list-style-type: disc;
+  margin-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+.list-item {
+  margin-bottom: 0.5em;
+}
+
+.emphasis-note {
+  font-style: italic;
+  color: #777;
+}
+
+.xp-message, .style-message {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #4364d8;
+  opacity: 1;
+  z-index: 9999;
+  animation: xpMoveUp 2s ease-out forwards;
+}
+
+.style-message { color: #10b981; }
+
+@keyframes xpMoveUp {
+  0% {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+  50% {
+    opacity: 0.7;
+    transform: translateX(-50%) translateY(-10px);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-20px);
+  }
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  text-align: center;
+  background: linear-gradient(90deg, #4f8cff, #4285f4); /* Initial gradient */
+  background-size: 400% 400%; /* Make the gradient larger for animation */
+  animation: gradientMove 1s linear infinite; /* Move the gradient forever */
+}
+
+/* Continuous Gradient Animation */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%; /* Starting position */
+  }
+  50% {
+    background-position: 100% 50%; /* Midway point */
+  }
+  100% {
+    background-position: 0% 50%; /* Return to starting position */
+  }
+}
+
+/* AI X Button */
+.ai-x-button {
+  background: linear-gradient(90deg, #4f8cff, #4285f4);
+  color: white;
+}
+
+.ai-x-button:hover {
+  background: linear-gradient(90deg, #4285f4, #4f8cff);
+  transform: scale(1.05);
+}
+
+.ai-x-button:active {
+  background: #357ae8; /* Solid color on active */
+}
+
+/* Add More Button */
+.add-more-button {
+  background: linear-gradient(90deg, #6c757d, #5a636a); /* Gradient for Add More */
+}
+
+.add-more-button:hover {
+  background: linear-gradient(90deg, #5a636a, #6c757d);
+  transform: scale(1.05);
+}
+
+.add-more-button:active {
+  background: #4e555b; /* Solid color on active */
+}
+
+/* Focused State (When the button is tapped) */
+.button:focus {
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.5); /* Glow effect on focus */
+}
+
+/* Tooltip (optional) */
+.button-tooltip {
+  position: relative;
+}
+
+.button-tooltip::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.button-tooltip:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Flame animation for streak */
+@keyframes flameFlicker {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  30% {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.streak-icon {
+  display: inline-block;
+  animation: flameFlicker 1s ease-in-out infinite;
+}
+
+/* Animated Gradient for Level Progress Bar */
+@keyframes gradientMove {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.level-bar {
+  background: linear-gradient(90deg, #ff8c00, #ff4d00, #ff8c00);
+  background-size: 400% 400%;
+  animation: gradientMove 3s ease infinite;
+  height: 8px; /* Progress bar thickness */
+  border-radius: 4px;
+}
+
+@keyframes pulse {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-0.1px);
+  }
+}
+
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(-3deg);
+  }
+  50% {
+    transform: rotate(3deg);
+  }
+}
+
+.animate-pulse {
+  animation: pulse 1s infinite ease-in-out;
+}
+
+.animate-bounce {
+  animation: bounce 2s infinite ease-in-out;
+}
+
+.animate-wiggle {
+  animation: wiggle 0.75s infinite ease-in-out;
+}
+
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.animated-gradient {
+  background: linear-gradient(45deg, #1f2bda, #4b61ef, #62a9ff, #abddf4);
+  background-size: 400% 400%;
+  animation: gradientAnimation 8s ease infinite;
+}
+
+.animated-gradient2 {
+  background: linear-gradient(45deg, #1f2bda, #4b61ef, #62a9ff, #abddf4);
+  background-size: 400% 400%;
+  animation: gradientAnimation 3.5s ease infinite;
+}
+
+@keyframes heartbeat {
+  0%   { box-shadow: 0 0 0 0 rgba(31, 132, 255, 0.8); }
+  40%  { box-shadow: 0 0 0 6px rgba(64, 86, 209, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(113, 144, 247, 0); }
+}
+
+/* utility: pulse once in 0.6 s */
+.heartbeat {
+  animation: heartbeat 2s ease-out;
+}
+

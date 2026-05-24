@@ -1,0 +1,3227 @@
+[
+  {
+    "id": "ad017078-6b17-4375-a8d3-35975da37ad1",
+    "name": "🌎 หินสามประเภท",
+    "description": "ชุดแฟลชการ์ดสำหรับเรียนรู้เกี่ยวกับประเภทและคุณสมบัติของหินสามประเภท ได้แก่ หินอัคนี หินแปร และหินตะกอน",
+    "studied": false,
+    "total": 25,
+    "learned": 0,
+    "due": 25,
+    "cards": [
+      {
+        "id": "242090ec-150b-4d41-bc45-900daf84d994",
+        "question": "หินเกิดจากอะไร",
+        "answer": "การรวมตัวและแข็งตัวของแร่ต่างๆ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "8fea4eb3-2db1-4383-9850-967924bec752",
+        "question": "หินแบ่งออกเป็นกี่ประเภท",
+        "answer": "3 ประเภท",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "e82ff6e3-3316-4eab-8b04-e285d9f22368",
+        "question": "หิน 3 ประเภทคืออะไรบ้าง",
+        "answer": "หินอัคนี, หินแปร, หินตะกอน",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "59ec24a8-f624-42c9-951e-f4e73e6cbe99",
+        "question": "หินอัคนีเกิดจากอะไร",
+        "answer": "การเย็นตัวลงและแข็งตัวของหินหลอมเหลว",
+        "keyword": "magma",
+        "needs_image": true,
+        "image": "https://cdn.britannica.com/74/22274-138-4D5FA381/lava-rock-Molten-magma-Earth-surface-volcano.jpg?w=400&h=225&c=crop",
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "1aa1b35a-db06-4f3b-916f-47287018195d",
+        "question": "หินอัคนีพุเกิดจากอะไร",
+        "answer": "ลาวาแข็งตัว",
+        "keyword": "lava",
+        "needs_image": true,
+        "image": "https://cdn.britannica.com/12/155312-050-A2EF0E56/Volcano-island-Reunion-Indian-Ocean.jpg?w=400&h=225&c=crop",
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "7027f7a3-54aa-41d3-bae0-edbf2f45eb03",
+        "question": "หินอัคนีแทรกซ้อนเกิดจากอะไร",
+        "answer": "แมกม่าแข็งตัว",
+        "keyword": "magma",
+        "needs_image": true,
+        "image": "https://cdn.britannica.com/74/22274-138-4D5FA381/lava-rock-Molten-magma-Earth-surface-volcano.jpg?w=400&h=225&c=crop",
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "7cdcba7b-2c3c-4a94-8aa7-4283567658bc",
+        "question": "ตัวอย่างหินอัคนีพุ",
+        "answer": "หินบะซอลต์, หินไรโอไลต์, หินแอนดีไซต์",
+        "keyword": "basalt",
+        "needs_image": true,
+        "image": "https://geology.ecu.edu/geol1501/wp-content/pv-uploads/sites/351/2020/06/porphyritic-basalt.gif",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "44c39b44-583b-4518-b856-a8db69fdb12e",
+        "question": "ตัวอย่างหินอัคนีแทรกซ้อน",
+        "answer": "หินแกรนิต, หินไดออไรต์, หินแกบโบร",
+        "keyword": "granite",
+        "needs_image": true,
+        "image": "https://www.geologysuperstore.com/wp-content/uploads/2023/03/Pink_Granite_2-removebg-preview.png",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "2279e940-cfff-4285-bec6-af2922c0719b",
+        "question": "หินอัคนีแบ่งออกเป็นกี่ชนิด",
+        "answer": "2 ชนิด",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "d2ff60c7-ee5f-45fa-92c1-eb974f0269be",
+        "question": "หินตะกอนเกิดจากอะไร",
+        "answer": "การทับถมของตะกอน เศษหิน แร่ ดิน กรวด หรือทราย",
+        "keyword": "sediment",
+        "needs_image": true,
+        "image": "https://stormwater.pca.state.mn.us/images/thumb/a/a3/Small_Sediment_Trap.jpg/300px-Small_Sediment_Trap.jpg",
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "c66e0fbf-869c-48a9-960b-f413804a4cd8",
+        "question": "ตะกอนต่างๆ ถูกพัดพาโดยอะไร",
+        "answer": "ธารน้ำ, ลม, คลื่นทะเล",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "6c9f5c16-650f-4886-a722-31b8443c98e5",
+        "question": "หินตะกอนแบ่งออกเป็นกี่ชนิด",
+        "answer": "2 ชนิด",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "d7e55d13-1530-47ee-8b8e-349641b85261",
+        "question": "หินเนื้อประสานมีลักษณะอย่างไร",
+        "answer": "เนื้อละเอียดมาก จําแนกองค์ประกอบไม่ได้",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "97073b1a-f18c-487f-985e-ee9715aa5cdb",
+        "question": "หินเนื้อประสมมีลักษณะอย่างไร",
+        "answer": "เนื้อละเอียดไม่มาก จําแนกองค์ประกอบได้",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "4ca08c23-8cf9-4e18-bf19-c05a9b0f68d8",
+        "question": "ตัวอย่างหินตะกอนเนื้อประสาน",
+        "answer": "หินปูน, ถ่านหิน",
+        "keyword": "limestone",
+        "needs_image": true,
+        "image": "https://dnr.mo.gov/sites/dnr/files/styles/medium/public/media/image/2020/10/mgs-calcitic-limestone.jpg?itok=nl2sWxW9",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "e0f49106-e26e-47b8-8665-3454fe192bf0",
+        "question": "ตัวอย่างหินตะกอนเนื้อประสม",
+        "answer": "หินดินดาน, หินกรวดมน",
+        "keyword": "conglomerate",
+        "needs_image": true,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Ferruginous_quartz-pebble_conglomerate_%28derived_from_boulder_in_%22Sharon_Conglomerate%22%2C_Lower_Pennsylvanian%3B_Jackson_North_roadcut%2C_Ohio%2C_USA%29_30.jpg/330px-Ferruginous_quartz-pebble_conglomerate_%28derived_from_boulder_in_%22Sharon_Conglomerate%22%2C_Lower_Pennsylvanian%3B_Jackson_North_roadcut%2C_Ohio%2C_USA%29_30.jpg",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "28b8eaee-7054-4997-824f-2d4e11227b5b",
+        "question": "หินแปรเกิดจากอะไร",
+        "answer": "การแปรสภาพจากความร้อน ความดัน และปฏิกิริยาเคมี",
+        "keyword": "metamorphism",
+        "needs_image": true,
+        "image": "https://www.geolsoc.org.uk/ks3/webdav/site/GSL/shared/images/education_and_careers/RockCycle/Processes/Deformation/Deformation.jpg",
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "6fb13329-cae0-4a2c-8148-5ea4f35c5465",
+        "question": "หินแปรแบ่งออกเป็นกี่ชนิด",
+        "answer": "2 ชนิด",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "fe96418d-10fb-4606-b20b-87b37dbf68e8",
+        "question": "การแปรสภาพบริเวณไพศาลเกิดจากอะไร",
+        "answer": "ความร้อนและความดันสูงมาก",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "1e143d3d-0024-4e49-ba86-d892025f2e35",
+        "question": "การแปรสภาพสัมผัสเกิดจากอะไร",
+        "answer": "ความร้อนและปฏิกิริยาเคมีที่ไม่มาก",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "a040e8b0-cdc0-44ba-910f-d5d80598c4f0",
+        "question": "ตัวอย่างหินแปรจากการแปรสภาพบริเวณไพศาล",
+        "answer": "หินไนส์, หินชนวน",
+        "keyword": "gneiss",
+        "needs_image": true,
+        "image": "https://www.geologysuperstore.com/wp-content/uploads/2023/03/Hornblende_Gneiss-removebg-preview.png",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "a4f08167-5466-4cff-8ab3-05fdedabc795",
+        "question": "ตัวอย่างหินแปรจากการแปรสภาพสัมผัส",
+        "answer": "หินอ่อน",
+        "keyword": "marble",
+        "needs_image": true,
+        "image": "https://marble.com/uploads/materials/1175/300X300/thumbnail/Carrara-Silver-Honed_BZ2Hi3iiXMb9u0Ki4WQb.jpg",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "0acdf5e8-15b4-4a3e-9d42-99916c068f4b",
+        "question": "ถ้าเราพบหินที่มีลักษณะเนื้อละเอียดมากและไม่สามารถจําแนกองค์ประกอบได้ หินนั้นน่าจะเป็นหินประเภทใด",
+        "answer": "หินตะกอนเนื้อประสาน",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "c7f56102-6b13-430b-a7f9-ec352ef6f815",
+        "question": "ถ้าเราพบหินที่เกิดจากการเย็นตัวของลาวา หินนั้นน่าจะเป็นหินประเภทใด",
+        "answer": "หินอัคนีพุ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      },
+      {
+        "id": "80212ed3-d08c-482f-9aa8-d7d1f15043ea",
+        "question": "ถ้าเราพบหินที่เกิดจากการแปรสภาพของหินเดิมโดยมีความร้อนและความดันสูงมาก หินนั้นน่าจะเป็นหินประเภทใด",
+        "answer": "หินแปรจากการแปรสภาพบริเวณไพศาล",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-05-09"
+      }
+    ],
+    "summaryHtml": "<h1 class=\"main-title\">บทสรุปเรื่องหิน</h1>\n<p>หินเกิดขึ้นจากการรวมตัวและแข็งตัวของแร่ธาตุต่างๆ โดยมี 3 ประเภทหลัก ได้แก่ <strong class=\"important-term\">หินอัคนี</strong>, <strong class=\"important-term\">หินตะกอน</strong>, และ <strong class=\"important-term\">หินแปร</strong></p>\n<h2 class=\"section-heading\">หินอัคนี</h2>\n<p>เกิดจากการเย็นตัวลงและแข็งตัวของหินหลอมเหลวที่พุ่งออกมาจากเปลือกโลก แบ่งออกเป็น 2 ชนิดหลัก:</p>\n<ul class=\"key-points\">\n  <li class=\"list-item\"><strong>หินอัคนีพุ</strong>: เกิดจากลาวาแข็งตัว เช่น <em>หินบะซอลต์</em>, <em>หินไรโอไลต์</em>, <em>หินแอนดีไซต์</em></li>\n  <li class=\"list-item\"><strong>หินอัคนีแทรกซ้อน</strong>: เกิดจากแมกม่าแข็งตัว เช่น <em>หินแกรนิต</em>, <em>หินไดออไรต์</em>, <em>หินแกบโบร</em></li>\n</ul>\n<h2 class=\"section-heading\">หินตะกอน</h2>\n<p>เกิดจากการทับถมของตะกอน เศษหิน แร่ ดิน กรวด หรือทรายเป็นเวลานาน แบ่งออกเป็น 2 ชนิด:</p>\n<ul class=\"key-points\">\n  <li class=\"list-item\"><strong>หินเนื้อประสาน</strong>: เนื้อละเอียดมาก จําแนกองค์ประกอบไม่ได้ เช่น <em>หินปูน</em>, <em>ถ่านหิน</em></li>\n  <li class=\"list-item\"><strong>หินเนื้อประสม</strong>: เนื้อละเอียดไม่มาก จําแนกองค์ประกอบได้ เช่น <em>หินดินดาน</em>, <em>หินกรวดมน</em></li>\n</ul>\n<h2 class=\"section-heading\">หินแปร</h2>\n<p>เกิดจากการแปรสภาพเนื่องจากความร้อน ความดัน และปฏิกิริยาเคมี แบ่งออกเป็น 2 ชนิด:</p>\n<ul class=\"key-points\">\n  <li class=\"list-item\"><strong>การแปรสภาพบริเวณไพศาล</strong>: เกิดจากความร้อนและความดันสูงมาก ทําให้เกิดแร่และผลึกใหม่ เช่น <em>หินไนส์</em>, <em>หินชนวน</em></li>\n  <li class=\"list-item\"><strong>การแปรสภาพสัมผัส</strong>: เกิดจากความร้อนและปฏิกิริยาไม่มาก เกิดแร่ใหม่แค่บางส่วน เช่น <em>หินอ่อน</em></li>\n</ul>\n<p class=\"emphasis-note\"><em>การเข้าใจประเภทและกระบวนการเกิดหินต่างๆ ช่วยให้เราเข้าใจธรณีวิทยาและประวัติของโลกได้ดีขึ้น</em></p>"
+  },
+  {
+    "id": "0ba786a0-f02c-42e6-a811-58bc2cb51f11",
+    "name": "📢 งานนำเสนอนักเรียน",
+    "description": "ชุดโจทย์สำหรับการเตรียมตัวในการนำเสนองานเรื่องต่าง ๆ",
+    "studied": false,
+    "total": 17,
+    "learned": 0,
+    "due": 17,
+    "cards": [
+      {
+        "id": "f910d013-0a73-457c-a4c9-7bb7f22084b5",
+        "question": "สิ่งใดที่นักเรียนควรเตรียมก่อนการนำเสนอ?",
+        "answer": "ควรมีการเตรียมเนื้อหางานนำเสนอให้ชัดเจน มีข้อคิดหลัก แผนภูมิหรือข้อมูลประกอบ และตรวจสอบอุปกรณ์ที่ใช้งาน เช่น ไมโครโฟนหรือโปรเจกเตอร์",
+        "keyword": "Presentation preparation",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "75382985-0256-48d4-8e09-9a4d075a500d",
+        "question": "สิ่งสำคัญที่ต้องคิดว่าใช่หรือไม่ใช่ก่อนนำเสนอคืออะไร?",
+        "answer": "ควรตรวจสอบว่าเนื้อหาตรงกับหัวข้อที่กำหนดหรือไม่ และเป็นประโยชน์ต่อผู้ฟังหรือไม่",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "13b13749-849d-43e9-abbc-cb0ab9efdddf",
+        "question": "นักเรียนควรพูดอย่างไรให้เข้าใจง่ายในระหว่างการนำเสนอ?",
+        "answer": "พูดช้าและชัดเจน ใช้ภาษาง่าย ๆ และต้องฝึกพูดซ้ำหลายครั้งเพื่อความมั่นใจ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "cc64a67b-1d19-4be2-b6e4-2e27a07f4a7b",
+        "question": "เหตุผลใดที่ทำให้นักเรียนต้องสร้างสไลด์?",
+        "answer": "สไลด์ช่วยให้ผู้ฟังเข้าใจเนื้อหาได้อย่างรวดเร็ว มีความน่าเชื่อถือ และช่วยเน้นจุดสำคัญได้ดี",
+        "keyword": "Presentation slides",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "05fa1b10-4305-4994-901d-23c4cd29a0ee",
+        "question": "ข้อควรป้องกันขณะนำเสนอคืออะไร?",
+        "answer": "ไม่ควรพูดเร็วเกินไป ไม่ควรใช้ภาษาที่ผู้ฟังไม่เข้าใจ และไม่ควรดูยุ่งเหยิงหรือไม่มีสมาธิ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "879dee48-6a8f-4d43-bca8-d5a39ba4deaf",
+        "question": "ควรใช้ระยะเวลาพูดในการนำเสนอแต่ละครั้งเท่าไร?",
+        "answer": "ควรพูดประมาณ 5-8 นาที ขึ้นอยู่กับความยาวของงานและจำนวนสมาชิกในกลุ่ม",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "ff6b3263-b5eb-41c4-937a-dfa841de2159",
+        "question": "อะไรคือสิ่งที่ควรวางไว้หน้าสไลด์?",
+        "answer": "ควรวางชื่องาน ชื่อผู้นำเสนอ และวันเวลาของการนำเสนออยู่ในสไลด์แรก",
+        "keyword": "Slide title page",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "938ded76-5579-4101-9a71-ac9d96cb2196",
+        "question": "นักเรียนสามารถตอบกลับคำถามจากคนฟังได้ดีขึ้นด้วยวิธีใด?",
+        "answer": "ฟังคำถามให้จบก่อนตอบ และตอบในภาษาหรือระดับความเข้าใจของผู้ฟัง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "5a0f9cd2-8861-4cba-90a9-31848d22aefc",
+        "question": "การเตรียมใจต่อการนำเสนอหมายถึงอะไร?",
+        "answer": "หมายถึงการฝึกฝนความมั่นใจ ทำใจให้มั่น และควบคุมความกลัวหรือความกังวลขณะพูดต่อหน้ากลุ่ม",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "f96146f4-6d80-44f9-922d-1149e05fc37a",
+        "question": "เหตุใดการฝึกพูดทวนหลายรอบจึงสำคัญ?",
+        "answer": "เพราะจะช่วยให้เนื้อค้าสมูน และลดโอกาสเกิดความลืมระหว่างพูดต่อหน้ากลุ่ม",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "0c21a887-5d39-4bbc-8d8d-d45d36c9b984",
+        "question": "สิ่งที่ควรอยู่ในงานนำเสนอคืออะไร?",
+        "answer": "จุดมุ่งหมายของงาน เนื้อหาหลัก เนื้อแท้ของงาน และผลสรุป หรือความสำคัญของงาน",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "bd1b7b79-2900-4305-96af-57de934905c1",
+        "question": "นักเรียนสามารถตรวจสอบงานนำเสนอได้อย่างไร?",
+        "answer": "สามารถตรวจสอบงานผ่านการฝึกพูดต่อหน้าเพื่อน การใช้เครื่องมือตรวจสอบผิดซ้ำ และการอ่านเนื้อหาสไลด์อย่างละเอียด",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "4e68f71d-c582-42eb-bd6b-4dba5f02c832",
+        "question": "เมื่อกำลังพูดผิดแล้วควรทำอย่างไร?",
+        "answer": "ควรพัก ลบที่พูดผิด และกลับไปหาจุดที่ถูกต้องโดยไม่มองตกหรือกลัว",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "bc8842a7-4f1e-4e29-a0e7-71d749db192e",
+        "question": "ความมั่นใจในการนำเสนอเกิดขึ้นได้อย่างไร?",
+        "answer": "ความมั่นใจเกิดจากการเตรียมการล่วงหน้าและฝึกฝนจนถี่ถ้วน",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "24979819-f002-4407-a554-a6c930878939",
+        "question": "หากนักเรียนไม่มั่นใจในงานนำเสนอ ควรปฏิบัติตัวอย่างไร?",
+        "answer": "ควรเขียนข้อความสำคัญใส่บัตรหรือจดบันทึก และพัฒนาความสงบและสมาธิในตนเอง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "4abe156c-3cc7-494b-9b43-f62288ce439e",
+        "question": "การใช้ภาษากายมีความสำคัญในการนำเสนออย่างไร?",
+        "answer": "ภาษากายช่วยสร้างภาพลักษณ์ที่ดี เสริมจังหวะการพูด และทำให้ผู้ฟังรู้สึกเชื่อมโยงกับผู้พูด",
+        "keyword": "Body language",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "a02a11e6-3678-4ce6-8573-b7bcc6d31127",
+        "question": "นักเรียนควรทำอย่างไรถ้าการนำเสนอเกิดข้อผิดพลาด?",
+        "answer": "ไม่ต้องตกใจ ให้พักสั้น ๆ สลัดอารมณ์และกลับเข้าสู่เนื้อหาที่ถูกต้องต่อไป",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      }
+    ],
+    "summaryHtml": "อง การปรับปรุงกระบวนการบริหารจัดการทรัพยากรมนุษย์\nสายงานผลิตในโรงงานอุตสาหกรรม\n\nบทคัดย่อ\nการวิจัยนี้มีวัตถุประสงค์เพื่อปรับปรุงกระบวนการบริหาร\nจัดการทรัพยากรมนุษย์ในสายงานผลิตของโรงงานอุตสาหกรรม\nโดยมุ่ งเน ้นการวิเคราะห ์ ข ้อมูลและหาแนวทางการพัฒนา\nกระบวนการการจัดการทรัพยากรมนุ ษย ์ อย่ างมีประสิทธิภาพ\nโดยการเก ็บข ้อมูลจากการส ัมภาษณ์ และการวิเคราะห ์ เอกสาร\nที่เกียวข ้อง ผลการวิจัยพบว่ า การปรับปรุงกระบวนการบริหาร\nจัดการทรัพยากรมนุษย์สามารถทําได้โดยการนําเอาเทคนิค\n<strong>การบริหารจัดการแบบจ า ลอง</strong> และการใช ้\nเทคโนโลยีมาใช ้ เพือปรับปรุงการทํางานของฝ่ายบุคคล\nและระบบการทํางานขององค ์กร โดยรวมแล ้ว การวิจัยนี้\nได้นําเสนอแนวทางการพัฒนากระบวนการการจัดการ\nทรัพยากรมนุษย์ที่เหมาะสมสําหรับโรงงานอุตสาหกรรม\n\nคําสําคัญ: การบริหารจัดการทรัพยากรมนุษย์, การปรับปรุง\nกระบวนการ, เทคโนโลยี, <strong>โรงงานอุตสาหกรรม</strong>\n\n\nEND RAW TEXT\n\n\n<h1 class=\"main-title\">การปรับปรุงกระบวนการบริหารจัดการทรัพยากรมนุษย์ในโรงงานอุตสาหกรรม</h1>\n<h2 class=\"section-heading\">บทคัดย่อ</h2>\n<p>การวิจัยนี้มีวัตถุประสงค์เพื่อปรับปรุงกระบวนการบริหารจัดการทรัพยากรมนุษย์ในสายงานผลิตของ<strong class=\"important-term\">โรงงานอุตสาหกรรม</strong> โดยมีจุดมุ่งเน้นไปที่การวิเคราะห์ข้อมูลและการหาแนวทางการพัฒนากระบวนการ</p>\n<ul class=\"key-points\">\n  <li class=\"list-item\">การเก็บข้อมูลจากการสัมภาษณ์</li>\n  <li class=\"list-item\">การวิเคราะห์เอกสารที่เกี่ยวข้อง</li>\n  <li class=\"list-item\">การนำเทคนิคการบริหารจัดการแบบจำลองมาใช้</li>\n  <li class=\"list-item\">การใช้เทคโนโลยีเพื่อปรับปรุงการทำงานของฝ่ายบุคคลและระบบการทำงานขององค์กร</li>\n</ul>\n<p>ผลการวิจัยพบว่าการปรับปรุงกระบวนการบริหารจัดการทรัพยากรมนุษย์สามารถทำได้โดยการนำ<strong class=\"important-term\">การบริหารจัดการแบบจำลอง</strong>และการใช้เทคโนโลยีมาใช้เพื่อเพิ่มประสิทธิภาพการทำงาน</p>\n<em class=\"emphasis-note\">การวิจัยนี้นำเสนอแนวทางการพัฒนากระบวนการการจัดการทรัพยากรมนุษย์ที่เหมาะสมสำหรับโรงงานอุตสาหกรรม</em>",
+    "quiz": [
+      {
+        "question": "อะไรคือองค์ประกอบสำคัญของงานนำเสนอที่มีประสิทธิภาพ?",
+        "answer": "งานนำเสนอที่มีประสิทธิภาพประกอบด้วยหัวข้อที่ชัดเจน โครงสร้างที่เป็นระบบ ตัวอย่างหรือหลักฐานที่สนับสนุน และการสื่อสารที่ตรงประเด็น เพื่อให้ผู้ฟังเข้าใจโดยง่าย",
+        "key_points": [
+          "หัวข้อชัดเจน",
+          "โครงสร้างเป็นระบบ",
+          "ตัวอย่างหรือหลักฐาน",
+          "การสื่อสารตรงประเด็น"
+        ]
+      },
+      {
+        "question": "การเตรียมงานนำเสนอควรคำนึงถึงปัจจัยใดเป็นพิเศษ?",
+        "answer": "ในการเตรียมงานนำเสนอ ควรคำนึงถึงผู้ฟังเป้าหมาย วัตถุประสงค์ของงานนำเสนอ และการเตรียมข้อมูลที่เกี่ยวข้อง เพื่อให้การสื่อสารมีประสิทธิภาพสูงสุด",
+        "key_points": [
+          "ผู้ฟังเป้าหมาย",
+          "วัตถุประสงค์ของการนำเสนอ",
+          "การเตรียมข้อมูล"
+        ]
+      },
+      {
+        "question": "การใช้ภาพถ่ายหรือข้อมูลประกอบในงานนำเสนอช่วยให้เกิดผลดีในด้านใดบ้าง?",
+        "answer": "การใช้ภาพถ่ายหรือข้อมูลประกอบในงานนำเสนอช่วยให้ผู้ฟังเข้าใจเนื้อหาได้ง่ายขึ้น และยังช่วยให้การนำเสนอสื่อสารอารมณ์หรือความสำคัญของเนื้อหาได้ดีขึ้น",
+        "key_points": [
+          "เข้าใจเนื้อหาได้ง่าย",
+          "สื่อสารอารมณ์",
+          "เน้นความสำคัญของเนื้อหา"
+        ]
+      },
+      {
+        "question": "อะไรคือข้อควรระวังในการออกแบบสไลด์งานนำเสนอ?",
+        "answer": "ข้อควรระวังในการออกแบบสไลด์งานนำเสนอคือการใช้ข้อความมากเกินไป พิจารณาให้วางภาพและกราฟิกอย่างเหมาะสม และเลือกสีและฟอนต์ให้เหมาะกับเนื้อหา เพื่อไม่ให้สับสนหรือเบื่อหน่ายผู้ฟัง",
+        "key_points": [
+          "ข้อความไม่ควรเกินไป",
+          "ใช้ภาพกราฟิกอย่างเหมาะสม",
+          "การเลือกสีและฟอนต์"
+        ]
+      },
+      {
+        "question": "การฝึกซ้อมงานนำเสนอเกี่ยวข้องกับปัจจัยใดที่มีอิทธิพลต่อการสื่อสาร?",
+        "answer": "การฝึกซ้อมงานนำเสนอช่วยเสริมให้ผู้นำเสนอรู้สึกมั่นใจ มีความชัดเจนในการพูด และตอบคำถามได้ดีขึ้น ซึ่งมีผลต่อการสื่อสารที่ประสบความสำเร็จ",
+        "key_points": [
+          "ฝึกซ้อมอย่างสม่ำเสมอ",
+          "ความมั่นใจในตนเอง",
+          "ความสามารถในการสื่อสาร"
+        ]
+      },
+      {
+        "question": "งานนำเสนอจะมีความน่าสนใจมากขึ้นได้อย่างไร?",
+        "answer": "งานนำเสนอจะน่าสนใจมากขึ้น หากสามารถใช้เรื่องราวหรือประสบการณ์จริงประกอบการพูดด้วย เช่น ตัวอย่างที่เกี่ยวข้อง หรือการถามคำถามจากผู้ฟังเพื่อดึงดูดความสนใจ",
+        "key_points": [
+          "การใช้เรื่องราวจริง",
+          "ตัวอย่างที่เกี่ยวข้อง",
+          "การมีปฏิสัมพันธ์กับผู้ฟัง"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "faedfbf1-836d-492e-bdad-d8a64acf89e4",
+    "name": "🏠 เรื่องการแก้ปัญหาความขัดแย้ง",
+    "description": "สำรวจแนวคิดการจัดการความโกรธและการใช้การสื่อสารอย่างปลอดภัยในสถานการณ์จริง",
+    "studied": false,
+    "total": 18,
+    "learned": 0,
+    "due": 18,
+    "cards": [
+      {
+        "id": "4ebf6d41-916f-49aa-bd7a-be57f22e72f3",
+        "question": "วินสวมอุปกรณ์ใดขณะขี่มอไซค์?",
+        "answer": "วินสวมหมวกกันน็อกเพื่อป้องกันศีรษะ",
+        "keyword": "helmet, motorbike",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "996a399e-8683-4c71-b8ca-daed548aa0d6",
+        "question": "ใครเป็นผู้แจ้งตำรวจเมื่อเกิดความรุนแรง?",
+        "answer": "ออยเป็นผู้โทรแจ้งตำรวจว่ามีการทะเลาะและมีผู้บาดเจ็บ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "a630316e-251e-454c-a8b1-04986d5c58c1",
+        "question": "หลักฐานใดที่วินอ้างว่ามีเพื่อพิสูจน์การคบของทิมมี่?",
+        "answer": "วินอ้างว่ามีแชทข้อความเป็นหลักฐานการคบกัน",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "451a6399-2e96-4d81-8062-ad6e2859f1f1",
+        "question": "การกระทำใดของไจ๋ช่วยลดความรุนแรงของวิน?",
+        "answer": "ไจ๋เตือนวินให้หยุดใช้ความรุนแรงและเสนอทางแก้ปัญหาแบบไม่ใช้กำลัง",
+        "keyword": "intervention, dialogue",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "6ad5b339-7574-4e18-8d2e-15359cf1182b",
+        "question": "ทำไมการใช้ความรุนแรงไม่ทำให้สถานการณ์ดีขึ้นตามที่ไจ๋กล่าว?",
+        "answer": "ความรุนแรงทำให้เกิดบาดแผลและเพิ่มความโกรธ จึงทำให้ความขัดแย้งลุกลามมากขึ้น",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "1450381d-4b7c-4ab3-918b-bdda39e6b7d8",
+        "question": "อธิบายขั้นตอนการปฐมพยาบาลเบื้องต้นที่ชินจังและออมอี้ทำกับทิมมี่",
+        "answer": "ชินจังสั่งให้นั่งนิ่งแล้วทำการปฐมพยาบาลเบื้องต้น เช่น ทำความสะอาดแผลและกดบีบเพื่อหยุดเลือด",
+        "keyword": "first aid, wound cleaning",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "ecdd46c8-211e-42d8-b07d-044d5ed15770",
+        "question": "ถ้าคุณเป็นผู้เห็นเหตุการณ์เช่นนี้ คุณควรทำอย่างไรเพื่อช่วยลดความรุนแรง?",
+        "answer": "ควรเรียกตำรวจหรือเจ้าหน้าที่ช่วยเหลือทันที, พยายามทำให้ผู้รุนแรงสงบโดยการพูดคุยอย่างใจเย็น, และไม่เข้าร่วมการต่อสู้ทางกาย",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "656bcd7b-1505-4e87-8628-0b51c5e63842",
+        "question": "สติปัฏฐานในบทสนทนาของการ์ตูนหมายถึงอะไร?",
+        "answer": "สติปัฏฐานหมายถึงการมีสติรับรู้และควบคุมอารมณ์ก่อนทำการใด ๆ",
+        "keyword": "mindfulness, meditation",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "996048a3-5d9c-4e66-9a51-ac35f30ff126",
+        "question": "เหตุใดวินถึงขออภัยหลังที่เห็นแชทของทิมมี่?",
+        "answer": "เพราะเห็นว่าข้อความแสดงว่าไม่มีความสัมพันธ์กับแฟนของเขา ทำให้เข้าใจผิดและหลงผิด",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "e00d0cae-2e2d-4cff-9c97-fec295cfb6be",
+        "question": "การใช้หลักฐานแชทเป็นวิธีใดในการแก้ไขความเข้าใจผิด?",
+        "answer": "การแสดงแชทเป็นหลักฐานช่วยให้ผู้เกี่ยวข้องเห็นข้อมูลจริงและลดการคาดเดาที่ผิดพลาด",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "20fbb4eb-bed6-4150-9ad1-46379c74e3fe",
+        "question": "ใครเป็นผู้ช่วยเช็ดน้ำแดงบนคิ้วของทิมมี่?",
+        "answer": "ออมอี้ช่วยเช็ดน้ำแดงบนคิ้วของทิมมี่",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "65c52a0b-7190-4328-863f-d0b260c5ea1e",
+        "question": "ขั้นตอนต่อไปของตำรวจหลังจากตรวจสอบสถานที่เป็นอย่างไร?",
+        "answer": "ตำรวจให้ผู้บาดเจ็บไปรักษาก่อน แล้วทำการสอบปากคำและดำเนินคดีต่อไป",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "b515f6ab-c61e-4e34-82af-ac1668a1bda8",
+        "question": "ทำไมการให้เวลาและฟังเหตุผลของผู้รุนแรงจึงสำคัญ?",
+        "answer": "ให้โอกาสผู้รุนแรงสงบและคิดใหม่ ลดความโกรธและอาจทำให้ยอมรับความจริงได้",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "3ee7a372-398c-412f-b462-12896fc9c9e1",
+        "question": "เสนอวิธีการสอนเด็ก ๆ ให้หลีกเลี่ยงความรุนแรงโดยใช้บทสนทนานี้เป็นตัวอย่าง",
+        "answer": "สอนให้เด็ก ๆ รู้จักใช้สติ, เรียนรู้การสื่อสารโดยไม่ใช้กำลัง, ฝึกการขอความช่วยเหลือจากผู้ใหญ่เมื่อเจอความขัดแย้ง",
+        "keyword": "education, conflict resolution",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "a90c594a-09d8-491c-bff9-06be6516b5e3",
+        "question": "แสดงภาพของกระบวนการจัดการความขัดแย้งตามขั้นตอนที่เกิดในเรื่อง (ตั้งแต่การระบุปัญหา → การขอความช่วยเหลือ → การปฐมพยาบาล → การสืบสวน)",
+        "answer": "",
+        "keyword": "conflict resolution flowchart",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "3273afc2-1ec9-4dda-a979-65be5fd1f315",
+        "question": "อธิบายว่าการใช้คำพูดหยาบคาย (เช่น ‘หุบปากไปเลย’) มีผลอย่างไรต่อสถานการณ์",
+        "answer": "การใช้ถ้อยคำหยาบทำให้ผู้รอบข้างรู้สึกถูกคุกคามและเพิ่มความตึงเครียด ทำให้การเจรจายากขึ้น",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "735af283-1e55-4077-9b97-e8cec01bf2d1",
+        "question": "ถ้าต้องทำหน้าที่เป็นผู้บันทึกเหตุการณ์ (เช่น การถ่ายภาพหรือบันทึกเสียง) จะทำอย่างไรเพื่อเป็นหลักฐานที่น่าเชื่อถือ?",
+        "answer": "บันทึกเวลาที่แน่นอน, บันทึกภาพหรือเสียงอย่างต่อเนื่อง, ไม่ปรับแต่งหรือแก้ไขข้อมูล, เก็บข้อมูลในที่ปลอดภัยและส่งให้เจ้าหน้าที่",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "9e7d2d22-6908-4ecd-afb9-33d2780592c4",
+        "question": "สรุปบทเรียนสำคัญที่ผู้ฟังควรได้จากเรื่องราวนี้ในหนึ่งประโยค",
+        "answer": "การควบคุมอารมณ์และใช้สติในการแก้ปัญหาช่วยป้องกันความรุนแรงและทำให้ความเข้าใจถูกต้อง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      }
+    ],
+    "summaryHtml": "<h1 class=\"main-title\">เรื่องราวความเข้าใจผิดและการใช้สติ</h1>\n<h2 class=\"section-heading\">เหตุการณ์ที่เกิดขึ้น</h2>\n<ul class=\"key-points\">\n  <li class=\"list-item\">วินเข้าใจผิดว่าทิมมี่ยังคงติดต่อกับแฟนเก่าของเขา</li>\n  <li class=\"list-item\">เกิดการทะเลาะกันและวินทำร้ายทิมมี่</li>\n  <li class=\"list-item\">ไจ๋และคนรอบข้างช่วยเตือนสติวิน</li>\n  <li class=\"list-item\">วินใจเย็นลงและขอโทษทิมมี่หลังจากเห็นหลักฐาน</li>\n</ul>\n<p>เรื่องราวนี้แสดงถึงความสำคัญของการใช้<strong class=\"important-term\">สติ</strong>และการไม่ปล่อยให้อารมณ์ครอบงำการตัดสินใจ</p>\n<p>ไจ๋ได้ใช้คำสอนเรื่อง<strong class=\"important-term\">อหิงสา</strong>ในการเตือนสติวินให้หยุดการใช้ความรุนแรง</p>\n<em class=\"emphasis-note\">เหตุการณ์นี้สอนให้รู้ว่าการคิดก่อนทำและใช้สติเป็นเรื่องที่สำคัญ</em>\n<div class=\"mermaid\">\ngraph LR\nA[\"วินไม่ได้รับการตอบกลับจากแฟน\"] --> B[\"วินไปรับแฟนที่ห้าง\"]\nB --> C[\"วินพบทิมมี่กับไจ๋\"]\nC --> D[\"วินเข้าใจผิดและโกรธ\"]\nD --> E[\"วินทำร้ายทิมมี่\"]\nE --> F[\"ไจ๋และออยพยายามห้ามวิน\"]\nF --> G[\"การ์ตูนมาถึงและเตือนสติวิน\"]\nG --> H[\"วินใจเย็นลงและปล่อยทิมมี่\"]\nH --> I[\"ไจ๋แสดงหลักฐานว่าทิมมี่ไม่ได้ยุ่งกับแฟนวิน\"]\nI --> J[\"วินขอโทษทิมมี่และเข้าใจผิด\"]\n</div>",
+    "quiz": [
+      {
+        "question": "เหตุการณ์ที่เกิดขึ้นระหว่างวินกับทิมมี่มีสาเหตุจากอะไร และจุดเริ่มต้นของปัญหาคืออะไร?",
+        "answer": "เหตุการณ์นี้เกิดจากเหตุการณ์ระหว่างวินกับทิมมี่ ที่วินเข้าใจผิดว่าทิมมี่ยังมีความสัมพันธ์กับแฟนเขา (การ์ตูน) จึงไปท้าทายและเกือบทำร้ายร่างกายทิมมี่ จุดเริ่มต้นของปัญหามาจากข้อความแชทที่วินส่งไปหาการ์ตูน ซึ่งไม่มีการตอบกลับ และเข้าใจผิดว่าทิมมี่มาคุยกับที่พี่ชายของเขา จึงเกิดความเข้าใจผิดทั้งหมด",
+        "key_points": [
+          "เข้าใจผิดว่าทิมมี่ยังคบกับแฟนเขา",
+          "วินส่งแชทรับการ์ตูน แต่ไม่มีการตอบกลับ",
+          "ทิมมี่ไม่ได้คุยกับการ์ตูนแล้วจริงๆ"
+        ]
+      },
+      {
+        "question": "ในช่วงแรกของการเกิดเหตุ วินมีการแสดงอารมณ์อย่างไร ถือเป็นการสื่อสารด้วยวิธีใด?",
+        "answer": "ในช่วงแรกของการเกิดเหตุ วินแสดงออกถึงอารมณ์หงุดหงิดและโกรธ ด้วยการพูดเสียงดัง และแสดงความไม่พอใจว่าไม่พอใจให้ทิมมี่เข้าไปยุ่งกับแฟนของเขา และจากนั้นก็ใช้การใช้ความรุนแรงพยายามจะทำร้ายทิมมี่ ซึ่งแสดงให้เห็นว่าเขาไม่ใช้วิธีสื่อสารที่สุภาพหรือสันต์ในขณะนั้น",
+        "key_points": [
+          "วินแสดงอารมณ์โกรธ",
+          "พูดเสียงดังและไม่พอใจยิ่งนัก",
+          "ใช้ความรุนแรงพยายามจะทำร้ายร่างกาย",
+          "ไม่ใช่การสื่อสารแบบสุภาพหรือสันต์"
+        ]
+      },
+      {
+        "question": "ใครคือคนที่เข้ามาช่วยควบคุมสถานการณ์ และได้ใช้วิธีใดในการช่วย?",
+        "answer": "ไจ๋ที่เป็นพี่ชายทิมมี่ เข้ามาช่วยควบคุมสถานการณ์โดยขอให้วินสงบและพยายามให้เหตุผลเกี่ยวกับการไม่ใช้ความรุนแรง ทั้งยังแสดงหลักฐานการคุยว่าทิมมี่ไม่ได้คุยกับการ์ตูนจริงๆ อ้อม ก็โทรแจ้งตำรวจเพื่อบรรเทาสถานการณ์ ในท้ายที่สุด การ์ตูน ไจ๋ และออยใช้คำสอนเช่น 'อหิงสา' 'สติปัฏฐาน' 'อุเบกขา' เพื่อสงบวิญญาณวิน",
+        "key_points": [
+          "ไจ๋ช่วยควบคุมสถานการณ์",
+          "อ้อมโทรแจ้งตำรวจ",
+          "การ์ตูนแนะนำหลักธรรมเช่น ช่วยให้สงบและคิดไตร่ตรองก่อน",
+          "ใช้หลักอหิงสาและอุเบกขา"
+        ]
+      },
+      {
+        "question": "หลังจากเหตุการณ์เกิดขึ้นแล้ว วินแสดงปฏิกิริยาอย่างไร และเรียนรู้อะไร?",
+        "answer": "หลังจากเหตุการณ์เกิดขึ้นแล้ว วินใจเย็นลงและขอโทษทุกคนที่เข้าใจผิดและเกือบทำร้ายทิมมี่ เขาเห็นว่าเหตุการณ์ไม่มีอะไรร้ายแรงเลย หากไม่ได้คิดไตร่ตรองก่อนที่จะทำอะไร วินเรียนรู้ว่าการเข้าใจผิดและการควบคุมอารมณ์ไม่ดีอาจก่อให้เกิดปัญหาใหญ่ขึ้น และควรจะแก้ปัญหาแบบสันต์หรือพูดคุยกันแทนการใช้ความรุนแรง",
+        "key_points": [
+          "วินตระหนักว่าเข้าใจผิด",
+          "เขากล่าวขอโทษ",
+          "เรียนรู้ว่าไม่ควรทำร้ายร่างกายคนอื่นโดยไม่ไตร่ตรอง",
+          "ควรแก้ปัญหาด้วยการพูดคุยแทนการใช้ความรุนแรง"
+        ]
+      },
+      {
+        "question": "ฉากนี้มุ่งเน้นถ่ายทอดแนวคิดหรือคติสอนสุภาษิตใดบ้าง?",
+        "answer": "ฉากนี้มุ่งเน้นถ่ายทอดแนวคิดเช่นหลักอหิงสา ที่สอนให้เราไม่ใช้ความรุนแรง หลักอุเบกขา ที่ให้เราคุ้นเคยกับการควบคุมอารมณ์ไม่ตัดสินใครโดยขาดสติ และหลักสติปัฏฐาน ในการยึดสติและไตร่ตรองก่อนจะทำอะไร ดังนั้น จึงมุ่งเน้นความสำคัญของความสงบและความเข้าใจผ่านการสื่อสาร",
+        "key_points": [
+          "หลักอหิงสา",
+          "หลักอุเบกขา",
+          "หลักสติปัฏฐาน",
+          "การควบคุมอารมณ์",
+          "การสื่อสารแบบสันต์"
+        ]
+      },
+      {
+        "question": "ตำรวจและกู้ภัยมีบทบาทอย่างไรในเหตุการณ์นี้?",
+        "answer": "เมื่อเหตุการณ์พัฒนามาถึงจุดที่เกิดการต่อสู้และมีผู้บาดเจ็บ ตำรวจและกู้ภัยจึงเข้าไปทำการพิจารณาและจัดการกับสถานการณ์โดยแยกผู้เกี่ยวข้องให้สงบ และพาดูแลผู้บาดเจ็บไปก่อน เพื่อให้สถานการณ์กลับสู่ภาวะปกติ และดำเนินการตามขั้นตอนตามกฎหมายในลำดับถัดไป",
+        "key_points": [
+          "แยกผู้เกี่ยวข้องให้สงบ",
+          "ดูแลผู้บาดเจ็บ",
+          "ดำเนินการตามกฎหมาย",
+          "จัดระเบียบสถานการณ์"
+        ]
+      },
+      {
+        "question": "เหตุการณ์นี้แสดงให้เห็นบทเรียนทางสังคมเชิงบวกในด้านใด?",
+        "answer": "เหตุการณ์นี้ส่งเสริมบทเรียนที่ดีทางสังคม เช่น การควบคุมอารมณ์ การใช้หลักธรรมเพื่อแก้ปัญหา การสื่อสารด้วยวิธีสงบ การพูดคุยกันแทนการใช้ความรุนแรง รวมถึงการแสดงความผิดชอบชั่วดีเมื่อทำสิ่งที่ผิดพลาด ดังนั้นจึงเป็นแบบจำลองที่ดีทางจริยธรรมในชีวิตประจำวัน",
+        "key_points": [
+          "ควบคุมอารมณ์ดี",
+          "ใช้หลักธรรมสุขใจแก้ปัญหา",
+          "สื่อสารแบบสงบและเป็นกลาง",
+          "แสดงความผิดชอบเมื่อทำผิด"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d81c1421-8947-4782-bcb5-a84102e913f3",
+    "name": "🏙️ เรื่องความรุนแรงและการจัดการความขัดแย้ง",
+    "description": "ฝึกทักษะการสื่อสาร การแก้ปัญหา และการใช้สติเมื่อเจอสถานการณ์ความขัดแย้ง",
+    "studied": false,
+    "total": 19,
+    "learned": 0,
+    "due": 19,
+    "cards": [
+      {
+        "id": "6bad680e-d974-49f5-a4c4-50da437eae93",
+        "question": "วินเห็นข้อความอะไรในแชทที่ทำให้เขาโกรธ?",
+        "answer": "วินเห็นว่าการ์ตูนเลิกงานแล้วแต่ไม่ได้ตอบข้อความของเขา",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "e436ce6a-2042-4e62-9c26-dc591c54395d",
+        "question": "ทิมมี่อธิบายว่าเหตุการณ์ที่เกิดขึ้นกับพี่ของเขาเป็นอย่างไร?",
+        "answer": "ทิมมี่บอกว่าเขาเคยคบกับพี่ของวินแต่เลิกกันไปแล้วและไม่ได้ตั้งใจนัดเจอกัน",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "104f2684-fdf6-4f79-97a8-a9336a1091c6",
+        "question": "สติปัฏฐานหมายถึงอะไรในบริบทของการจัดการอารมณ์?",
+        "answer": "สติปัฏฐานคือการรักษาความมีสติอยู่กับปัจจุบัน ไม่ให้อารมณ์ครอบงำการตัดสินใจ",
+        "keyword": "mindfulness symbol",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "2069e738-dfa2-42a1-abb9-4d6e5f8c4bf0",
+        "question": "ทำไมการใช้ความรุนแรงจึงไม่เป็นวิธีแก้ปัญหาที่ดี?",
+        "answer": "การใช้ความรุนแรงทำให้สถานการณ์แย่ลง เสี่ยงต่อการบาดเจ็บและไม่ช่วยให้ได้ข้อเท็จจริงที่ถูกต้อง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "6a4b418c-6f5b-4b87-895a-625d74758536",
+        "question": "เมื่อมีคนบาดเจ็บในที่สาธารณะ ควรทำอะไรเป็นขั้นตอนแรก?",
+        "answer": "ติดต่อแจ้งตำรวจและหน่วยกู้ภัยพร้อมให้ความช่วยเหลือเบื้องต้น เช่น ปฐมพยาบาล",
+        "keyword": "first aid",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "88e62d17-3636-4c11-86c8-8022f3e7c9bf",
+        "question": "ในสถานการณ์ที่วินอยากทำร้ายทิมมี่ ไอ้ไหนเป็นวิธีการแก้ปัญหาที่เหมาะสมที่สุด?",
+        "answer": "ให้คนรอบข้างเตือนสติและพูดคุยเพื่อทำความเข้าใจก่อนทำการกระทำใด ๆ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "c861a369-7824-4d82-a47c-2355d11981d3",
+        "question": "อธิบายบทบาทของผู้เห็นเหตุการณ์ (ออย) ในเรื่องนี้",
+        "answer": "ออยทำหน้าที่เตือนให้วินหยุดการทำร้ายและแนะนำให้โทรแจ้งตำรวจ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "4a2913b6-3f59-4667-a199-2197728a1fed",
+        "question": "ภาพใดที่แสดงให้เห็นการทำปฐมพยาบาลที่ถูกต้อง?",
+        "answer": "ภาพของผู้ช่วยกันเช็ดเลือดที่คิ้วของทิมมี่ด้วยผ้าแปะหรือแผลเย็บ",
+        "keyword": "first aid bandage",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "536abbf1-3528-468a-bd01-f418d5d02cc8",
+        "question": "หลักฐานในแชทมีบทบาทอย่างไรต่อการตัดสินใจของวิน?",
+        "answer": "วินใช้แชทเป็นหลักฐานว่าเขาเข้าใจว่าทิมมี่อาจยังคบกันอยู่ จนทำให้เขาโกรธและพิจารณาใช้ความรุนแรง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "a4e3da02-8af3-4843-9e9e-4daf4a4dd432",
+        "question": "ถ้าต้องอธิบายให้คนอื่นเข้าใจว่าความเข้าใจผิดเกิดจากแชท ควรใช้วิธีใด?",
+        "answer": "แสดงข้อความแชทที่เกี่ยวข้องและอธิบายบริบทให้ชัดเจนเพื่อให้เห็นว่าไม่มีความสัมพันธ์ใด ๆ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "d8b41342-d476-4462-9bc0-1f33df0d7bdf",
+        "question": "ใครเป็นผู้แจ้งตำรวจและทำไมการแจ้งนี้สำคัญ?",
+        "answer": "ออยเป็นผู้แจ้งตำรวจเพื่อให้เหตุการณ์ถูกบันทึกและรับการช่วยเหลือจากเจ้าหน้าที่",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "f92c8ad9-63e3-4bee-9065-49ba4d665e0a",
+        "question": "จินตนาการว่าคุณเป็นชินจัง (ตำรวจ) คุณจะทำอย่างไรหลังจากรับแจ้ง?",
+        "answer": "ตรวจสอบสถานที่เหตุการณ์ รับฟังเรื่องราวจากทุกฝ่าย ตรวจสอบบาดแผล และจัดทำรายงานเพื่อดำเนินคดีต่อไป",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "d63dc101-619a-409c-ae42-241180b6eec7",
+        "question": "ทำไมการขอโทษของวินสำคัญต่อการแก้ไขสถานการณ์?",
+        "answer": "การขอโทษช่วยบรรเทาความตึงเครียด แสดงความรับผิดชอบและเปิดโอกาสให้ทุกฝ่ายฟื้นฟูความสัมพันธ์",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "3a41223d-8f5b-4d85-bafc-05323002cb83",
+        "question": "ภาพใดที่เหมาะสมในการสื่อถึงการใช้ความไม่รุนแรง?",
+        "answer": "ภาพของสองคนจับมือกันโดยมีสัญลักษณ์ 'peace' หรือ 'no violence' อยู่เหนือ",
+        "keyword": "peace symbol",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "3b96183c-dbe5-45b9-8391-941ca389a94d",
+        "question": "สรุปขั้นตอนที่เจ้าหน้าที่กู้ภัยทำหลังจากมาถึงสถานที่เกิดเหตุ",
+        "answer": "กู้ภัยให้การปฐมพยาบาลแก่ทิมมี่ ทำความสะอาดแผลและเตรียมผู้บาดเจ็บเพื่อรับการรักษาต่อไป",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "c8b2e694-c6cd-4b0d-b548-95a1fdb5e871",
+        "question": "ในกรณีที่มีการทะเลาะกันและมีหลักฐานแชทเป็นหลักฐานหลัก ควรเก็บหลักฐานอย่างไรเพื่อใช้ต่อในกระบวนการศาล?",
+        "answer": "บันทึกหน้าจอแชทพร้อมวันที่และเวลา เก็บเป็นไฟล์ดิจิทัลที่ไม่สามารถแก้ไขได้ และให้พยานยืนยันความถูกต้อง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "52769f64-ed30-4521-91c3-e1188bd65386",
+        "question": "ใครเป็นผู้ให้คำแนะนำเกี่ยวกับการไม่ใช้ความรุนแรงและทำไมเขาถึงสำคัญ?",
+        "answer": "ไจ๋และการ์ตูนให้คำแนะนำเรื่องไม่ใช้ความรุนแรงเพื่อหยุดวงจรของการทำร้ายและส่งเสริมการคิดก่อนทำ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "8d7c06a6-2d3e-4b67-963f-c674e30e6273",
+        "question": "ภาพใดแสดงให้เห็นการสื่อสารที่ผิดพลาดระหว่างวินและทิมมี่?",
+        "answer": "ภาพของการสนทนาที่มีข้อความสั้น ๆ ตัดกันโดยไม่มีการอธิบายรายละเอียด",
+        "keyword": "chat bubble conflict",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "278d2626-9bd4-4384-8854-20eb8b8a41ef",
+        "question": "ถ้าคุณเป็นผู้สอนหลักสูตรการจัดการความโกรธ คุณจะใช้เหตุการณ์นี้เป็นตัวอย่างอะไรบ้าง?",
+        "answer": "ใช้เป็นตัวอย่างของการทำความเข้าใจอารมณ์ การใช้สติ การขอความช่วยเหลือจากคนรอบข้าง การใช้หลักฐานเพื่อยืนยันข้อมูล และการขอโทษหลังจากความเข้าใจผิด",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      }
+    ],
+    "summaryHtml": "<h1 class=\"main-title\">เรื่องราวความเข้าใจผิดและการขอโทษ</h1>\n<h2 class=\"section-heading\">สถานการณ์ที่เกิดขึ้น</h2>\n<p>วินพยายามติดต่อ <strong class=\"important-term\">การ์ตูน</strong> แต่ไม่ได้รับการตอบกลับ จึงไปรับที่ห้าง แต่ไม่พบการ์ตูน จึงเกิดความสงสัยและหึงหวง</p>\n<ul class=\"key-points\">\n  <li class=\"list-item\">วินพบทิมมี่ที่ห้างและเกิดการทะเลาะกัน</li>\n  <li class=\"list-item\">ไจ๋พยายามห้ามและเตือนสติวิน</li>\n  <li class=\"list-item\">การ์ตูนมาช่วยเหลือและเตือนสติวิน</li>\n</ul>\n<h2 class=\"section-heading\">การแก้ไขปัญหา</h2>\n<p>ไจ๋แสดงหลักฐานว่าทิมมี่ไม่ได้ยุ่งเกี่ยวกับการ์ตูนแล้ว ทำให้วินเข้าใจและขอโทษ</p>\n<p>เรื่องราวนี้แสดงถึงความสำคัญของการ <strong class=\"important-term\">สติ</strong> และการใช้เหตุผลในการแก้ไขปัญหา</p>\n<em class=\"emphasis-note\">เรื่องราวนี้สอนให้รู้ว่าการใช้ความรุนแรงไม่ใช่ทางออกที่ดี</em>\n<div class=\"mermaid\">\ngraph LR\nA[\"วินเห็นการ์ตูนเลิกงานในแชท\"] --> B[\"วินไปรับการ์ตูนที่ห้าง\"]\nB --> C[\"วินพบทิมมี่และไจ๋ที่ห้าง\"]\nC --> D[\"วินโกรธและทำร้ายทิมมี่\"]\nD --> E[\"ออยแจ้งตำรวจและกู้ภัย\"]\nE --> F[\"ตำรวจและกู้ภัยมาถึง\"]\nF --> G[\"ชินจังสอบปากคำวินและทิมมี่\"]\nG --> H[\"ไจ๋และออยช่วยเตือนสติวิน\"]\nH --> I[\"วินใจเย็นลงและปล่อยทิมมี่\"]\nI --> J[\"ไจ๋แสดงหลักฐานในโทรศัพท์ทิมมี่\"]\nJ --> K[\"วินขอโทษทิมมี่และไจ๋\"]\n</div>",
+    "quiz": []
+  },
+  {
+    "id": "872016a3-aed6-4783-9d07-26ee30bb35ba",
+    "name": "🏷️ การจัดการความขัดแย้งและการช่วยเหลือฉุกเฉิน",
+    "description": "สรุปหลักการหลีกเลี่ยงความรุนแรง การใช้สติ และขั้นตอนการช่วยเหลือผู้บาดเจ็บ",
+    "studied": false,
+    "total": 20,
+    "learned": 0,
+    "due": 20,
+    "cards": [
+      {
+        "id": "db4fda5c-eef9-443f-9380-f3008653ee7f",
+        "question": "ใครคือคนที่สวมหมวกกันน็อกและขี่มอเตอร์ไซค์ในฉาก?",
+        "answer": "วิน",
+        "keyword": "motorcycle helmet",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "97aaf90d-c432-4726-9782-dd690265ca78",
+        "question": "ออยแนะนำให้ทำอะไรเมื่อเกิดความรุนแรง?",
+        "answer": "รีบโทรแจ้งตำรวจ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "266a62f4-4425-4ca8-bfd3-888525f0ee54",
+        "question": "ทำไมไจ๋จึงแนะนำให้ไม่ใช้ความรุนแรง?",
+        "answer": "เพราะความรุนแรงทำให้บาดเจ็บและไม่แก้ปัญหา มีวิธีอื่นที่ดีกว่า",
+        "keyword": "mindfulness",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "63b3a7aa-056f-4bde-b2f3-a05ade61ea9b",
+        "question": "ถ้าคุณเป็นผู้โดยสารเห็นการต่อสู้ระหว่างวินและทิมมี่ คุณควรทำอย่างแรกตามที่เห็นในเรื่อง?",
+        "answer": "โทรแจ้งตำรวจ, ควบคุมอารมณ์และหลีกเลี่ยงการเข้ามาแทรกแซงโดยตรง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "4ab16460-5191-4154-81ce-8dce5de063a5",
+        "question": "ใครเป็นผู้ให้การปฐมพยาบาลกับทิมมี่?",
+        "answer": "ฉีอี้ (และออมช่วยเช็ดเลือด)",
+        "keyword": "first aid",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "efc22e9e-fc32-46c5-8d53-4736e1b5336a",
+        "question": "หลักฐานจากแชทมีบทบาทอย่างไรในการสอบสวนของตำรวจ?",
+        "answer": "แสดงเจตนาและข้อมูลที่อาจใช้เป็นหลักฐานยืนยันหรือปฏิเสธข้อกล่าวหา",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "fb0f4a5f-f5e7-4f82-a322-f7a11ef94191",
+        "question": "คุณจะใช้หลักการ “สติปัฏฐาน” เพื่อทำให้สถานการณ์อุ่นแรงสงบลงอย่างไร?",
+        "answer": "หยุดคิด, หายใจลึก, สังเกตอารมณ์ของตนและคนอื่น, พูดอย่างสงบ, หลีกเลี่ยงการตอบโต้ทันที",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "695069bf-adbf-420a-886a-0082564c1e8c",
+        "question": "ใครเป็นตำรวจในเรื่อง?",
+        "answer": "ชินจัง",
+        "keyword": "police officer",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "186b6769-7881-4fc8-9d27-b6b5f95f8d08",
+        "question": "ทำไมวินจึงขอโทษในตอนท้ายของเรื่อง?",
+        "answer": "เพราะเห็นหลักฐานจากแชทว่าตัวเองเข้าใจผิดและได้รับการเตือนสติจากเพื่อน",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "ca488494-8d3a-4c19-be61-1d7506c066da",
+        "question": "ถ้าคุณเป็นผู้โดยสารเช่นออย จะพูดอะไรเพื่อทำให้ผู้ก่อเหตุสงบลง?",
+        "answer": "“อย่าทำแบบนั้นเลย, พักสติ, ฟังเหตุผลก่อน”",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "d2a3e3ce-6584-4683-8794-1d1587d37144",
+        "question": "วินทำอาการบาดเจ็บอะไรให้กับทิมมี่?",
+        "answer": "ต่อคิ้วขวา ทำให้เลือดออก",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "5c680084-4b75-422d-966a-4f79243f090e",
+        "question": "อธิบายกระบวนการทางกฎหมายที่เกิดขึ้นหลังจากการทำร้ายในเรื่องนี้",
+        "answer": "ตำรวจมาถึง, รับแถลงการณ์, ผู้บาดเจ็บได้รับการปฐมพยาบาล, ทำรายงานเหตุการณ์, ดำเนินการสอบสวนและอาจมีการสืบสวนต่อศาล",
+        "keyword": "legal procedure",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "c405502d-c047-4c73-b834-9a05df47eba5",
+        "question": "หากคุณเป็นผู้ปฐมพยาบาลเช่นฉีอี้ ควรทำอะไรเป็นขั้นตอนแรกเมื่อเจอบาดแผลที่มีเลือดออก?",
+        "answer": "ใช้ผ้ากดเพื่อหยุดเลือด, ทำความสะอาดแผล, ปิดแผลด้วยผ้าปิด, ให้ผู้บาดเจ็บอยู่ในท่าที่นิ่ง",
+        "keyword": "bleeding control",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "ceaef8cc-a45d-49a5-95df-d886c6e4a2ca",
+        "question": "การ์ตูนพูดอะไรเพื่อหยุดการทำร้าย?",
+        "answer": "“อย่าทำร้าย… อย่าให้ความโกรธครอบงำ”",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "a6a13b41-c107-4b54-8ccf-6a87228d56e4",
+        "question": "บทสนทนานี้แสดงให้เห็นว่าการสื่อสารที่ผิดพลาดทำให้เกิดความขัดแย้งอย่างไร?",
+        "answer": "วินเข้าใจข้อความแชทผิดว่ามีการนัดพบกับแฟนของเขา ทำให้เขาโกรธและพร้อมทำร้ายโดยไม่มีการตรวจสอบความจริง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "0b970c75-8a7c-4bd7-8d31-2fd76e569f1b",
+        "question": "สร้างสคริปต์สั้น ๆ ที่เพื่อนใช้สติในการป้องกันการต่อสู้ตามคำแนะนำของไจ๋",
+        "answer": "เพื่อน: “รบกวนค่อย ๆ หยุดและหายใจลึก ๆ ก่อน เรามาคุยกันให้เข้าใจกันก่อนจะทำอะไร”\nอีกคน: “ใช่, เราลองอธิบายเหตุผลของเราก่อน”",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "5e682d72-4866-443f-8d1d-f644e6c75e16",
+        "question": "ใครเป็นคนพยายามช่วยให้วินปล่อยมือจากคอเสื้อของทิมมี่?",
+        "answer": "ไจ๋ (และออยก็พยายามแทรกแซง)",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "838bf2a7-11f1-4af4-b7ef-6550dbe98303",
+        "question": "สรุปบทเรียนสำคัญเกี่ยวกับผลของการกระทำโดยอิงจากการสันนิษฐานผิดคืออะไร?",
+        "answer": "การกระทำโดยอิงจากการสันนิษฐานผิดอาจทำให้เกิดอันตรายและผลทางกฎหมาย ควรตรวจสอบข้อมูลให้ชัดเจนก่อนตัดสินใจ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "a2f6a54c-20b4-41ae-8e90-b339cfbbe4b3",
+        "question": "ถ้าต้องออกแบบโปสเตอร์สอน “คิดก่อนทำ” คุณจะใส่ภาพอะไรบ้าง 3 อย่าง?",
+        "answer": "ภาพสมอง, สัญลักษณ์หยุด, มือที่ยื่นสันติภาพ",
+        "keyword": "think before act",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      },
+      {
+        "id": "84ec2dea-d73e-4deb-99a8-4e71aa4f6a9b",
+        "question": "วินบอกให้ไปรับที่ไหนหลังจากเลิกงาน?",
+        "answer": "ที่ห้าง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-02"
+      }
+    ],
+    "summaryHtml": "<h1 class=\"main-title\">เรื่องราวความเข้าใจผิดและการขอโทษ</h1>\n<h2 class=\"section-heading\">ความขัดแย้งระหว่างวินและทิมมี่</h2>\n<ul class=\"key-points\">\n  <li class=\"list-item\">วินเข้าใจผิดว่าทิมมี่ยุ่งกับแฟนของเขา</li>\n  <li class=\"list-item\">เกิดการทะเลาะกันและทิมมี่ได้รับบาดเจ็บ</li>\n  <li class=\"list-item\">ไจ๋และคนอื่นๆ เข้ามาช่วยเหลือและเตือนสติวิน</li>\n</ul>\n<p>วินเข้าใจผิดว่าทิมมี่ยังคงติดต่อกับ<strong class=\"important-term\">การ์ตูน</strong>แฟนของวิน แต่จริงๆ แล้วทิมมี่ได้เลิกติดต่อไปแล้ว</p>\n<p>ไจ๋พยายาม<strong class=\"important-term\">อหิงสา</strong>โดยเตือนสติวินไม่ให้ใช้ความรุนแรงและแนะนำให้หาทางออกที่ดีกว่า</p>\n<em class=\"emphasis-note\">เรื่องราวนี้สอนให้รู้ถึงความสำคัญของการสื่อสารและการเข้าใจซึ่งกันและกัน</em>\n<h2 class=\"section-heading\">การแก้ปัญหาและการขอโทษ</h2>\n<p>หลังจากที่ไจ๋แสดงหลักฐานให้วินเห็น วินก็เข้าใจผิดและกล่าว<strong class=\"important-term\">ขอโทษ</strong>ทิมมี่</p>\n<ul class=\"key-points\">\n  <li class=\"list-item\">วินใจเย็นลงหลังจากที่ได้รับการเตือนสติ</li>\n  <li class=\"list-item\">การ์ตูนและไจ๋ช่วยแก้ไขสถานการณ์</li>\n  <li class=\"list-item\">วินขอโทษทิมมี่และยอมรับความผิดพลาด</li>\n</ul>\n<div class=\"mermaid\">\ngraph LR\nA[\"วินเห็นการ์ตูนเลิกงานแต่ไม่ตอบแชท\"] --> B[\"วินไปรับการ์ตูนที่ห้าง\"]\nB --> C[\"วินพบทิมมี่และไจ๋ที่ห้าง\"]\nC --> D[\"วินโกรธและทำร้ายทิมมี่\"]\nD --> E[\"ออยแจ้งตำรวจและกู้ภัย\"]\nE --> F[\"ตำรวจและกู้ภัยมาถึง\"]\nF --> G[\"ชินจังสอบปากคำ\"]\nG --> H[\"ไจ๋ช่วยเตือนสติวิน\"]\nH --> I[\"วินใจเย็นลงและขอโทษทิมมี่\"]\nI --> J[\"วินเข้าใจผิดและขอโทษ\"]\n</div>",
+    "quiz": [
+      {
+        "question": "วินมีปฏิกิริยาแบบใดเมื่อพบทิมมี่ที่ห้าง และเหตุใด?",
+        "answer": "วินมีปฏิกิริยาที่โกรธและพยายามจะต่อยทิมมี่ เพราะเข้าใจผิดว่าทิมมี่ยังคงยุ่งกับการ์ตูน แม้ว่าทิมมี่จะพยายามแก้ตัวและขอให้ยุติความเข้าใจผิด วินยังคงโกรธอยู่จนกระทั่งเห็นแชทและได้รับการเตือนสติจากคนรอบข้าง",
+        "key_points": [
+          "โกรธ",
+          "เข้าใจผิด",
+          "พยายามต่อย",
+          "เห็นแชท",
+          "ได้รับการเตือนสติ"
+        ]
+      },
+      {
+        "question": "ใครเป็นผู้พยายามเตือนสติวินไม่ให้ใช้ความรุนแรง และพวกเขาพูดอะไร?",
+        "answer": "ไจ๋เป็นผู้พูดในคำเตือนแรกที่ว่า 'อหิงสาครับ' พูดถึงการไม่ใช้ความรุนแรง เพราะการใช้ความรุนแรงไม่มีอะไรดีขึ้น และการ์ตูนร่วมเตือนสติวินอีกครั้ง ให้อย่าปล่อยให้อารมณ์ครอบงำ ควรคิดก่อนทำ",
+        "key_points": [
+          "ไจ๋",
+          "พูดว่าอหิงสา",
+          "การ์ตูนเตือนสติ",
+          "อย่าใช้ความรุนแรง",
+          "คิดก่อนทำ"
+        ]
+      },
+      {
+        "question": "เหตุการณ์ที่เกิดขึ้นได้รับการรับมือจากตัวละครใดบ้าง ในรูปแบบใดบ้าง?",
+        "answer": "เหตุการณ์ได้รับการรับมือจากหลายตัวละคร ได้แก่ ไจ๋ที่พยายามควบคุมอารมณ์วิน การ์ตูนที่เตือนสติวิน ให้อดกลั้นความโกรธ ออยโทรแจ้งตำรวจ ตำรวจและกู้ภัยเดินทางมาช่วยปะทะรุนแรงและรักษาผู้ได้รับบาดเจ็บ",
+        "key_points": [
+          "ไจ๋ควบคุมอารมณ์วิน",
+          "การ์ตูนเตือนสติ",
+          "ออยโทรแจ้งตำรวจ",
+          "ตำรวจมาช่วย",
+          "กู้ภัยช่วยรักษา"
+        ]
+      },
+      {
+        "question": "ทิมมี่และไจ๋อธิบายความเกี่ยวข้องระหว่างทิมมี่กับการ์ตูนอย่างไรเพื่อแก้ไขความเข้าใจผิด?",
+        "answer": "ทิมมี่และไจ๋ให้เหตุผลว่าทิมมี่ไม่ได้ยุ่งกับการ์ตูนอีกแล้ว เคยคบกันแต่เลิกกันไปแล้ว และวันนี้มาพบเพื่อหาพี่ชายตัวเอง ไม่ได้มีเจตนาจะนัดเจอกับการ์ตูน ไจ๋ยังโชว์แชทเพื่อยืนยันความชัดเจนของเรื่องราว",
+        "key_points": [
+          "เลิกกันไปแล้ว",
+          "ไม่ได้นัดเจอกัน",
+          "มาหาพี่ชาย",
+          "ไม่ได้ยุ่งกับแฟนวิน",
+          "แชทเป็นหลักฐาน"
+        ]
+      },
+      {
+        "question": "หลังจากได้เห็นแชทแล้ว วินมีปฏิกิริยาตอบสนองอย่างไร?",
+        "answer": "หลังจากเห็นแชทและได้รับการเตือนสติจากไจ๋ การ์ตูน ออย วินใจเย็นลง ปล่อยน้องชายลงและแสดงความเสียใจ ขอโทษทั้งทิมมี่และคนที่คอยเตือนสติ และยอมรับว่าเข้าใจผิด",
+        "key_points": [
+          "ใจเย็นลง",
+          "ขอโทษทิมมี่",
+          "เห็นแชท",
+          "แสดงความเสียใจ",
+          "ยอมรับเข้าใจผิด"
+        ]
+      },
+      {
+        "question": "เหตุการณ์ทั้งหมดสอนอะไรเกี่ยวกับการปฏิบัติตัวเมื่อเกิดความขัดแย้ง?",
+        "answer": "เหตุการณ์นี้แสดงให้เห็นว่าเมื่อเกิดความขัดแย้ง ผู้เกี่ยวข้องควรควบคุมอารมณ์ ไม่ใช้รุนแรง ให้ฟังทั้งสองฝ่ายก่อนตัดสินใจ และเปิดใจฟังการอธิบาย ดังนั้นการขอหลักฐานและการแสดงความเข้าใจเป็นสิ่งสำคัญมากในการแก้ไขข้อพิพาทอย่างสงบสุข",
+        "key_points": [
+          "ควบคุมอารมณ์",
+          "ไม่ใช้รุนแรง",
+          "ฟังทั้งสองฝ่าย",
+          "ขอหลักฐาน",
+          "แสดงความเข้าใจ",
+          "แก้ไขข้อพิพาทอย่างสงบ"
+        ]
+      },
+      {
+        "question": "บทบาทของ 'อหิงสา', 'อุเบกขา', 'สติปัฏฐาน' ในเหตุการณ์นี้มีความหมายอย่างไร?",
+        "answer": "หลักคำสอน 'อหิงสา' คือการไม่ทำร้ายผู้อื่น ถูกใช้เพื่อหลอมเลี้ยงให้วินหยุดรุนแรง ในขณะที่ 'อุเบกขา' หมายถึงการเป็นกลาง ไม่อาฆาต เสริมให้ผู้ชมเห็นความสำคัญของการเป็นกลางก่อนตัดสิน ในกรณีนี้ 'สติปัฏฐาน' คือการควบคุมตัวเองด้วยสติ ให้คิดก่อนกระทำ ไม่ให้อารมณ์ครอบงำ",
+        "key_points": [
+          "อหิงสาคือไม่รุนแรง",
+          "อุเบกขาคือความเป็นกลาง",
+          "สติปัฏฐานคือคิดก่อนทำ",
+          "ไม่ให้อารมณ์ครอบงำ",
+          "สอนให้ยับยั้งใจ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "65e55259-7c6b-415a-b2a0-ec85c6d9711f",
+    "name": "🏷️ การจัดการความขัดแย้งและการใช้สติ",
+    "description": "ฝึกทักษะการจัดการความโกรธ การปฐมพยาบาลเบื้องต้น และกระบวนการทางกฎหมายจากเหตุการณ์ในเรื่อง",
+    "studied": false,
+    "total": 18,
+    "learned": 0,
+    "due": 18,
+    "cards": [
+      {
+        "id": "20559fb5-071e-47b7-903a-2051edc27f3f",
+        "question": "วินสวมอะไรขณะขี่มอเตอร์ไซค์?",
+        "answer": "วินสวมหมวกกันน็อก",
+        "keyword": "motorcycle helmet",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "ef0a55f9-33ed-4e41-9d0d-c3cbef731ecd",
+        "question": "ใครเป็นผู้โทรแจ้งตำรวจเมื่อเกิดการทะเลาะ?",
+        "answer": "ออยเป็นผู้โทรแจ้งตำรวจ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "c8dbfcbc-b444-4abb-82c1-c88af49625b5",
+        "question": "ทำไมการใช้ความรุนแรงไม่ทำให้สถานการณ์ดีขึ้นตามที่ไจ๋อธิบาย?",
+        "answer": "ความรุนแรงทำให้สถานการณ์แย่ลง เพราะทำให้เกิดการบาดเจ็บ ความเครียดเพิ่มขึ้น และไม่สามารถแก้ไขความเข้าใจผิดได้",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "c8bc40eb-3e3e-4a7e-bb37-041ab13f20a0",
+        "question": "ถ้าคุณอยู่ในสถานการณ์คล้าย ๆ นี้ คุณจะใช้วิธีใดเพื่อควบคุมอารมณ์ก่อนลงมือ?",
+        "answer": "หยุดชั่วคราว นับเลขถึง 10 ฝึกสติปัฏฐานโดยสังเกตความคิดและอารมณ์ แล้วพูดคุยอย่างสงบกับผู้เกี่ยวข้อง",
+        "keyword": "mindfulness meditation",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "d488bfdc-efe3-4a94-9b70-25df6c28e109",
+        "question": "ผู้ที่ให้การปฐมพยาบาลแก้บาดแผลของทิมมี่คือใคร?",
+        "answer": "ฉีอี้และออม อี้ช่วยทำความสะอาดบาดแผลและปฐมพยาบาล",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "33c95852-6210-4a8d-9db1-9661a1dd0331",
+        "question": "ขั้นตอนแรกของการปฐมพยาบาลบาดแผลคิ้วคืออะไร?",
+        "answer": "ทำความสะอาดบาดแผลด้วยน้ำเกลือหรือสารฆ่าเชื้อ แล้วใช้ผ้าสะอาดกดเพื่อหยุดเลือด",
+        "keyword": "first aid",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "fac055f0-153d-4758-b470-4eabce7f8ad0",
+        "question": "หากคุณเป็นเจ้าหน้าที่ตำรวจในเหตุการณ์นี้ คุณจะทำอย่างไรต่อจากการสอบถามผู้กระทำและผู้เสียหาย?",
+        "answer": "ทำการคุ้มครองที่เกิดเหตุ ตรวจสอบบาดแผลเรียกทีมกู้ภัย บันทึกหลักฐานเช่นรูปภาพและบันทึกเสียง สัมภาษณ์พยานเพิ่มเติม แล้วส่งผู้เสียหายไปโรงพยาบาลและเตรียมการสอบสวนต่อไป",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "7af410f6-102b-4e64-830c-62aa2a3fbfb8",
+        "question": "ทิมมี่แสดงหลักฐานอะไรเพื่อพิสูจน์ว่าเขาไม่ได้คบกับเมียของวิน?",
+        "answer": "ทิมมี่แสดงข้อความแชทที่บอกว่าเขาไม่ได้คบกับเมียของวินและไม่ได้ตอบกลับข้อความนั้น",
+        "keyword": "chat screenshot",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "19fa1cc6-f5e1-4f77-ad30-95b09cf2919b",
+        "question": "สติปัฏฐานคืออะไรและทำหน้าที่อย่างไรในบริบทของเรื่อง?",
+        "answer": "สติปัฏฐานเป็นการตั้งสติรับรู้ความคิดและอารมณ์อย่างไม่ตัดสินใจ ช่วยให้คนหยุดทำตามอารมณ์ทันทีและคิดก่อนทำในสถานการณ์ขัดแย้ง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "ec406ab5-29af-486b-b27b-5be4557535ff",
+        "question": "ออกแบบสถานการณ์ฝึกบทบาทสมมติที่ผู้เรียนต้องใช้สติปัฏฐานและไม่ใช้ความรุนแรงเพื่อแก้ปัญหา",
+        "answer": "ให้ผู้เรียนเล่นบทบาทเป็นคนที่ถูกทำร้ายโดยคำพูด แบ่งเป็นสองฝ่าย ฝ่ายหนึ่งพยายามโต้ตอบด้วยความโกรธอีกฝ่ายหนึ่งใช้สติปัฏฐานหยุดการตอบโต้ พูดคุยหาเหตุผลและสรุปผลโดยไม่ใช้ความรุนแรง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "c3f67e09-bd22-443f-8f45-513d90a69f9b",
+        "question": "เหตุการณ์ใดทำให้วินตัดสินใจหยุดใช้ความรุนแรง?",
+        "answer": "การเตือนจากไจ๋และการพูดของการ์ตูนที่เน้นให้ใช้สติทำให้วินหยุดและปล่อยทิมมี่ลง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "3d7c2ac1-a598-4c14-9aab-490deb324161",
+        "question": "ทำไมการแสดงหลักฐานในแชทเป็นสิ่งสำคัญต่อการแก้ไขความเข้าใจผิด?",
+        "answer": "หลักฐานแชทช่วยยืนยันข้อมูลจริง ลดการคาดเดาและอารมณ์รุนแรง ทำให้ทุกฝ่ายเห็นข้อเท็จจริงและแก้ไขความเข้าใจผิดได้อย่างเป็นธรรม",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "1e93e937-6fca-4887-8cdc-99872f6ea28e",
+        "question": "คุณจะอธิบายให้คนที่ไม่เคยใช้แอปแชทเข้าใจว่าแชทสามารถเป็นหลักฐานทางกฎหมายได้อย่างไร?",
+        "answer": "บอกว่าข้อความมีเวลาและผู้ส่งที่ระบุชัดเจน สามารถบันทึกหน้าจอ (screenshot) พร้อมบันทึกเวลา ทำให้ศาลหรือเจ้าหน้าที่ใช้ตรวจสอบความจริงได้",
+        "keyword": "chat evidence",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "e7b3c31f-daa4-4707-bb4d-8b732cb2b2a9",
+        "question": "ชื่อของตำรวจที่มาถึงเหตุการณ์คืออะไร?",
+        "answer": "ชินจังเป็นชื่อของตำรวจที่มาถึง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "23a86669-e488-4726-b6cb-53c4deaed10d",
+        "question": "การขอความช่วยเหลือจากผู้โดยสารหรือพยานในเหตุการณ์เป็นขั้นตอนใดของกระบวนการกฎหมาย?",
+        "answer": "เป็นขั้นตอนการเก็บหลักฐานและการให้การซึ่งช่วยให้การสอบสวนเป็นไปอย่างครบถ้วน",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "accbb2b1-67e8-4894-a3ab-62e1f9839c40",
+        "question": "ถ้าคุณเป็นผู้ดูแลสถานที่สาธารณะ (เช่น ห้าง) คุณจะวางแผนระบบความปลอดภัยเพื่อป้องกันเหตุการณ์คล้ายนี้อย่างไร?",
+        "answer": "ติดตั้ง CCTV ครอบคลุมทุกโซน มีเจ้าหน้าที่รักษาความปลอดภัยตรวจดูพฤติกรรม มีปุ่มฉุกเฉินและป้ายบอกวิธีขอความช่วยเหลือ พร้อมให้การฝึกอบรมการจัดการความขัดแย้งแก่พนักงาน",
+        "keyword": "mall security",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "0bf60301-b2c8-4c1c-977a-220fe8f4e244",
+        "question": "วินพูดอะไรเมื่อเห็นทิมมี่ยังไม่ออกมาจากห้าง?",
+        "answer": "วินพูดว่า \"ทำไมยังไม่ออกมาสักที หรือว่าอยู่กับไอนั่นจริงๆ\"",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "01f3a611-47ff-42e3-970f-d1a4c4385278",
+        "question": "เหตุผลที่ไจ๋บอกว่าการใช้ความรุนแรง 'ไม่มีอะไรดีขึ้น' สอดคล้องกับหลักการจริยธรรมใด?",
+        "answer": "สอดคล้องกับหลักการไม่ใช้ความรุนแรง (non‑violence) และเคารพศีลธรรมของการรักษาชีวิตและความปลอดภัยของคนอื่น",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      }
+    ],
+    "summaryHtml": "<h1 class=\"main-title\">เรื่องราวความเข้าใจผิดและการใช้สติ</h1>\n<h2 class=\"section-heading\">ความขัดแย้งที่เกิดขึ้น</h2>\n<ul class=\"key-points\">\n  <li class=\"list-item\">วินเข้าใจผิดว่าทิมมี่ยังคงยุ่งเกี่ยวกับการ์ตูน</li>\n  <li class=\"list-item\">วินพยายามทำร้ายทิมมี่ แต่ถูกห้ามโดยไจ๋</li>\n  <li class=\"list-item\">การ์ตูนและไจ๋ช่วยกันเตือนสติวิน</li>\n</ul>\n<p>เรื่องราวเริ่มต้นเมื่อวินเห็นว่าการ์ตูนเลิกงานแล้วแต่ไม่ตอบแชท วินจึงตัดสินใจไปรับการ์ตูนที่ห้าง แต่ไม่พบ เมื่อวินพบทิมมี่ที่ห้าง ความเข้าใจผิดก็เกิดขึ้น วินเข้าใจผิดว่าทิมมี่ยังคงยุ่งเกี่ยวกับการ์ตูนและพยายามทำร้ายทิมมี่</p>\n<p>ไจ๋ พี่ชายของทิมมี่ เข้ามาห้ามและเตือนสติวิน โดยใช้คำสอนเรื่อง <strong class=\"important-term\">อหิงสา</strong> และการไม่ใช้ความรุนแรง การ์ตูนก็เข้ามาและช่วยเตือนสติวินเช่นกัน โดยแนะนำให้ใช้ <strong class=\"important-term\">สติปัฏฐาน</strong> และไม่ให้อารมณ์ครอบงำการตัดสินใจ</p>\n<p>หลังจากที่วินได้เห็นหลักฐานจากโทรศัพท์ของทิมมี่และเข้าใจความจริงแล้ว วินก็กล่าวขอโทษทิมมี่และยอมรับความผิดพลาดของตัวเอง</p>\n<em class=\"emphasis-note\">เรื่องนี้สอนให้รู้ถึงความสำคัญของการใช้สติและการไม่ทำอะไรโดยขาดการไตร่ตรอง</em>",
+    "quiz": [
+      {
+        "question": "วินเห็นข้อความในแชทของการ์ตูนว่าอะไรและทำไมเขาถึงตัดสินใจไปรับที่ห้าง?",
+        "answer": "วินเห็นในแชทว่าการ์ตูนเลิกงานแล้วและบอกว่าเวลานี้ถึงเวลาที่จะไปรับ เขาจึงคิดว่าจะไปรับที่ห้างเพื่อรอเธอออกจากที่ทำงาน",
+        "key_points": [
+          "แชทบอกเลิกงาน",
+          "เวลาที่จะไปรับ",
+          "ห้างเป็นจุดรับ"
+        ]
+      },
+      {
+        "question": "ความขัดแย้งระหว่างวินกับทิมมี่เริ่มต้นจากเหตุใดและไจ๋มีบทบาทอย่างไรในช่วงนั้น?",
+        "answer": "วินเข้าไปหาทิมมี่ที่ห้างและกล่าวหาว่าเขากำลังยุ่งกับเมียของวิน ทำให้ทิมมี่ปฏิเสธและบอกว่าไม่ได้ยุ่งกับการ์ตูน ไจ๋นั่งคุยกับทิมมี่ก่อนที่วินจะมาถึงและพยายามบอกให้ไม่คิดมากเกี่ยวกับพี่เขา",
+        "key_points": [
+          "วินเผชิญทิมมี่",
+          "กล่าวหาการมีชู้",
+          "ทิมมี่ปฏิเสธ",
+          "ไจ๋นั่งคุย"
+        ]
+      },
+      {
+        "question": "ออยและไจ๋แทรกแซงเมื่อวินกำลังทำร้ายทิมมี่อย่างไรและผลของการแทรกแซงเป็นอย่างไร?",
+        "answer": "ออยรีบโทรแจ้งตำรวจและขอให้วินหยุดทำร้าย ส่วนไจ๋เตือนวินให้ใช้สติและไม่ใช้ความรุนแรง ทั้งสองทำให้วินชะงักและหยุดการทำร้ายทิมมี่ชั่วคราว",
+        "key_points": [
+          "ออยโทรแจ้งตำรวจ",
+          "ไจ๋เตือนไม่ใช้ความรุนแรง",
+          "วินชะงัก"
+        ]
+      },
+      {
+        "question": "ตำรวจและกู้ภัยเข้ามามีส่วนช่วยเหลืออย่างไรหลังเหตุการณ์เกิดขึ้น?",
+        "answer": "ชินจังตำรวจสอบถามผู้ก่อเหตุและวินยอมรับความรับผิดชอบ ส่วนฉีอี้และออมอี้ทำการปฐมพยาบาลทิมมี่โดยเช็ดแผลและตรวจสอบอาการก่อนให้เขาไปรักษาต่อ",
+        "key_points": [
+          "ชินจังสอบถามผู้ก่อเหตุ",
+          "วินยอมรับความผิด",
+          "ฉีอี้ทำปฐมพยาบาล",
+          "ออมอี้เช็ดแผล"
+        ]
+      },
+      {
+        "question": "วินให้เหตุผลอะไรบ้างในการยอมรับความผิดและขอโทษหลังจากเหตุการณ์จบลง?",
+        "answer": "วินบอกว่าเขาตื่นเต้นและเข้าใจผิดจากแชทที่เห็น จึงทำร้ายโดยไม่คิด และเมื่อเห็นหลักฐานว่าไม่มีการคบกันแล้ว เขาจึงขอโทษและยอมรับว่าตัวเองทำผิด",
+        "key_points": [
+          "วินตื่นเต้น",
+          "เข้าใจผิดจากแชท",
+          "ขอโทษ",
+          "ยอมรับความผิด"
+        ]
+      },
+      {
+        "question": "ใครบ้างในเรื่องนี้ที่สนับสนุนการแก้ปัญหาแบบไม่ใช้ความรุนแรงและพวกเขาแนะนำอย่างไร?",
+        "answer": "ไจ๋อธิบายว่าควรใช้สติปัฏฐานและหลีกเลี่ยงความรุนแรง ออยแนะนำให้เป็นกลางและฟังเหตุผลก่อนตัดสินใจ ส่วนการ์ตูนเตือนให้ไม่ให้อารมณ์ครอบงำและคิดก่อนทำ ทั้งสามคนช่วยให้วินใจเย็นลง",
+        "key_points": [
+          "ไจ๋ส่งเสริมสติปัฏฐาน",
+          "ออยแนะนำความเป็นกลาง",
+          "การ์ตูนเตือนอารมณ์",
+          "ไม่ใช้ความรุนแรง"
+        ]
+      },
+      {
+        "question": "การใช้สติปัฏฐานและการคิดก่อนทำส่งผลต่อพฤติกรรมของวินอย่างไรในตอนสุดท้าย?",
+        "answer": "เมื่อได้รับคำแนะนำจากไจ๋ ออย และการ์ตูน วินจิตเย็นลงและปล่อยทิมมี่ออกจากการจับ เขายอมรับความผิดและขอโทษโดยไม่มีการทำร้ายเพิ่มเติม",
+        "key_points": [
+          "สติปัฏฐานทำให้วินใจเย็น",
+          "ปล่อยทิมมี่",
+          "ขอโทษ"
+        ]
+      },
+      {
+        "question": "ตามบทสนทนาของตำรวจ ขั้นตอนทางกฎหมายที่จะดำเนินการต่อผู้กระทำความผิดและผู้เสียหายคืออะไร?",
+        "answer": "ชินจังตำรวจจะบันทึกคำให้การของทั้งสองฝ่าย ส่งผู้เสียหายไปรักษาตัวก่อน แล้วดำเนินการสืบสวนหาหลักฐานและเปิดคดีตามกฎหมายต่อไป",
+        "key_points": [
+          "บันทึกคำให้การ",
+          "ผู้เสียหายไปรักษา",
+          "สืบสวนหลักฐาน",
+          "เปิดคดี"
+        ]
+      },
+      {
+        "question": "จากมุมมองของผู้เรียน สิ่งที่ควรเรียนรู้จากเรื่องราวนี้เกี่ยวกับการสื่อสารและการจัดการความขัดแย้งคืออะไร?",
+        "answer": "ควรตรวจสอบข้อมูลให้ครบถ้วนก่อนสรุปผล ไม่ใช้ความรุนแรงเป็นวิธีแก้ปัญหา และควรใช้การสื่อสารเปิดเผยพร้อมฟังเหตุผลของฝ่ายตรงข้ามเพื่อหาวิธีแก้ที่สันติ",
+        "key_points": [
+          "ตรวจสอบข้อมูลก่อนสรุป",
+          "ไม่ใช้ความรุนแรง",
+          "สื่อสารเปิดเผย",
+          "ฟังเหตุผล"
+        ]
+      },
+      {
+        "question": "การ์ตูนทำหน้าที่อะไรในเหตุการณ์และการแทรกแซงของเขามีผลต่อการเปลี่ยนแปลงความคิดของวินอย่างไร?",
+        "answer": "การ์ตูนเข้ามาให้คำแนะนำว่าอย่าทำตามอารมณ์และคิดก่อนทำ การแทรกแซงทำให้วินหยุดคิดทำร้ายและเปลี่ยนใจขอโทษ ทำให้เหตุการณ์คลี่คลายอย่างสงบ",
+        "key_points": [
+          "การ์ตูนให้คำแนะนำ",
+          "อย่าทำตามอารมณ์",
+          "วินหยุดทำร้าย",
+          "ขอโทษ"
+        ]
+      },
+      {
+        "question": "เทคโนโลยีอย่างแชทบนโทรศัพท์ทำให้เกิดความเข้าใจผิดอย่างไรและควรทำอย่างไรเพื่อหลีกเลี่ยงสถานการณ์แบบนี้?",
+        "answer": "วินเห็นข้อความแชทที่ไม่มีบริบทเต็ม ทำให้เขาสันนิษฐานว่าทิมมี่มีความสัมพันธ์กับการ์ตูนและทำร้ายโดยไม่สอบถาม การตรวจสอบข้อมูลและถามโดยตรงจะช่วยลดความเข้าใจผิดได้",
+        "key_points": [
+          "แชทไม่มีบริบท",
+          "สันนิษฐานผิด",
+          "ตรวจสอบข้อมูล",
+          "ถามโดยตรง"
+        ]
+      },
+      {
+        "question": "ผู้โดยสารหรือพยานควรทำหน้าที่อะไรเมื่อต้องเผชิญความขัดแย้งรุนแรงเพื่อให้เหตุการณ์สงบลง?",
+        "answer": "ผู้โดยสารหรือพยานควรแทรกแซงโดยไม่ใช้ความรุนแรง เรียกตำรวจทันที ให้ความช่วยเหลือด้านการปฐมพยาบาล และส่งเสริมให้ผู้กระทำสงบสติอารมณ์ก่อนตัดสินใจ",
+        "key_points": [
+          "แทรกแซงไม่ใช้ความรุนแรง",
+          "โทรแจ้งตำรวจ",
+          "ปฐมพยาบาล",
+          "ส่งเสริมให้สงบ"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fa56703b-9259-438e-bcaf-528e31cf0f7d",
+    "name": "🏷️ การจัดการความขัดแย้งและการใช้สติ",
+    "description": "สรุปบทเรียนเกี่ยวกับการควบคุมอารมณ์ การหลีกเลี่ยงความรุนแรงและขั้นตอนการช่วยเหลือ",
+    "studied": false,
+    "total": 20,
+    "learned": 0,
+    "due": 20,
+    "cards": [
+      {
+        "id": "92c7f135-9f8b-4b07-85b9-1e1bdf1d1e36",
+        "question": "ใครคือผู้แสดงความก้าวร้าวในตอนแรกของเรื่อง?",
+        "answer": "วิน",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "b41e1379-a1af-4d9b-8a46-2186ab4cd631",
+        "question": "วินขี่พาหนะอะไรไปที่ห้าง?",
+        "answer": "มอเตอร์ไซค์",
+        "keyword": "motorcycle, helmet",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "85d92e99-7048-4387-952b-924d18c7073e",
+        "question": "ใครเป็นคนที่พยายามทำให้วินใจเย็นลง?",
+        "answer": "ไจ๋",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "7e488d22-6779-4062-ab68-c164dcf49b4d",
+        "question": "ใครเป็นผู้แจ้งตำรวจเมื่อเกิดการทะเลาะ?",
+        "answer": "ออย",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "34f34397-8fbd-4705-85be-7a1d5d7aa3a5",
+        "question": "เจ้าหน้าที่ตำรวจที่มาถึงมีชื่อว่าอะไร?",
+        "answer": "ชินจัง",
+        "keyword": "police officer",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "b273e078-29b1-40e8-bede-8525c3da524d",
+        "question": "ทำไมวินถึงโกรธทิมมี่?",
+        "answer": "วินเชื่อว่าทิมมี่ยังคบหรือสนิทกับภรรยาของวินจากข้อความในแชท ทำให้เกิดความเข้าใจผิด",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "341c2e42-53c0-475b-81a0-f1194080c2af",
+        "question": "ไจ๋ให้ข้อคิดเกี่ยวกับความรุนแรงอย่างไร?",
+        "answer": "ไจ๋บอกว่าใช้ความรุนแรงไม่ทำให้ปัญหาแก้ไขได้เลย จะทำให้ผู้ทำรุนแรงเจ็บตัวเอง ควรหาวิธีแก้ปัญหาอื่นที่ไม่ใช้ความรุนแรง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "cf476519-1143-41e7-ab9f-65467c72771d",
+        "question": "บทบาทของฉีอี้ในเหตุการณ์คืออะไร?",
+        "answer": "ฉีอี้เป็นผู้ให้การปฐมพยาบาลแก่ทิมมี่ ช่วยให้เขานั่งนิ่งและทำการทำแผลเบื้องต้น",
+        "keyword": "first aid, bandage",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "7ba79753-9f2d-407f-8a10-66e7b659a494",
+        "question": "ถ้าคุณเห็นการต่อสู้ในห้าง คุณควรทำอะไรตามที่เรื่องสอน?",
+        "answer": "ควรแจ้งตำรวจทันที อยู่ห่างจากความเสี่ยง ให้การปฐมพยาบาลเบื้องต้นถ้าสามารถทำได้ และพยายามทำให้ผู้ต่อสู้สงบด้วยการพูดคุยอย่างอ่อนโยน",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "06d5b37b-6832-466e-be2d-5a1f0d52c167",
+        "question": "วินจะตรวจสอบหลักฐานแชทอย่างไรให้หลีกเลี่ยงการต่อสู้?",
+        "answer": "วินควรเปิดดูข้อความจริงในแชท, ถามคำอธิบายเพิ่มเติมจากทิมมี่หรือบุคคลที่เป็นกลางก่อนที่จะทำการสั่งสอนหรือทำร้าย",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "29f068bc-9aa4-44c7-b488-2af2da5a94b8",
+        "question": "เขียนบทสนทนาสั้น ๆ ที่ผู้โดยสารใช้การสื่อสารที่ไม่ใช้ความรุนแรงเพื่อทำให้ความขัดแย้งสงบลง",
+        "answer": "ผู้โดยสาร: \"ผมเข้าใจว่าคุณโกรธมาก แต่การทำร้ายกันจะทำให้เรื่องแย่ลง เรามาคุยกันด้วยความสงบดีกว่าไหม?\" \nผู้รังแก: \"ขอโทษครับ ฉันแค่อยากให้เข้าใจ...\"",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "257f1a6e-c241-4cda-9291-4bf1323a1cd1",
+        "question": "วินใส่อะไรเพื่อป้องกันอันตรายขณะขี่มอเตอร์ไซค์?",
+        "answer": "หมวกกันน็อค",
+        "keyword": "helmet",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "97628225-c463-4ec0-a8aa-43b0bac631d1",
+        "question": "ทำไมตำรวจถึงให้ทิมมี่ไปรับการรักษาก่อนดำเนินคดี?",
+        "answer": "เพราะสุขภาพและความปลอดภัยของผู้บาดเจ็บเป็นสิ่งสำคัญก่อน การรักษาเสร็จแล้วจึงสามารถทำการสอบสวนต่อไปได้",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "46a92dff-073c-45f0-85b9-e5d19a88747b",
+        "question": "คุณจะเก็บหลักฐานอย่างไรเพื่อให้ตำรวจใช้ในกระบวนการสอบสวน?",
+        "answer": "ถ่ายรูปสถานที่, ถ่ายสกรีนช็อตแชท, จดบันทึกพยาน, เก็บของที่เกี่ยวข้อง เช่น เสื้อที่มีเลือด ฯลฯ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "0b8928ad-7d54-469f-919e-2bfe0fe53156",
+        "question": "การ์ตูนบอกให้ระวังอะไรเกี่ยวกับอารมณ์?",
+        "answer": "อย่าให้อารมณ์ครอบงำสติปัฏฐาน คิดก่อนทำเพื่อไม่ให้เกิดความเสียใจต่อมา",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "0334a418-123f-47da-a254-1878ada56535",
+        "question": "อธิบายผลของการที่ออยและไจ๋เข้าแทรกแซงเหตุการณ์ต่อสังคมในเรื่องนี้",
+        "answer": "การเข้าแทรกแซงของออยและไจ๋ทำให้วินหยุดการใช้ความรุนแรง, ช่วยให้ทุกคนได้คิดทบทวนพฤติกรรม, ส่งเสริมการใช้วิธีแก้ปัญหาอย่างสันติและลดความเสียหายต่อบุคคล",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "8048b885-3205-49b2-a5c7-5fb6ab93bf50",
+        "question": "ออกแบบขั้นตอนการตอบสนองต่อความขัดแย้งในที่สาธารณะ (อธิบายเป็นลำดับขั้นตอน)",
+        "answer": "1. ประเมินความปลอดภัยของตนเองและผู้โดยรอบ\n2. เรียกขอความช่วยเหลือจากเจ้าหน้าที่หรือผู้ดูแลพื้นที่\n3. หากปลอดภัย พยายามทำให้ผู้ต่อสู้สงบด้วยการพูดคุยอ่อนโยน\n4. ให้การปฐมพยาบาลเบื้องต้นแก่ผู้บาดเจ็บ\n5. รอการมาถึงของตำรวจและให้ข้อมูลที่เป็นประโยชน์",
+        "keyword": "flowchart, conflict resolution",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "4f428100-2a29-4f01-8099-e761e72757a1",
+        "question": "ใครคือพี่ชายของทิมมี่ที่ปรากฏในเรื่อง?",
+        "answer": "ไจ๋",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "30fe6ab6-d070-464a-8f5e-388197d8e561",
+        "question": "\"หลักฐานในแชท\" หมายถึงอะไรและทำไมจึงสำคัญ?",
+        "answer": "หมายถึงบันทึกข้อความสนทนาในแอปแชท ที่สามารถใช้เป็นหลักฐานยืนยันหรือปฏิเสธการสื่อสารที่ผ่านมา ช่วยคลี่คลายความเข้าใจผิดและใช้ในกระบวนการยุติธรรม",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "718ce7b5-42a5-45ed-997d-8dc524992836",
+        "question": "ถ้าคุณเป็นทิมมี่ที่มีคิ้วเลือดไหล คุณควรทำอะไรเป็นขั้นตอนแรก?",
+        "answer": "กดดันแผลด้วยผ้าแห้งหรือผ้าก๊อซเพื่อหยุดเลือด, ทำความสะอาดแผลเบา ๆ, แล้วไปพบแพทย์หรือห้องฉุกเฉินเพื่อรับการรักษาต่อ",
+        "keyword": "first aid, bleeding",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      }
+    ],
+    "summaryHtml": "<h1 class=\"main-title\">เรื่องราวความเข้าใจผิดและการใช้สติ</h1>\n<h2 class=\"section-heading\">ความขัดแย้งและการแก้ไข</h2>\n<ul class=\"key-points\">\n  <li class=\"list-item\">วินเข้าใจผิดว่าทิมมี่ยุ่งเกี่ยวกับการ์ตูน</li>\n  <li class=\"list-item\">ทิมมี่อธิบายว่าตนไม่ได้ยุ่งเกี่ยวกับการ์ตูนแล้ว</li>\n  <li class=\"list-item\">ไจ๋และคนรอบข้างช่วยเตือนสติวิน</li>\n  <li class=\"list-item\">วินใจเย็นลงและขอโทษเมื่อเห็นหลักฐาน</li>\n</ul>\n<p>เรื่องนี้แสดงให้เห็นถึงความสำคัญของการใช้<strong class=\"important-term\">สติ</strong>ในการแก้ไขปัญหาความขัดแย้ง การใช้<strong class=\"important-term\">อหิงสา</strong> และ<strong class=\"important-term\">อุเบกขา</strong> ช่วยให้วินใจเย็นลงและแก้ไขปัญหาได้อย่างถูกต้อง</p>\n<em class=\"emphasis-note\">การมีสติและไม่ตัดสินใจโดยใช้อารมณ์เป็นสิ่งที่สำคัญในการแก้ไขปัญหาความขัดแย้ง</em>\n<div class=\"mermaid\">\ngraph LR\nA[\"วินเห็นการ์ตูนเลิกงานในแชท\"] --> B[\"วินถามว่าต้องการให้ไปรับหรือไม่\"]\nB --> C[\"วินสวมหมวกกันน็อกและขี่มอเตอร์ไซค์ไปห้าง\"]\nC --> D[\"วินลงมอไซค์และบ่นว่าไม่ได้ออกมา\"]\nD --> E[\"ไจ๋และทิมมี่นั่งคุย\"]\nE --> F[\"ไจ๋บอกว่าไม่ต้องคิดเรื่องพี่\"]\nF --> G[\"ทิมมี่บอกไม่ได้ยุ่งกับพี่\"]\nG --> H[\"วินเดินเข้ามาและโกรธ\"]\nH --> I[\"วินบังคับให้ทิมมี่เลิกยุ่งกับเมีย\"]\nI --> J[\"ทิมมี่อธิบายว่ามาหาพี่ชาย\"]\nJ --> K[\"วินผลักทิมมี่ทำให้คิ้วเลือดออก\"]\nK --> L[\"ออยเรียกตำรวจและกู้ภัย\"]\nL --> M[\"การ์ตูนเตือนว่าสงสารไม่ทำร้าย\"]\nM --> N[\"วินหยุดทำร้าย\"]\nN --> O[\"ทิมมี่พยายามแก้ตัว\"]\nO --> P[\"วินอ้างมีหลักฐานในแชท\"]\nP --> Q[\"ทิมมี่บอกเคยคบแล้วเลิก\"]\nQ --> R[\"ตำรวจและกู้ภัยมาถึง\"]\nR --> S[\"ชินจังถามผู้ก่อเหตุ\"]\nS --> T[\"วินยอมรับความผิด\"]\nT --> U[\"ชินจังให้ผู้เสียหรือนั่งนิ่งและไปรักษา\"]\nU --> V[\"ขั้นตอนต่อไปคือสอบสวน\"]\nV --> W[\"ไจ๋เตือนว่าสงสารไม่ใช้ความรุนแรง\"]\nW --> X[\"ออยชักชวนให้ฟังเหตุผล\"]\nX --> Y[\"การ์ตูนแนะนำให้คิดก่อนทำ\"]\nY --> Z[\"วินปล่อยทิมมี่และถามแชท\"]\nZ --> AA[\"ไจ๋แสดงแชทยืนยันทิมมี่ไม่ได้ยุ่ง\"]\nAA --> AB[\"วินขอโทษและขอบคุณทุกคน\"]\n</div>",
+    "quiz": [
+      {
+        "question": "สรุปเหตุการณ์ที่เกิดขึ้นตั้งแต่เริ่มต้นจนถึงการมาถึงของตำรวจและการบรรเทาอาการของทิมมี่อย่างละเอียด",
+        "answer": "วินเห็นการ์ตูนนัดเลิกงานในแชทแล้วมานำรถมอไซค์ไปรับที่ห้าง แต่เมื่อไปถึงเขาเห็นทิมมี่กับไจ๋และโกรธจนทำร้ายทิมมี่ที่คิ้วขวาโดยอ้างว่าทิมมี่ยุ่งกับภรรยาของเขา; หลังจากที่ออยเรียกตำรวจและกู้ภัย ชินจังและฉีอี้เข้ามาช่วยปฐมพยาบาลและสอบถามเหตุการณ์ ทำให้วินยอมรับความผิดและขอโทษ",
+        "key_points": [
+          "วินไปรับที่ห้าง",
+          "วินทำร้ายทิมมี่",
+          "ออยเรียกตำรวจ",
+          "ชินจังสอบถาม",
+          "ฉีอี้ปฐมพยาบาล",
+          "วินขอโทษ"
+        ]
+      },
+      {
+        "question": "อธิบายบทบาทของตัวละครแต่ละคน (วิน, ทิมมี่, ไจ๋, การ์ตูน, ออย, ชินจัง, ฉีอี้) ในการแก้ไขความขัดแย้งและส่งเสริมการใช้สติปัฏฐาน",
+        "answer": "วินเป็นผู้ทำร้ายที่เริ่มโกรธแต่สุดท้ายยอมรับความผิด; ทิมมี่เป็นผู้ถูกทำร้ายและให้ข้อมูลว่าตนไม่ได้ยุ่งกับภรรยาวิน; ไจ๋และการ์ตูนทำหน้าที่เตือนสติและชี้แนะไม่ใช้ความรุนแรง; ออยเป็นผู้เรียกตำรวจและชี้ให้เห็นการต้องการความเป็นกลาง; ชินจังเป็นตำรวจสอบสวนและควบคุมสถานการณ์; ฉีอี้ให้การปฐมพยาบาลแก่ทิมมี่",
+        "key_points": [
+          "วินทำร้าย",
+          "ทิมมี่อธิบาย",
+          "ไจ๋เตือนสติ",
+          "การ์ตูนชี้แนะ",
+          "ออยเรียกตำรวจ",
+          "ชินจังสอบสวน",
+          "ฉีอี้ปฐมพยาบาล"
+        ]
+      },
+      {
+        "question": "เหตุใดวินจึงเข้าใจผิดว่าทิมมี่ 'ยุ่งกับเมียของเขา' และข้อมูลใดในแชททำให้เขาเปลี่ยนใจ",
+        "answer": "วินอ่านข้อความในแชทที่ทำให้เขาคิดว่าทิมมี่กำลังคบกับภรรยาของเขาและบ่นว่าทำไมเธอไม่ออกมาที่ห้าง; เมื่อไจ๋แสดงหลักฐานจากโทรศัพท์ของทิมมี่ที่แสดงว่าทิมมี่ไม่ได้ตอบหรือคุยกับการ์ตูนและมาหาไจ๋เท่านั้น ทำให้วินเห็นว่าความเข้าใจของเขาผิดและยอมขอโทษ",
+        "key_points": [
+          "วินเข้าใจผิด",
+          "แชททำให้โกรธ",
+          "ไจ๋แสดงหลักฐาน",
+          "ทิมมี่ไม่ได้คบ",
+          "วินขอโทษ"
+        ]
+      },
+      {
+        "question": "วินสวมอุปกรณ์อะไรเมื่อไปหาที่ห้าง และทำไมการสวมหมวกกันน็อคสำคัญต่อเรื่องนี้",
+        "answer": "วินสวมหมวกกันน็อคขณะขี่มอไซค์ไปหาที่ห้าง ซึ่งแสดงให้เห็นว่าตัวละครคำนึงถึงความปลอดภัยส่วนบุคคลแม้ในสถานการณ์ที่ตึงเครียด; การสวมหมวกช่วยเน้นความสำคัญของการป้องกันอุบัติเหตุในขณะขับขี่",
+        "key_points": [
+          "วินสวมหมวกกันน็อค",
+          "ขี่มอไซค์ไปห้าง",
+          "ความปลอดภัยส่วนบุคคล"
+        ]
+      },
+      {
+        "question": "อธิบายขั้นตอนการบรรเทาอาการของทิมมี่หลังจากถูกทำร้ายโดยวิน รวมถึงผู้ที่ทำหน้าที่ใดบ้าง",
+        "answer": "หลังจากที่วินทำร้ายคิ้วของทิมมี่ ชินจัง (ตำรวจ)และออย (ผู้เห็นเหตุการณ์)เรียกกู้ภัย; ฉีอี้เข้ามาช่วยปฐมพยาบาลโดยเช็ดเลือดและทำความสะอาดแผล; กู้ภัยให้การดูแลต่อเนื่องจนทิมมี่พร้อมส่งโรงพยาบาล",
+        "key_points": [
+          "ชินจังสอบสวน",
+          "ออยเรียกตำรวจ",
+          "ฉีอี้ปฐมพยาบาล",
+          "กู้ภัยช่วยเหลือ",
+          "ทิมมี่ได้รับการดูแล"
+        ]
+      },
+      {
+        "question": "วิเคราะห์การใช้ภาษาที่แสดงอารมณ์ของวินในบทสนทนาต่าง ๆ (เช่น การบ่น, การด่า, การขอโทษ) ว่ามีผลต่อการพัฒนาพล็อตอย่างไร",
+        "answer": "วินใช้ถ้อยคำที่เต็มไปด้วยความโกรธและด่า (เช่น 'มึงนี่เอง', 'หุบปากไปเลย') เพื่อสร้างความตึงเครียดและขับเคลื่อนเรื่องไปสู่การต่อสู้; หลังจากที่ได้รับการเตือนสติและเห็นหลักฐาน เขาเปลี่ยนเป็นการใช้ถ้อยคำอ่อนโยนและขอโทษ (เช่น 'ขอโทษนะที่เข้าใจผิด') ซึ่งทำให้พล็อตเปลี่ยนจากความขัดแย้งเป็นการแก้ไขปัญหาและสรุปบทเรียน",
+        "key_points": [
+          "วินบ่นและด่า",
+          "ภาษากระตุ้นความตึงเครียด",
+          "เปลี่ยนเป็นขอโทษ",
+          "พล็อตเปลี่ยนจากความขัดแย้งเป็นการแก้ไข"
+        ]
+      },
+      {
+        "question": "บทเรียนทางศีลธรรมและจิตวิญญาณใดที่ผู้เรียนสามารถสรุปได้จากเหตุการณ์นี้ เช่น การใช้สติปัฏฐานและการหลีกเลี่ยงความรุนแรง",
+        "answer": "เหตุการณ์สอนให้เรียนรู้ว่าการใช้สติปัฏฐานก่อนทำการใด ๆ จะช่วยหลีกเลี่ยงการกระทำที่โหดร้ายและทำให้เกิดความเสียหาย; การสื่อสารและตรวจสอบข้อมูลก่อนสรุปผลเป็นวิธีที่ดีกว่าการใช้ความรุนแรง; การขออภัยเมื่อทำผิดก็เป็นส่วนสำคัญของการแก้ไขข้อขัดแย้ง",
+        "key_points": [
+          "สติปัฏฐาน",
+          "หลีกเลี่ยงความรุนแรง",
+          "ตรวจสอบข้อมูลก่อนสรุป",
+          "การขออภัย",
+          "การแก้ไขข้อขัดแย้ง"
+        ]
+      },
+      {
+        "question": "เหตุการณ์ในบทสนทนานี้แสดงให้เห็นถึงบทบาทของ ‘การ์ตูน’ อย่างไรในการกระตุ้นให้ตัวละครอื่น ๆ ระลึกถึงสติและคิดก่อนทำ",
+        "answer": "การ์ตูนเข้ามาในขณะเหตุและบอกให้วินหยุดการกระทำรุนแรงโดยเตือนให้คิดก่อนทำ ('อย่าให้อารมณ์ครอบงำสติ') ซึ่งทำให้วินหยุดและพิจารณาใหม่; การ์ตูนจึงทำหน้าที่เป็นเสียงสติที่กระตุ้นให้ทุกคนหยุดความรุนแรงและมองหาแนวทางอื่น",
+        "key_points": [
+          "การ์ตูนเตือนสติ",
+          "หยุดความรุนแรง",
+          "กระตุ้นให้คิดก่อนทำ",
+          "เป็นเสียงสติ"
+        ]
+      },
+      {
+        "question": "สรุปกระบวนการของตำรวจ (ชินจัง) ตั้งแต่การสอบถามเหตุการณ์จนถึงการดำเนินคดีต่อไป",
+        "answer": "ชินจังเข้ามาเป็นผู้สอบถามว่าใครเป็นผู้ก่อเหตุและรับฟังคำสารภาพของวินที่ยอมรับความผิด; จากนั้นชินจังแจ้งให้ผู้บาดเจ็บไปรักษาตัวก่อนและบอกว่าจะทำการสอบสวนและดำเนินคดีตามขั้นตอนต่อไป",
+        "key_points": [
+          "ชินจังสอบถามผู้ก่อเหตุ",
+          "วินยอมรับความผิด",
+          "แนะนำผู้บาดเจ็บรักษาตัว",
+          "จะดำเนินคดีต่อไป"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "ad39eaa7-6d99-4174-98d0-e7f76e76ddef",
+    "name": "🏷️ ความรุนแรงและการแก้ไขข้อขัดแย้ง",
+    "description": "ชุดแฟลชการ์ดเพื่อสรุปเหตุการณ์ ความรุนแรง การแทรกแซง และการใช้สติในเรื่องราวของวินและทีม",
+    "studied": false,
+    "total": 19,
+    "learned": 0,
+    "due": 19,
+    "cards": [
+      {
+        "id": "f9ff0276-129a-4a5e-b18e-c62c31aa7ef4",
+        "question": "วินเห็นอะไรบนหน้าจอแชทของเขาก่อนออกจากที่ทำงาน?",
+        "answer": "วินเห็นว่าการ์ตูนเลิกงานแล้วแต่ไม่ได้ตอบข้อความของเขา",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "ec718db5-ffc1-43df-a7ac-81796d775f9f",
+        "question": "วินใส่อะไรเมื่อขี่มอเตอร์ไซค์ออกไปยังห้าง?",
+        "answer": "วินสวมหมวกกันน็อกเพื่อความปลอดภัย",
+        "keyword": "helmet, motorbike, safety",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "1840429c-3e2c-409f-a5be-32f5edcc2743",
+        "question": "วินบอกให้ไปรับที่ไหน?",
+        "answer": "วินบอกให้ไปรับที่ห้าง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "007cac06-1704-4e4d-a9bd-c1f1f27ab4e6",
+        "question": "ทิมมี่เคยคบกับผู้หญิงที่วินคิดว่าเป็นภรรยาของตนอย่างไร?",
+        "answer": "ทิมมี่เคยคบกับผู้หญิงคนนั้น แต่ได้เลิกกันแล้วและไม่ได้ตั้งใจนัดเจอกันอีก",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "9d2553d4-2dc1-445b-b387-85f032cbfe82",
+        "question": "เหตุการณ์ใดทำให้วินผลักและทำให้ทิมมี่เลือดออก?",
+        "answer": "วินผลักทิมมี่และต่อว่าคิ้วขวา ทำให้เลือดออก",
+        "keyword": "violence, conflict, injury",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "9e137fd5-4247-4f34-ae7d-03e210f84079",
+        "question": "ใครเป็นคนแรกที่พยายามหยุดความรุนแรงของวิน?",
+        "answer": "ไจ๋พยายามเตือนสติและบอกให้ไม่ใช้ความรุนแรง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "8a9097b7-6edc-4c6b-b1ff-cd6d9cab8abc",
+        "question": "ออยแนะนำให้ทำอะไรเมื่อต้องการจัดการกับความขัดแย้ง?",
+        "answer": "ออยแนะนำให้รีบโทรแจ้งตำรวจและให้เป็นกลางก่อนตัดสินใคร",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "b9f47c73-93e0-4fa5-b7de-73103bb9bb74",
+        "question": "การ์ตูนบรรยายแนวคิดใดเกี่ยวกับสติในเหตุการณ์นี้?",
+        "answer": "การ์ตูนพูดว่า อย่าให้อารมณ์ครอบงำ สติปัฏฐาน ช่วยให้คิดก่อนทำเพื่อหลีกเลี่ยงความผิดพลาด",
+        "keyword": "mindfulness, meditation, calm",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "87be2fba-133b-434b-a3cf-004cf93a7bda",
+        "question": "เจ้าหน้าที่ตำรวจและกู้ภัยทำหน้าที่อะไรหลังเหตุเกิดขึ้น?",
+        "answer": "ตำรวจสอบถามผู้กระทำเหตุและบังคับให้ผู้บาดเจ็บไปรักษาตัว ส่วนกู้ภัยทำการปฐมพยาบาลและเช็ดแผล",
+        "keyword": "police, rescue, first aid",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "06481299-584f-4cf9-83b8-547dff85f6d7",
+        "question": "ขั้นตอนการปฐมพยาบาลที่ทำกับทิมมี่คืออะไร?",
+        "answer": "ผู้ช่วยเช็ดน้ำแดงบนคิ้วของทิมมี่เพื่อทำความสะอาดแผล",
+        "keyword": "first aid, wound cleaning",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "89cccdab-58f3-4cd4-ad42-d342ee2e4064",
+        "question": "สติปัฏฐานคืออะไรและช่วยลดความรุนแรงอย่างไร?",
+        "answer": "สติปัฏฐานคือการมีสติระลึกถึงความคิด ความรู้สึกและการกระทำ ช่วยให้คนคิดก่อนทำและหลีกเลี่ยงการใช้ความรุนแรง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "5ff5b9dd-d116-4491-a3b8-eb85e4b7d0a7",
+        "question": "ทิมมี่ใช้หลักฐานอะไรเพื่อแสดงว่าไม่ได้ยุ่งกับผู้หญิงนั้น?",
+        "answer": "ทิมมี่แสดงแชทที่ไม่มีการตอบกลับและบอกว่าตนไม่ได้คบกันอีกแล้ว",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "6ce05da6-d902-4c54-9ed2-187880fd08a4",
+        "question": "หลังจากเหตุการณ์วินยอมรับผิดและขออภัย มีขั้นตอนกฎหมายต่อไปคืออะไร?",
+        "answer": "ตำรวจจะให้ผู้บาดเจ็บรักษาตัวก่อน แล้วดำเนินการสอบสวนและส่งคดีไปศาลเพื่อพิจารณาตามกฎหมาย",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "45df2579-eb19-42ee-b38a-d06c9ac754eb",
+        "question": "การเรียกตำรวจเร็ว ๆ นี้มีประโยชน์อย่างไร?",
+        "answer": "ช่วยให้เหตุการณ์ถูกบันทึกและควบคุมได้เร็ว ลดความรุนแรงต่อไปและให้ผู้บาดเจ็บได้รับการรักษาเร็วขึ้น",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "9dbb2b51-ceb4-4d2c-a92d-e314c63552ff",
+        "question": "การสวมหมวกกันน็อกขณะขี่มอเตอร์ไซค์ป้องกันอาการบาดเจ็บอย่างไร?",
+        "answer": "หมวกกันน็อกช่วยปกป้องศีรษะจากการกระแทก ลดความเสี่ยงการบาดเจ็บสาหัสในอุบัติเหตุ",
+        "keyword": "helmet safety",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "4b0493cc-ac25-4ae5-87e2-7f716f14e28f",
+        "question": "การใช้ความสงบและการพูดคุยเชิงบวกสามารถแทนที่การใช้ความรุนแรงได้อย่างไรในเหตุการณ์นี้?",
+        "answer": "ไจ๋และออยใช้คำเตือน สติปัฏฐาน และการฟังเหตุผล ทำให้วินสงบลงและปล่อยทิมมี่โดยไม่ทำอันตราย",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "10a905c5-d60c-41f9-9986-01b1910aba11",
+        "question": "ระบุชื่อบุคคลสำคัญทั้งหมดในเรื่องและหน้าที่ของแต่ละคน",
+        "answer": "วิน – ผู้กระทำความรุนแรง; ทิมมี่ – ผู้ถูกทำร้าย; ไจ๋ – พี่ชายของทิมมี่, เตือนสติ; ออย – ผู้เห็นเหตุ, แนะนำให้โทรตำรวจ; การ์ตูน – ตัวละครสอนสติ; ชินจัง – ตำรวจ; ฉีอี้ – พนักงานกู้ภัย",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "70a28bae-47ac-41ea-af54-3e93bf2a5345",
+        "question": "เหตุใดการใช้หลักฐานแชทถึงสำคัญเมื่อต้องพิสูจน์ความบริสุทธิ์?",
+        "answer": "หลักฐานแชทแสดงถึงการสื่อสารจริงและความจริงของเหตุการณ์ ช่วยยืนยันว่าฝ่ายหนึ่งไม่ได้ยุ่งเกี่ยวตามที่ถูกกล่าวหา",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "200994ef-e903-4abc-b25d-dba26b2d8986",
+        "question": "หากคุณเป็นผู้เห็นเหตุการณ์เช่นออย คุณควรทำอย่างไรเพื่อช่วยให้สถานการณ์สงบลง?",
+        "answer": "ควรเตือนให้ผู้กระทำความรุนแรงหยุด, แนะนำให้ใช้สติ, โทรแจ้งตำรวจทันที, และช่วยเหลือผู้บาดเจ็บเบื้องต้น",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      }
+    ],
+    "summaryHtml": "<h1 class=\"main-title\">เรื่องราวความเข้าใจผิดและการแก้ปัญหา</h1>\n<h2 class=\"section-heading\">ความขัดแย้งระหว่างวินและทิมมี่</h2>\n<ul class=\"key-points\">\n  <li class=\"list-item\">วินเข้าใจผิดว่าทิมมี่ยังคงยุ่งเกี่ยวกับการ์ตูน</li>\n  <li class=\"list-item\">เกิดการทะเลาะกันจนทิมมี่ได้รับบาดเจ็บ</li>\n  <li class=\"list-item\">ไจ๋และคนรอบข้างช่วยเตือนสติวินให้ใจเย็นลง</li>\n  <li class=\"list-item\">วินได้เห็นหลักฐานว่าทิมมี่ไม่ได้ยุ่งเกี่ยวกับการ์ตูนแล้ว</li>\n  <li class=\"list-item\">วินขอโทษทิมมี่และยอมรับความผิดพลาดของตัวเอง</li>\n</ul>\n<p>เรื่องราวนี้แสดงถึงความสำคัญของการสื่อสารและการไม่ใช้ความรุนแรงในการแก้ปัญหา วินได้เรียนรู้ที่จะควบคุมอารมณ์และใช้เหตุผลในการแก้ไขความขัดแย้ง</p>\n<p>คำสอนเรื่อง <strong class=\"important-term\">อหิงสา</strong> และการใช้ <strong class=\"important-term\">สติปัฏฐาน</strong> มีบทบาทสำคัญในการช่วยให้วินและคนรอบข้างสามารถจัดการกับสถานการณ์ได้อย่างเหมาะสม</p>\n<em class=\"emphasis-note\">เรื่องนี้สอนให้รู้ว่าการคิดก่อนทำและใช้เหตุผลมีความสำคัญมากในการหลีกเลี่ยงความขัดแย้ง</em>\n<div class=\"mermaid\">\ngraph LR\nA[\"วินเห็นการ์ตูนเลิกงานในแชท\"] --> B[\"วินถามการ์ตูนว่าจะให้ไปรับที่ห้างหรือไม่\"]\nB --> C[\"วินสวมหมวกกันน็อกและขี่มอเตอร์ไซค์\"]\nC --> D[\"วินลงมอเตอร์ไซค์ที่ห้างและบ่นว่าไม่ได้ออกมา\"]\nD --> E[\"ไจ๋และทิมมี่สนทนากัน\"]\nE --> F[\"ไจ๋บอกว่าไม่ต้องคิดมากเรื่องพี่\"]\nF --> G[\"ทิมมี่บอกว่าไม่ได้ยุ่งกับพี่\"]\nG --> H[\"วินเข้ามาและโกรธทิมมี่\"]\nH --> I[\"วินผลักทิมมี่และทำให้คิ้วเลือดออก\"]\nI --> J[\"ออยเรียกตำรวจและกู้ภัย\"]\nJ --> K[\"การ์ตูนเตือนวินอย่าทำร้าย\"]\nK --> L[\"วินยังคงทำร้ายต่อ\"]\nL --> M[\"ทิมมี่พยายามอธิบาย\"]\nM --> N[\"วินกล่าวถึงหลักฐานในแชท\"]\nN --> O[\"ตำรวจ (ชินจัง) และกู้ภัยมาถึง\"]\nO --> P[\"ชินจังสอบถามผู้ก่อเหตุ\"]\nP --> Q[\"วินยอมรับความผิด\"]\nQ --> R[\"ชินจังให้ผู้เสียหรือนั่งนิ่งและทำปฐมพยาบาล\"]\nR --> S[\"ออมอี้ช่วยเช็ดเลือด\"]\nS --> T[\"ขั้นตอนการตรวจสอบและดำเนินคดี\"]\nT --> U[\"วินและไจ๋พูดคุยเรื่องการใช้ความรุนแรง\"]\nU --> V[\"ไจ๋เตือนให้ใช้สติและหาทางออกอื่น\"]\nV --> W[\"ออยเตือนให้ไม่ตัดสินใจเร็ว\"]\nW --> X[\"การ์ตูนแนะนำให้คิดก่อนทำ\"]\nX --> Y[\"วินปล่อยทิมมี่และถามเรื่องแชท\"]\nY --> Z[\"ไจ๋แสดงแชทยืนยันทิมมี่ไม่ได้ยุ่งกับแฟน\"]\nZ --> AA[\"วินขอโทษและขอบคุณทุกคน\"]\nAA --> AB[\"จบ\"]\n</div>",
+    "quiz": [
+      {
+        "question": "สรุปเหตุการณ์ที่เกิดขึ้นตั้งแต่วินเห็นข้อความในแชทจนถึงการมาถึงของตำรวจและกู้ภัย",
+        "answer": "วินเห็นว่าแคร์ตูนเลิกงานแล้วแต่ไม่ได้ตอบแชทแล้วไปรับเธอที่ห้างแล้วพบกับทิมมี่ที่กำลังคุยกับไจ๋ เมื่อวินเข้าไปทักทิมมี่ว่าให้เลิกยุ่งกับเมียของเขา วินเริ่มทำร้ายทิมมี่จนไจ๋และผู้เห็นเหตุการณ์พยายามหยุดและเรียกตำรวจ;ตำรวจและกู้ภัยมาถึงและทำการบำรุงรักษาและสอบสวนต่อไป",
+        "key_points": [
+          "วินเห็นข้อความ",
+          "รับที่ห้าง",
+          "ทักทิมมี่",
+          "ทำร้าย",
+          "ไจ๋หยุด",
+          "ตำรวจมาถึง"
+        ]
+      },
+      {
+        "question": "อธิบายบทบาทและการกระทำของไจ๋ในฉากที่วินทำร้ายทิมมี่",
+        "answer": "ไจ๋เป็นพี่ชายของทิมมี่ที่พยายามบอกให้วินหยุดใช้ความรุนแรงและเสนอวิธีแก้ปัญหาด้วยการพูดคุย; เขายังให้โทรศัพท์ของทิมมี่แสดงแชทเพื่อพิสูจน์ว่าทิมมี่ไม่ได้ยุ่งกับแฟนของวิน",
+        "key_points": [
+          "พี่ชายของทิมมี่",
+          "หยุดความรุนแรง",
+          "เสนอทางออก",
+          "แสดงแชท",
+          "พิสูจน์ความบริสุทธิ์"
+        ]
+      },
+      {
+        "question": "วินกล่าวอะไรเมื่อถูกถามโดยชินจังว่าตนเป็นผู้ก่อเหตุและทำอย่างไรต่อหลังจากนั้น",
+        "answer": "วินยอมรับว่าเป็นผู้ก่อเหตุและบอกว่าตนพร้อมรับผิดชอบแม้จะมีเหตุผลของตนเอง; หลังจากนั้นเขายอมรับข้อผิดพลาดและขออภัยต่อทิมมี่และคนอื่น ๆ ที่เกี่ยวข้อง",
+        "key_points": [
+          "ยอมรับเป็นผู้ก่อเหตุ",
+          "พร้อมรับผิด",
+          "ขออภัย",
+          "ยอมรับข้อผิดพลาด"
+        ]
+      },
+      {
+        "question": "การแทรกของการ์ตูนในเรื่องมีจุดประสงค์อย่างไรและให้ข้อความใดแก่ผู้ที่เกี่ยวข้อง",
+        "answer": "การ์ตูนเข้ามาเพื่อเตือนสติและหยุดอารมณ์รุนแรงของวิน โดยบอกให้คิดก่อนทำและไม่ให้ความโกรธครอบงำ; ข้อความหลักคือการใช้สติปัฏฐานและคิดก่อนทำเพื่อหลีกเลี่ยงความผิดพลาด",
+        "key_points": [
+          "เตือนสติ",
+          "หยุดอารมณ์รุนแรง",
+          "คิดก่อนทำ",
+          "สติปัฏฐาน"
+        ]
+      },
+      {
+        "question": "อธิบายขั้นตอนการปฐมพยาบาลและการจัดการของเจ้าหน้าที่ต่อผู้บาดเจ็บตามที่ระบุในข้อความ",
+        "answer": "เจ้าหน้าที่กู้ภัยและผู้ช่วยเช็ดแผลทำการหยุดเลือดและให้การปฐมพยาบาลเบื้องต้นแก่ทิมมี่ ขณะเดียวกันตำรวจสอบถามผู้ก่อเหตุและเตรียมขั้นตอนการสอบสวนต่อไป",
+        "key_points": [
+          "กู้ภัยทำปฐมพยาบาล",
+          "เช็ดแผล",
+          "ตำรวจสอบถาม",
+          "เตรียมสอบสวน"
+        ]
+      },
+      {
+        "question": "วินเปลี่ยนใจและขอโทษอย่างไรหลังเห็นแชทของทิมมี่และเหตุใดเขาถึงทำเช่นนั้น",
+        "answer": "วินดูแชทที่ไจ๋แสดงให้เห็นว่าทิมมี่ไม่ได้ตอบหรือคุยกับแฟนของเขา จึงเข้าใจว่าเป็นการเข้าใจผิดและจึงขอโทษโดยกล่าวว่าขอบคุณที่เตือนสติและช่วยให้เขาไม่ทำร้ายคนอื่น",
+        "key_points": [
+          "ดูแชท",
+          "เข้าใจผิด",
+          "ขอโทษ",
+          "ขอบคุณที่เตือนสติ"
+        ]
+      },
+      {
+        "question": "บทสนทนาของออยและการ์ตูนมีผลต่อการเปลี่ยนแปลงพฤติกรรมของวินอย่างไร",
+        "answer": "ออยและการ์ตูนให้คำแนะนำให้วินหยุดการกระทำรุนแรงและฟังเหตุผลก่อนตัดสินใจ ทำให้วินหยุดการทำร้ายทิมมี่และกลับมาคิดอย่างมีสติ",
+        "key_points": [
+          "ออยให้คำแนะนำ",
+          "การ์ตูนเตือนสติ",
+          "หยุดทำร้าย",
+          "คิดอย่างมีสติ"
+        ]
+      },
+      {
+        "question": "สรุปข้อคิดหรือคติธรรมที่ผู้เขียนต้องการสื่อผ่านเหตุการณ์นี้",
+        "answer": "เรื่องสอนให้หลีกเลี่ยงการใช้ความรุนแรงเมื่อต้องเผชิญความขัดแย้ง ใช้สติและการสื่อสารเพื่อแก้ปัญหา และยอมรับความผิดพลาดเมื่อเกิดการเข้าใจผิด",
+        "key_points": [
+          "หลีกเลี่ยงความรุนแรง",
+          "ใช้สติ",
+          "สื่อสารแก้ปัญหา",
+          "ยอมรับความผิดพลาด"
+        ]
+      },
+      {
+        "question": "วินมีอารมณ์และการกระทำอย่างไรตั้งแต่เริ่มต้นจนถึงการยอมรับความผิดของตน",
+        "answer": "วินเริ่มต้นด้วยความกังวลและโกรธเมื่อตรวจพบว่าแคร์ตูนเลิกงานและไม่ได้ตอบแชท แล้วแสดงความรุนแรงต่อทิมมี่ แต่หลังจากได้รับการเตือนจากไจ๋ ออย และการ์ตูน เขาเริ่มสงบและยอมรับว่าตัวเองเข้าใจผิดและขอโทษ",
+        "key_points": [
+          "กังวลและโกรธ",
+          "ทำร้ายทิมมี่",
+          "ได้รับการเตือน",
+          "สงบลง",
+          "ขอโทษ"
+        ]
+      },
+      {
+        "question": "การใช้เทคโนโลยี (เช่น แชทและโทรศัพท์) มีบทบาทอย่างไรในการเปิดเผยความจริงในเรื่อง",
+        "answer": "แชทและโทรศัพท์เป็นหลักฐานที่แสดงให้เห็นว่าทิมมี่ไม่ได้ติดต่อหรือคบกับแฟนของวิน ซึ่งทำให้วินเห็นความเข้าใจผิดของตนและขอโทษ; เทคโนโลยีจึงเป็นเครื่องมือสำคัญในการตรวจสอบความจริง",
+        "key_points": [
+          "แชทเป็นหลักฐาน",
+          "แสดงความเข้าใจผิด",
+          "ช่วยขอโทษ",
+          "เทคโนโลยีตรวจสอบความจริง"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "b573f0b7-a0db-497b-8714-2ce9cee566a3",
+    "name": "🏷️ การจัดการความขัดแย้งและการบรรเทาเหตุรุนแรง",
+    "description": "ฝึกความเข้าใจและการประยุกต์ใช้ในการแก้ไขสถานการณ์ความขัดแย้งและความรุนแรง",
+    "studied": false,
+    "total": 20,
+    "learned": 0,
+    "due": 20,
+    "cards": [
+      {
+        "id": "15dd5c2a-8cd4-4b1e-bbd2-e8243766ebf2",
+        "question": "วินเป็นใครในเรื่อง?",
+        "answer": "วินเป็นตัวละครที่มักขับมอเตอร์ไซค์สวมหมวกกันน็อคและเป็นผู้เริ่มต้นความขัดแย้ง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "5a6ccdda-ccec-4d3f-abd6-3c9d31f61f5c",
+        "question": "วินขับยานพาหนะอะไร?",
+        "answer": "วินขับมอเตอร์ไซค์สวมหมวกกันน็อค",
+        "keyword": "motorbike helmet",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "06bb0f79-9215-43d5-b0d6-459882de17aa",
+        "question": "วินต้องการไปรับการ์ตูนที่ไหน?",
+        "answer": "วินบอกว่าจะไปรับการ์ตูนที่ห้าง",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "bd03e004-5e55-4d3b-8ee4-bb57b550b438",
+        "question": "ทำไมวินถึงโกรธทิมมี่?",
+        "answer": "วินเชื่อว่าทิมมี่ยังคบกับเมียของเขาและติดต่อกับเธอผ่านแชท",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "c3e56036-4faa-496e-8c25-333bf2d0be67",
+        "question": "บทบาทของไจ๋ในเหตุการณ์คืออะไร?",
+        "answer": "ไจ๋พยายามหยุดความรุนแรง เตือนให้วินใช้สติและแสดงหลักฐานแชทเพื่อพิสูจน์ความจริง",
+        "keyword": "mediator",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "7d96fc41-d121-4c6f-b4b6-519bfd3b9f8f",
+        "question": "หากคุณเห็นการต่อสู้รุนแรง คุณควรทำอย่างแรกตามเรื่อง?",
+        "answer": "ควรโทรแจ้งตำรวจและขอความช่วยเหลือจากผู้ผ่านเหตุการณ์ทันที",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "8a5741e8-dae1-4f6f-b110-2db0d2aa90c4",
+        "question": "จะใช้หลักฐานแชทอย่างไรให้ความเข้าใจผิดหมดไป?",
+        "answer": "นำแชทมาแสดงให้ทุกฝ่ายดูเพื่อยืนยันว่าไม่มีการติดต่อแล้วขออภัยหากเข้าใจผิด",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "499a6d02-4ec7-42ca-bbb8-2f60dc789f69",
+        "question": "ใครให้การปฐมพยาบาลกับทิมมี่?",
+        "answer": "ฉีอี้และออมอี้ช่วยเช็ดเลือดและทำการปฐมพยาบาลเบื้องต้น",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "974575d8-1e57-463e-9f7d-abe80637b4c8",
+        "question": "วัตถุประสงค์ของการสอบปากคำของตำรวจคืออะไร?",
+        "answer": "เพื่อรวบรวมข้อมูลจากผู้เกี่ยวข้อง ระบุตัวผู้กระทำผิดและรักษากระบวนการยุติธรรม",
+        "keyword": "police interrogation",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "db570db8-8295-4b05-a86a-ecffddcb7fc7",
+        "question": "สติปัฏฐานช่วยลดการตอบสนองด้วยความรุนแรงอย่างไร?",
+        "answer": "การใช้สติทำให้หยุดคิดชั่วคราว สังเกตอารมณ์ตนเองและเลือกตอบสนองอย่างสงบแทนการทำร้าย",
+        "keyword": "mindfulness",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "5c42da4d-4e8f-43e4-bdd6-5ec35640adfe",
+        "question": "ทิมมี่ได้รับบาดเจ็บส่วนใดของร่างกาย?",
+        "answer": "บาดที่คิ้วขวาและมีเลือดออก",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "ebed9c37-c18c-49c8-a4a0-8e5e9b725d36",
+        "question": "ทำไมวินจึงขอโทษทิมมี่ในตอนจบ?",
+        "answer": "เพราะเห็นหลักฐานแชทว่าทิมมี่ไม่ได้ติดต่อเมียของเขาและเข้าใจผิด",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "c953a6c4-4eb3-4049-abf2-2c0d635a3394",
+        "question": "เขียนบทสนทนาสั้น ๆ ที่ผู้โดยสาร (เช่น ออย) ใช้เพื่อบรรเทาการต่อสู้",
+        "answer": "ออย: \"หยุดกันก่อนนะ พวกเราให้โอกาสพูดคุยกัน อย่าให้ความโกรธทำร้ายกัน\"",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "e2970f8d-3877-443f-84d7-076476b361d7",
+        "question": "ตัวละครใดบ่อยครั้งพูดว่า “อย่าใช้ความรุนแรง”?",
+        "answer": "ไจ๋และการ์ตูน (ตัวละครที่มาจากการ์ตูน)",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "d18ed3ff-844a-4220-ad73-379be50c7634",
+        "question": "ขั้นตอนที่ทีมกู้ภัยทำหลังจากเหตุการณ์คืออะไร?",
+        "answer": "ให้การปฐมพยาบาลแก่ผู้บาดเจ็บ ติดต่อตำรวจ ควบคุมพื้นที่ และทำการสืบสวนต่อไป",
+        "keyword": "rescue steps",
+        "needs_image": true,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "23ebcfd6-5695-41bf-bafc-858e01e8f411",
+        "question": "หากคุณเป็นเจ้าหน้าที่ตำรวจ (ชินจัง) คุณจะถามคำถามอะไรบ้างกับผู้บาดเจ็บและผู้กระทำความผิด?",
+        "answer": "1) คุณทำอะไรเกิดขึ้น? 2) มีพยานหรือหลักฐานใดบ้าง? 3) มีคนอื่นที่เกี่ยวข้องไหม? 4) ความบาดเจ็บของคุณเป็นอย่างไร? 5) คุณมีความต้องการอะไรจากการสอบนี้?",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "4ffa1917-5b1e-466f-815b-8c662a6b1e0f",
+        "question": "ข้อความสุดท้ายของเรื่องสรุปอย่างไร?",
+        "answer": "การใช้สติและการสื่อสารที่ดีช่วยลดความรุนแรงและทำให้แก้ปัญหาได้อย่างมีประสิทธิภาพ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "4222a2e5-1996-498f-9db1-c31e730244fb",
+        "question": "หลักฐานแชททำหน้าที่อย่างไรต่อผลลัพธ์ของเหตุการณ์?",
+        "answer": "หลักฐานแชทช่วยชี้แจงความเข้าใจผิด ลดการกล่าวหาโดยไม่มีหลักฐาน และทำให้วินยอมขอโทษ",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Understanding",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "36ff60c5-ba78-4f28-9acc-72ee75366186",
+        "question": "ถ้าคุณเป็นคุณครูจะใช้เรื่องนี้สอนเรื่องการแก้ไขความขัดแย้งอย่างไร?",
+        "answer": "จัดกิจกรรมบทบาทสมมติให้ผู้เรียนลองเป็นผู้กลาง (ไจ๋) ฝึกใช้สติและการสืบค้นหลักฐานเพื่อแก้ความเข้าใจผิด และสรุปบทเรียนว่าการสื่อสารและการมีหลักฐานสำคัญต่อการแก้ปัญหา",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Applying",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      },
+      {
+        "id": "a53ee7af-6c6c-46d8-9aae-993b8304ef4d",
+        "question": "ใครบ้างที่ทำหน้าที่เป็นผู้ไกล่เกลี่ยในเรื่อง?",
+        "answer": "ไจ๋และการ์ตูน (ตัวละครการ์ตูนที่มาช่วยเตือนสติ)",
+        "keyword": "",
+        "needs_image": false,
+        "image": null,
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-12-04"
+      }
+    ],
+    "summaryHtml": "<h1 class=\"main-title\">เรื่องราวความเข้าใจผิดและการขอโทษ</h1>\n<h2 class=\"section-heading\">เรื่องราวเริ่มต้นจากความไม่เข้าใจ</h2>\n<ul class=\"key-points\">\n  <li class=\"list-item\">วินเข้าใจผิดว่าทิมมี่ยุ่งเกี่ยวกับการ์ตูน</li>\n  <li class=\"list-item\">วินไปพบทิมมี่ที่ห้างและเกิดการทะเลาะกัน</li>\n  <li class=\"list-item\">ไจ๋และออยพยายามช่วยห้ามปรามวิน</li>\n</ul>\n<p>วินเข้าใจผิดว่าทิมมี่ยังคงยุ่งเกี่ยวกับการ์ตูนแฟนของตน จึงเกิดการทะเลาะกัน แต่ด้วยความช่วยเหลือจากไจ๋และออย ทำให้วินใจเย็นลงและตรวจสอบหลักฐานจนเข้าใจความจริง</p>\n<h2 class=\"section-heading\">การแก้ไขปัญหา</h2>\n<ul class=\"key-points\">\n  <li class=\"list-item\">ไจ๋แสดงหลักฐานว่าทิมมี่ไม่ได้ยุ่งเกี่ยวกับการ์ตูนแล้ว</li>\n  <li class=\"list-item\">วินขอโทษทิมมี่และคนอื่นๆ ที่ช่วยเหลือ</li>\n</ul>\n<p>เมื่อวินเห็นหลักฐานและเข้าใจความจริง จึงได้ขอโทษทิมมี่และคนอื่นๆ ที่ได้ช่วยเหลือในการแก้ไขปัญหา โดยวินได้เรียนรู้ที่จะใช้ <strong class=\"important-term\">สติ</strong> และ <strong class=\"important-term\">ความอดกลั้น</strong> ในการแก้ไขปัญหา</p>\n<em class=\"emphasis-note\">เรื่องราวนี้สอนให้รู้ถึงความสำคัญของการอดกลั้นและการตรวจสอบข้อมูลก่อนตัดสินใจ</em>\n<div class=\"mermaid\">\ngraph LR\nA[\"วินเห็นการ์ตูนเลิกงานในแชท\"] --> B[\"วินถามว่าจะไปรับที่ห้างหรือไม่\"]\nB --> C[\"วินสวมหมวกกันน็อก ขี่มอเตอร์ไซค์ไปห้าง\"]\nC --> D[\"วินลงมอไซค์ที่ห้างและบ่นว่า \\\"ทำไมยังไม่ออกมาสักที\\\"\"]\nD --> E[\"ไจ๋และทิมมี่นั่งคุย\"]\nE --> F[\"ไจ๋พูดว่าไม่ต้องคิดมากเรื่องพี่เขา\"]\nF --> G[\"ทิมมี่บอกว่าไม่ได้ยุ่งกับพี่เขา\"]\nG --> H[\"วินเดินเข้ามาและกล่าวหาทิมมี่\"]\nH --> I[\"ทิมมี่อธิบายว่าไม่ได้มาหาเขา\"]\nI --> J[\"วินผลักทิมมี่และทำร้ายคิ้ว\"]\nJ --> K[\"ออยร้องให้รีบโทรแจ้งตำรวจ\"]\nK --> L[\"การ์ตูนมาปราบใจวินว่าอย่าทำร้าย\"]\nL --> M[\"วินยังคงทำร้ายต่อ\"]\nM --> N[\"ทิมมี่พยายามแก้ตัวและอ้างว่าคบกันแล้วเลิก\"]\nN --> O[\"ตำรวจและกู้ภัยมาถึง\"]\nO --> P[\"ชินจังสอบถามผู้ก่อเหตุ\"]\nP --> Q[\"วินสารภาพว่าเป็นผู้ทำ\"]\nQ --> R[\"ชินจังให้ผู้เสียหรือนั่งนิ่งและทำการปฐมพยาบาล\"]\nR --> S[\"ออมอี้ช่วยเช็ดเลือด\"]\nS --> T[\"ขั้นตอนต่อไป: นำผู้เสียหรือตรวจสอบหลักฐาน\"]\nT --> U[\"เหตุการณ์ซ้ำ: วินเดินเข้ามาอีกครั้ง\"]\nU --> V[\"ไจ๋เตือนให้ไม่ใช้ความรุนแรง\"]\nV --> W[\"ออยพูดให้วินใจเย็นและฟังเหตุผล\"]\nW --> X[\"การ์ตูนย้ำสติและไม่คิดก่อนทำ\"]\nX --> Y[\"วินปล่อยทิมมี่และถามเรื่องแชท\"]\nY --> Z[\"ไจ๋แสดงแชทยืนยันทิมมี่ไม่ได้ยุ่งกับแฟน\"]\nZ --> AA[\"วินขอโทษและขอบคุณทุกคนที่เตือนสติ\"]\nAA --> AB[\"จบ\"]\n</div>",
+    "quiz": [
+      {
+        "question": "วินเห็นอะไรในแชทของโทรศัพท์ที่ทำให้เขาตัดสินใจไปรับการ์ตูนที่ห้าง?",
+        "answer": "วินเห็นว่าการ์ตูนเลิกงานแล้วแต่ยังไม่ได้ตอบแชทของเขา จึงคิดว่าเป็นเวลาที่เหมาะสมที่จะไปรับเธอที่ห้าง. การเห็นสถานะการทำงานของการ์ตูนทำให้วินส่งข้อความสอบถามและกำหนดให้ไปรับที่ห้าง.",
+        "key_points": [
+          "เห็นการ์ตูนเลิกงาน",
+          "ไม่ได้ตอบแชท",
+          "ไปรับที่ห้าง"
+        ]
+      },
+      {
+        "question": "บรรยายการกระทำของวินเมื่อถึงห้างและเหตุใดเขาถามการ์ตูนว่า “ทำไมยังไม่ออกมาสักที?”",
+        "answer": "วินสวมหมวกกันน็อคและขี่มอเตอร์ไซค์มาที่ห้าง หลังจากลงจากมอไซค์แล้วเขาก็บ่นว่า “ทำไมยังไม่ออกมาสักที หรือว่าอยู่กับไอ้‑นั้นจริงๆ”. เขาเชื่อว่าการ์ตูนอาจกำลังคุยกับคนอื่นหรือหลบหลีกการพบเขา.",
+        "key_points": [
+          "สวมหมวกกันน็อค",
+          "ขี่มอไซค์",
+          "บ่นว่าการ์ตูนไม่ออกมา",
+          "สงสัยว่าคุยกับคนอื่น"
+        ]
+      },
+      {
+        "question": "เหตุการณ์ความขัดแย้งระหว่างวินกับทิมมี่เริ่มต้นอย่างไรและวินอ้างอะไรเกี่ยวกับเมียของเขา?",
+        "answer": "เมื่อวินเข้ามาในที่นั่งของไจ๋และทิมมี่ เขาโกรธและบอกทิมมี่ว่า “บอกแล้วใช่มั้ย ว่าให้เลิกยุ่งกับเมียกู”. วินอ้างว่าทิมมี่กำลังคบกับเมียของเขาและต้องหยุดสัมพันธ์นั้น.",
+        "key_points": [
+          "วินเข้ามา",
+          "โกรธ",
+          "บอกให้เลิกยุ่งกับเมีย",
+          "ทิมมี่คบกับเมีย"
+        ]
+      },
+      {
+        "question": "ไจ๋พยายามทำหน้าที่อะไรเมื่อต้องเผชิญกับความรุนแรงของวินต่อทิมมี่?",
+        "answer": "ไจ๋พยายามเตือนสติและสอนให้ใช้วิธีไม่ใช้ความรุนแรงโดยอ้างอ้างถึง “อหิงสา” และหลักการสติปัฏฐาน. เขาแนะว่าให้หาแนวทางอื่นแทนการทำร้ายร่างกาย.",
+        "key_points": [
+          "ไจ๋เตือนสติ",
+          "สอนไม่ใช้ความรุนแรง",
+          "อหิงสา",
+          "สติปัฏฐาน",
+          "หาทางออกอื่น"
+        ]
+      },
+      {
+        "question": "เมื่อวินผลักและต่อยทิมมี่, ผู้ใดบ้างที่เข้ามาช่วยเหลือและทำหน้าที่อะไร?",
+        "answer": "ออยเรียกให้โทรแจ้งตำรวจและบอกว่ามีคนบาดเจ็บ, การ์ตูนเข้ามาเตือนวินอย่าทำร้าย, ชินจัง (ตำรวจ)มาถามว่าใครเป็นผู้ก่อเหตุ, และฉีอี้กับออมอี้ช่วยทำการปฐมพยาบาลและเช็ดเลือดบนคิ้วทิมมี่.",
+        "key_points": [
+          "ออยโทรแจ้งตำรวจ",
+          "การ์ตูนเตือน",
+          "ชินจังถามผู้ก่อเหตุ",
+          "ฉีอี้ปฐมพยาบาล",
+          "ออมอี้เช็ดเลือด"
+        ]
+      },
+      {
+        "question": "ทิมมี่อธิบายเหตุผลอย่างไรว่าตนไม่ได้ยุ่งกับเมียของวินและมีหลักฐานอะไรที่เขานำเสนอ?",
+        "answer": "ทิมมี่บอกว่าเขาเคยคบกับเมียของวินแต่ได้เลิกกันแล้วและไม่ได้ตั้งใจนัดเจออีก, เขายังแสดงแชทที่แสดงว่าไม่มีการติดต่อหรือคุยกับเมียของวินในปัจจุบัน. ไจ๋แสดงโทรศัพท์ของทิมมี่เป็นหลักฐานให้วินดู.",
+        "key_points": [
+          "ทิมมี่เคยคบแล้วเลิก",
+          "ไม่ได้ตั้งใจนัดเจอ",
+          "แชทไม่มีการติดต่อ",
+          "ไจ๋แสดงโทรศัพท์"
+        ]
+      },
+      {
+        "question": "การตอบสนองของวินต่อหลักฐานที่ไจ๋แสดงเป็นอย่างไรและเขาได้ทำอะไรต่อไป?",
+        "answer": "เมื่อเห็นแชทและเข้าใจว่าตัวเองเข้าใจผิด วินจึงปล่อยทิมมี่ลง, ขอโทษและขอบคุณทุกคนที่เตือนสติและช่วยเหลือ. เขายอมรับว่าตนเองเกือบทำร้ายคนอื่นโดยไม่มีเหตุผล.",
+        "key_points": [
+          "เห็นแชท",
+          "ปล่อยทิมมี่ลง",
+          "ขอโทษ",
+          "ขอบคุณที่เตือนสติ",
+          "ยอมรับผิด"
+        ]
+      },
+      {
+        "question": "กระบวนการทางกฎหมายที่ตำรวจและกู้ภัยทำหลังเหตุการณ์เป็นอย่างไร?",
+        "answer": "ตำรวจชินจังสอบถามผู้ก่อเหตุและรับฟังคำให้การของวิน, ในขณะเดียวกันกู้ภัยทำการปฐมพยาบาลต่อทิมมี่และให้เขาไปรักษาตัว. หลังจากนั้นจะมีการสอบปากคำและดำเนินคดีตามขั้นตอนต่อไป.",
+        "key_points": [
+          "ชินจังสอบถาม",
+          "วินให้การ",
+          "กู้ภัยปฐมพยาบาล",
+          "ทิมมี่รักษาตัว",
+          "สอบปากคำ",
+          "ดำเนินคดี"
+        ]
+      },
+      {
+        "question": "บทเรียนสำคัญเกี่ยวกับการจัดการอารมณ์และความรุนแรงที่สอดแทรกในฉากที่สองคืออะไร?",
+        "answer": "บทเรียนสอนให้ใช้สติปัฏฐานและไม่ให้ความโกรธครอบงำ, แทนการใช้ความรุนแรงควรหาวิธีแก้ปัญหาแบบสันติ. การฟังเหตุผลและการเข้าใจข้อมูลก่อนทำการตัดสินใจเป็นกุญแจสำคัญ.",
+        "key_points": [
+          "สติปัฏฐาน",
+          "ไม่ใช้ความรุนแรง",
+          "หาวิธีแก้ปัญหาแบบสันติ",
+          "ฟังเหตุผล",
+          "เข้าใจข้อมูลก่อนตัดสินใจ"
+        ]
+      },
+      {
+        "question": "อธิบายบทบาทของ “อหิงสา” ที่ปรากฏในบทสนทนาและความหมายของการอ้างถึงอหิงสาในบริบทนี้",
+        "answer": "อหิงสาเป็นผู้สอนหลักศีลธรรมและสติในศาสนาพุทธ, ในที่นี้ถูกอ้างถึงเพื่อเตือนให้ผู้ฟังหลีกเลี่ยงความรุนแรงและใช้สติปัฏฐานในการแก้ปัญหา. การอ้างอิงจึงเป็นการเน้นย้ำถึงคุณค่าของการควบคุมอารมณ์.",
+        "key_points": [
+          "อหิงสาเป็นผู้สอนศีลธรรม",
+          "เตือนให้หลีกเลี่ยงความรุนแรง",
+          "สติปัฏฐาน",
+          "ควบคุมอารมณ์"
+        ]
+      },
+      {
+        "question": "สรุปขั้นตอนทั้งหมดตั้งแต่การเริ่มต้นเหตุการณ์จนถึงการขอโทษของวินในรูปแบบสรุปสั้น ๆ",
+        "answer": "วินเห็นการ์ตูนเลิกงานในแชทและไปรับที่ห้าง, เขาเข้าไปเผชิญทิมมี่และกล่าวโทษว่าเป็นคนแย่งเมีย, มีการต่อสู้และผู้โดยสารอื่น ๆ แทรกแซง, ตำรวจและกู้ภัยเข้ามาช่วย, ทิมมี่แสดงหลักฐานแชทว่าไม่มีความสัมพันธ์, วินเห็นความจริงแล้วขอโทษและขอบคุณทุกคน. ",
+        "key_points": [
+          "วินไปรับการ์ตูน",
+          "โต้แย้งกับทิมมี่",
+          "ต่อสู้และแทรกแซง",
+          "ตำรวจและกู้ภัยเข้ามา",
+          "ทิมมี่แสดงแชท",
+          "วินขอโทษ"
+        ]
+      }
+    ]
+  }
+]

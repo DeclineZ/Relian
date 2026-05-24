@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Relian</string>
+    <string name="title_activity_main">relian</string>
+    <string name="package_name">com.relian.app</string>
+    <string name="custom_url_scheme">com.relian.app</string>
+</resources>

@@ -1,0 +1,256 @@
+[
+  {
+    "id": "ecff06e8-f42c-4927-8cea-8821422fd592x",
+    "name": "📚 🗺️ เมืองหลวงประเทศต่าง ๆ",
+    "description": "แฟลชการ์ดทบทวนชื่อเมืองหลวงของประเทศต่าง ๆ",
+    "studied": false,
+    "total": 10,
+    "learned": 0,
+    "due": 10,
+    "quiz": [
+      {
+        "question": "ประเทศเบลีซ (Belize) มีเมืองหลวงชื่ออะไร?",
+        "answer": "เบลโมแพน (Belmopan)",
+        "key_points": [
+          "เบลีซ",
+          "Belize",
+          "เบลโมแพน",
+          "Belmopan"
+        ]
+      },
+      {
+        "question": "เมืองหลวงของประเทศกาบอง (Gabon) คือเมืองใด?",
+        "answer": "ลีเบรอวิลล์ (Libreville)",
+        "key_points": [
+          "กาบอง",
+          "Gabon",
+          "ลีเบรอวิลล์",
+          "Libreville"
+        ]
+      },
+      {
+        "question": "ประเทศซามัว (Samoa) มีเมืองหลวงชื่ออะไร?",
+        "answer": "อาปิอา (Apia)",
+        "key_points": [
+          "ซามัว",
+          "Samoa",
+          "อาปิอา",
+          "Apia"
+        ]
+      },
+      {
+        "question": "เมืองหลวงของประเทศตองก้า (Tonga) ชื่ออะไร?",
+        "answer": "นูกูอาโลฟา (Nukuʻalofa)",
+        "key_points": [
+          "ตองก้า",
+          "Tonga",
+          "นูกูอาโลฟา",
+          "Nukuʻalofa"
+        ]
+      },
+      {
+        "question": "ประเทศนามิเบีย (Namibia) มีเมืองหลวงชื่ออะไร?",
+        "answer": "วินด์ฮุก (Windhoek)",
+        "key_points": [
+          "นามิเบีย",
+          "Namibia",
+          "วินด์ฮุก",
+          "Windhoek"
+        ]
+      },
+      {
+        "question": "เมืองหลวงของประเทศมอนเตเนโกร (Montenegro) คือเมืองใด?",
+        "answer": "พอดกอริกา (Podgorica)",
+        "key_points": [
+          "มอนเตเนโกร",
+          "Montenegro",
+          "พอดกอริกา",
+          "Podgorica"
+        ]
+      },
+      {
+        "question": "ประเทศเซเชลส์ (Seychelles) มีเมืองหลวงชื่ออะไร?",
+        "answer": "วิกตอเรีย (Victoria)",
+        "key_points": [
+          "เซเชลส์",
+          "Seychelles",
+          "วิกตอเรีย",
+          "Victoria"
+        ]
+      },
+      {
+        "question": "เมืองหลวงของประเทศภูฏาน (Bhutan) ชื่ออะไร?",
+        "answer": "ทิมพู (Thimphu)",
+        "key_points": [
+          "ภูฏาน",
+          "Bhutan",
+          "ทิมพู",
+          "Thimphu"
+        ]
+      },
+      {
+        "question": "ประเทศมาลาวี (Malawi) มีเมืองหลวงชื่ออะไร?",
+        "answer": "ลิลองเว (Lilongwe)",
+        "key_points": [
+          "มาลาวี",
+          "Malawi",
+          "ลิลองเว",
+          "Lilongwe"
+        ]
+      },
+      {
+        "question": "เมืองหลวงของประเทศมอลโดวา (Moldova) คือเมืองใด?",
+        "answer": "คีชีเนาว์ (Chisinau)",
+        "key_points": [
+          "มอลโดวา",
+          "Moldova",
+          "คีชีเนาว์",
+          "Chisinau"
+        ]
+      }
+    ],
+    "cards": [
+      {
+        "id": "3504c3a0-cc05-4460-ab74-de00df9de3b5",
+        "question": "เมืองหลวงของ Belize (เบลีซ) คือเมืองอะไร?",
+        "answer": "Belmopan (เบลโมแพน)",
+        "keyword": "Belize capital",
+        "needs_image": true,
+        "image": "https://flagcdn.com/w320/bz.png",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-08-13"
+      },
+      {
+        "id": "58e6a0fb-fc93-4a7f-9ad0-ccba3fcc9082",
+        "question": "เมืองหลวงของ Gabon (กาบอง) คือเมืองอะไร?",
+        "answer": "Libreville (ลีเบรอวิล)",
+        "keyword": "Gabon capital",
+        "needs_image": true,
+        "image": "https://flagcdn.com/w320/ga.png",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-08-13"
+      },
+      {
+        "id": "42f9b6e4-9fb8-4a93-b088-a7795f7dcce5",
+        "question": "เมืองหลวงของ Samoa (ซามัว) คือเมืองอะไร?",
+        "answer": "Apia (อาเปีย)",
+        "keyword": "Samoa capital",
+        "needs_image": true,
+        "image": "https://flagcdn.com/w320/ws.png",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-08-13"
+      },
+      {
+        "id": "6225b8d6-e82b-481d-9d35-4491d4cc5f4a",
+        "question": "เมืองหลวงของ Tonga (ตองก้า) คือเมืองอะไร?",
+        "answer": "Nukuʻalofa (นูกูอะโลฟา)",
+        "keyword": "Tonga capital",
+        "needs_image": true,
+        "image": "https://flagcdn.com/w320/to.png",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-08-13"
+      },
+      {
+        "id": "17d97e29-58e4-4aa6-bb7a-ef9352f80494",
+        "question": "เมืองหลวงของ Namibia (นามิเบีย) คือเมืองอะไร?",
+        "answer": "Windhoek (วินด์ฮุก)",
+        "keyword": "Namibia capital",
+        "needs_image": true,
+        "image": "https://flagcdn.com/w320/na.png",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-08-13"
+      },
+      {
+        "id": "32316766-b8a9-4f3f-8d81-a4603a1b12db",
+        "question": "เมืองหลวงของ Montenegro (มอนเตเนโกร) คือเมืองอะไร?",
+        "answer": "Podgorica (พอดโกริกา)",
+        "keyword": "Montenegro capital",
+        "needs_image": true,
+        "image": "https://flagcdn.com/w320/me.png",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-08-13"
+      },
+      {
+        "id": "2b7d08db-171e-42f3-82d2-fb13721c5183",
+        "question": "เมืองหลวงของ Seychelles (เซเชลส์) คือเมืองอะไร?",
+        "answer": "Victoria (วิกตอเรีย)",
+        "keyword": "Seychelles capital",
+        "needs_image": true,
+        "image": "https://flagcdn.com/w320/sc.png",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-08-13"
+      },
+      {
+        "id": "9315ae6d-259d-4185-bbc6-1586e865fc68",
+        "question": "เมืองหลวงของ Bhutan (ภูฏาน) คือเมืองอะไร?",
+        "answer": "Thimphu (ทิมพู)",
+        "keyword": "Bhutan capital",
+        "needs_image": true,
+        "image": "https://flagcdn.com/w320/bt.png",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-08-13"
+      },
+      {
+        "id": "9f943ecb-4923-4aa3-8d41-c149974173ee",
+        "question": "เมืองหลวงของ Malawi (มาลาวี) คือเมืองอะไร?",
+        "answer": "Lilongwe (ลิโลงเว)",
+        "keyword": "Malawi capital",
+        "needs_image": true,
+        "image": "https://flagcdn.com/w320/mw.png",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-08-13"
+      },
+      {
+        "id": "8099cdf8-d9db-400c-a9a6-98b7f0e100d2",
+        "question": "เมืองหลวงของ Moldova (มอลโดวา) คือเมืองอะไร?",
+        "answer": "Chisinau (คีชีเนาฟ)",
+        "keyword": "Moldova capital",
+        "needs_image": true,
+        "image": "https://flagcdn.com/w320/md.png",
+        "taxonomy": "Remembering",
+        "point": 0,
+        "repetitions": 0,
+        "interval": 0,
+        "ef": 2.5,
+        "due": "2025-08-13"
+      }
+    ],
+    "summaryHtml": "<h1 class='main-title'>ประเทศและเมืองหลวงที่สำคัญ</h1> <h2 class='section-heading'>รายชื่อประเทศและเมืองหลวง</h2> <ul class='key-points'> <li class='list-item'>เบลีซ (Belize) - เบลโมแพน (Belmopan)</li> <li class='list-item'>กาบอง (Gabon) - ลีเบรอวิลล์ (Libreville)</li> <li class='list-item'>ซามัว (Samoa) - อาปิอา (Apia)</li> <li class='list-item'>ตองก้า (Tonga) - นูกูอาโลฟา (Nukuʻalofa)</li> <li class='list-item'>นามิเบีย (Namibia) - วินด์ฮุก (Windhoek)</li> <li class='list-item'>มอนเตเนโกร (Montenegro) - พอดกอริกา (Podgorica)</li> <li class='list-item'>เซเชลส์ (Seychelles) - วิกตอเรีย (Victoria)</li> <li class='list-item'>ภูฏาน (Bhutan) - ทิมพู (Thimphu)</li> <li class='list-item'>มาลาวี (Malawi) - ลิลองเว (Lilongwe)</li> <li class='list-item'>มอลโดวา (Moldova) - คีชีเนาว์ (Chisinau)</li> </ul> <p>การจดจำ <strong class='important-term'>ชื่อประเทศ</strong> และ <strong class='important-term'>เมืองหลวง</strong> เป็นพื้นฐานสำคัญในการเรียนภูมิศาสตร์ ช่วยให้เข้าใจบริบททางภูมิรัฐศาสตร์และความสัมพันธ์ระหว่างประเทศได้ดียิ่งขึ้น</p> <em class='emphasis-note'>หมายเหตุ: การฝึกจำข้อมูลเหล่านี้อย่างสม่ำเสมอจะช่วยพัฒนาทักษะการจำและความรู้รอบตัว</em>"
+  }
+]
