@@ -34,7 +34,7 @@ function ModeButton({ children, icon, active, onClick, ...rest }) {
 export default function CreateFlashcards() {
     const isCapacitor = window?.Capacitor?.isNativePlatform();
     const BASE = isCapacitor
-        ? 'https://brillian-flashcard-backend-production.up.railway.app'
+        ? 'https://relian-backend.vercel.app'
         : import.meta.env.VITE_API_URL;
 
     const navigate = useNavigate();

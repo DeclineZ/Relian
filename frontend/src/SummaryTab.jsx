@@ -41,13 +41,13 @@ export default function SummaryTab() {
     try {
       mermaid.run();
       container.querySelectorAll('.mermaid').forEach((block) => {
-        if (block.__brillianBound) return;
+        if (block.__relianBound) return;
         block.style.cursor = 'zoom-in';
         block.addEventListener('click', () => {
           const svg = block.querySelector('svg');
           if (svg) openDiagramInNewTab(svg);
         });
-        block.__brillianBound = true;
+        block.__relianBound = true;
       });
     } catch (err) {
       console.warn('Mermaid render failed:', err);

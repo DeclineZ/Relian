@@ -1,6 +1,7 @@
-# Brillian Flashcards Monorepo
+# Relian Monorepo
 
-This repository contains both the frontend and backend code for the Brillian Flashcards application.
+This repository contains both the frontend and backend code for the Relian application.
+
 
 ## Directory Structure
 
@@ -62,12 +63,12 @@ Vercel handles monorepos natively. You will create **two separate projects** in 
 - **Framework Preset**: `Other` (Vercel automatically detects the Express configuration inside `backend/vercel.json`)
 - **Environment Variables**:
   - Add `GROQ_API_KEY`, `GOOGLE_API_KEY`, and `GOOGLE_CX` with your production API keys.
-- **Deploy**: Click Deploy. Vercel will build and serve your backend. Note the generated backend URL (e.g. `https://brillian-flashcard-backend.vercel.app`).
+- **Deploy**: Click Deploy. Vercel will build and serve your backend. Note the generated backend URL (e.g. `https://relian-backend.vercel.app`).
 
 ### 2. Deploy the Frontend
 - **Root Directory**: `frontend`
 - **Framework Preset**: `Vite`
 - **Build & Development Settings**: Standard settings (Build command: `npm run build`, Output directory: `dist`)
 - **Environment Variables**:
-  - Add `VITE_API_URL` pointing to the backend URL you deployed in Step 1 (e.g. `https://brillian-flashcard-backend.vercel.app`).
+  - Add `VITE_API_URL` pointing to the backend URL you deployed in Step 1 (e.g. `https://relian-backend.vercel.app`).
 - **Deploy**: Click Deploy. The frontend is now live!

@@ -9,7 +9,7 @@ export default defineConfig({
   ],
   server: {
     proxy: {
-      '/api': 'https://brillian-flashcard-backend-production.up.railway.app'
+      '/api': 'https://relian-backend.vercel.app'
     }
   }
 })
