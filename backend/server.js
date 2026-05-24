@@ -15,8 +15,9 @@ app.use(cors(corsOptions));
 
 app.use(express.json());
 app.use('/api', generateRoute);
-
 app.use('/api/grade', gradeRoute);
+app.use('/', generateRoute);
+app.use('/grade', gradeRoute);
 
 const PORT = process.env.PORT || 5001;
 app.listen(PORT, () => {
