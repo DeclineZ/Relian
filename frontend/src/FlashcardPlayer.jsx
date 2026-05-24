@@ -45,8 +45,8 @@ export default function FlashcardPlayer() {
   const [isTimerRunning, setIsTimerRunning] = useState(false);
   const isCapacitor = window?.Capacitor?.isNativePlatform();
   const BASE = isCapacitor
-    ? 'http://localhost:5001' // Replace with your dev machine IP address accessible to your device/emulator
-    : import.meta.env.VITE_API_URL;
+    ? (import.meta.env.VITE_API_URL || 'https://relian-backend.vercel.app')
+    : (import.meta.env.VITE_API_URL || '');
 
 
   const deck = decks.find(d => String(d.id) === id);

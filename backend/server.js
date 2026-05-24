@@ -6,8 +6,21 @@ import gradeRoute    from './routes/grade.js';
 
 const app = express();
 
+const allowedOrigins = [
+  'https://relian-93d83.web.app',
+  'http://localhost:5173',
+  'capacitor://localhost',
+  'https://localhost'
+];
+
 const corsOptions = {
-  origin: ['https://relian-93d83.web.app', 'http://localhost:5173', 'capacitor://localhost', 'https://localhost'],
+  origin: (origin, callback) => {
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin) || origin.endsWith('.vercel.app')) {
+      return callback(null, true);
+    }
+    return callback(new Error('Not allowed by CORS'));
+  },
   methods: ['GET','POST','OPTIONS'],
   allowedHeaders: ['Content-Type','Authorization'],
 };

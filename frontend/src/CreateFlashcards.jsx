@@ -34,8 +34,8 @@ function ModeButton({ children, icon, active, onClick, ...rest }) {
 export default function CreateFlashcards() {
     const isCapacitor = window?.Capacitor?.isNativePlatform();
     const BASE = isCapacitor
-        ? 'https://relian-backend.vercel.app'
-        : import.meta.env.VITE_API_URL;
+        ? (import.meta.env.VITE_API_URL || 'https://relian-backend.vercel.app')
+        : (import.meta.env.VITE_API_URL || '');
 
     const navigate = useNavigate();
     const { setDecks, learningPrefs } = useDecks();
@@ -105,7 +105,14 @@ export default function CreateFlashcards() {
             navigate(`/deck/${newDeck.id}`);
         } catch (err) {
             console.error(err);
-            alert('Error: File too big. Please upload a smaller PDF.');
+            const errMsg = err.response?.data?.error || err.response?.data?.message || err.message;
+            if (err.response?.status === 413 || (errMsg && errMsg.toLowerCase().includes("too large"))) {
+                alert("Error: File too large. Maximum allowed size is 2MB.");
+            } else if (err.response?.status === 429) {
+                alert("Error: Too many requests. Please wait a bit before trying again.");
+            } else {
+                alert(`Error: ${errMsg || "An unexpected error occurred. Please try again."}`);
+            }
         } finally {
             setLoading(false);
         }
