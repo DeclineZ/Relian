@@ -35,7 +35,7 @@ export async function mapReduceConcepts(chunks, groq) {
   const mapPromises = activeChunks.map(async (chunk) => {
     try {
       const resp = await groq.chat.completions.create({
-        model: 'meta-llama/llama-4-maverick-17b-128e-instruct',
+        model: 'llama-3.1-8b-instant',
         messages: [
           { role: 'system', content: SYS_EXTRACT },
           { role: 'user', content: chunk }
@@ -61,7 +61,7 @@ export async function mapReduceConcepts(chunks, groq) {
   try {
     const SYS_CONSOLIDATE = `You are an expert editor. Below is a list of educational concepts. Deduplicate, group, and merge similar items. Select and output the top 10-12 most important, unique concepts. Format them as a flat JSON array of strings in Thai. Return ONLY raw JSON, no code fences.`;
     const resp = await groq.chat.completions.create({
-      model: 'meta-llama/llama-4-maverick-17b-128e-instruct',
+      model: 'llama-3.1-8b-instant',
       messages: [
         { role: 'system', content: SYS_CONSOLIDATE },
         { role: 'user', content: JSON.stringify(combined) }

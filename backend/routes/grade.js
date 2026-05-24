@@ -64,7 +64,7 @@ KEY_POINTS: ${safePoints.join('; ')}
 STUDENT ANSWER: ${studentAnswer}`
     };
     const r = await groq.chat.completions.create({
-   model:       'meta-llama/llama-4-maverick-17b-128e-instruct',
+   model:       'llama-3.3-70b-versatile',
    messages:    [SYS_GRADE, USER_GRADE],
    max_tokens:  500,
  });

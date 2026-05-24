@@ -273,7 +273,7 @@ router.post('/explanation', queryLimiter, async (req, res) => {
     };
 
     const response = await groq.chat.completions.create({
-      model: 'meta-llama/llama-4-scout-17b-16e-instruct',
+      model: 'llama-3.1-8b-instant',
       messages: [SYS_EXPLANATION, userExplain],
       max_tokens: 250,
       temperature: 0.2
@@ -319,7 +319,7 @@ router.post('/related-cards', queryLimiter, async (req, res) => {
     };
 
     const resp = await groq.chat.completions.create({
-      model: 'meta-llama/llama-4-maverick-17b-128e-instruct',
+      model: 'llama-3.1-8b-instant',
       messages: [SYS_RELATED, userRelated],
       max_tokens: 1200,
       temperature: 0.6
