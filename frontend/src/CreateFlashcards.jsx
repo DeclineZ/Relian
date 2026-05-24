@@ -294,15 +294,7 @@ export default function CreateFlashcards() {
                 `}</style>
                 <div className="bg-white rounded-2xl shadow-2xl border border-gray-150 max-w-md w-full p-8 transform transition-all duration-300">
                     <div className="flex flex-col items-center text-center">
-                        {/* Premium custom loading icon/glow */}
-                        <div className="relative mb-6 flex items-center justify-center">
-                            <div className="absolute inset-0 bg-blue-500/20 blur-xl rounded-full w-16 h-16 animate-pulse"></div>
-                            <div className="relative w-16 h-16 rounded-2xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 shadow-sm animate-bounce">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-8 h-8">
-                                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
-                                </svg>
-                            </div>
-                        </div>
+
 
                         {/* Title & Description */}
                         <h3 className="text-xl font-bold text-gray-900 mb-2">Creating Your Deck</h3>
