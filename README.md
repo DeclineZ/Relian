@@ -47,7 +47,7 @@ graph TD
     E --> F
     F --> G[Extract Title, Cards, Quizzes & Mermaid DSL]
     G --> H[Hydrate Cards with Google Search Images]
-    H --> I[Save to local Study Decks]
+    H --> I[Save to Study Decks]
     I --> J[User Reviews via SM-2 / Takes Quizzes]
 ```
 
