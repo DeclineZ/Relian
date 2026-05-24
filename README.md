@@ -1,6 +1,7 @@
 # ReLian
 
 **🏆 Awarded 1st place: CEDT Innovation Summit 2025**
+
 **📜 Honorable mention finalist: National Software Contest 2025**
 
 <img width="1278" height="631" alt="Screenshot 2026-05-24 134418" src="https://github.com/user-attachments/assets/c9ac70d3-30c5-4dec-9921-806a00e492d4" />
