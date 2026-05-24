@@ -1,20 +1,38 @@
 # ReLian
 
+**🏆 Awarded 1st place: CEDT Innovation Summit 2025**
+**📜 Honorable mention finalist: National Software Contest 2025**
+
+<img width="1278" height="631" alt="Screenshot 2026-05-24 134418" src="https://github.com/user-attachments/assets/c9ac70d3-30c5-4dec-9921-806a00e492d4" />
+
 **ReLian** is an intelligent, AI-powered spaced repetition flashcard and learning companion application. It streamlines the learning process by transforming raw study documents into structured, visual, and highly interactive study decks. 
 
 By leveraging advanced LLMs and memory science, ReLian optimizes long-term knowledge retention and adapts to individual study preferences.
 
----
-
 ## Features
 
 - **AI Flashcard Generation**: Simply upload a PDF, and ReLian's AI extracts main concepts to generate high-quality flashcards.
+<img width="1920" height="1080" alt="_NSC Final Online (3)" src="https://github.com/user-attachments/assets/6a40e207-3209-4682-9281-6ab10c50b5ff" />
+
 - **Visual Mind-Maps**: Automatically constructs visual diagrams using **Mermaid.js** within the study deck summaries, mapping out concept relationships.
+<img width="1920" height="1080" alt="Summaries" src="https://github.com/user-attachments/assets/28d04b73-4bc6-4e59-ab62-bcc56e5ba51f" />
+
 - **Contextual Image Hydration**: Cards are automatically enriched with relevant illustrations retrieved using Google Custom Search API.
+<img width="1920" height="1080" alt="37" src="https://github.com/user-attachments/assets/967ee6b7-a99e-4fca-a6e3-0807c3ac43b0" />
+
 - **Spaced Repetition System (SRS)**: Uses the industry-standard **SM-2 algorithm** (SuperMemo 2) to dynamically calculate card review intervals based on difficulty ratings.
-- **Interactive Quizzes**: Generates multiple-choice review quizzes customized to the uploaded material.
+<img width="1920" height="1080" alt="40" src="https://github.com/user-attachments/assets/ca718e07-40bf-475d-8818-9a474fcfdaae" />
+
+- **Interactive Quizzes**: Generates open-ended review quizzes customized to the uploaded material with AI grading.
+<img width="1920" height="1080" alt="46" src="https://github.com/user-attachments/assets/77243085-58f6-47ad-8d2e-3a8961138aae" />
+
 - **Bloom's Taxonomy Adaptations**: Automatically tags card difficulty/concept level (Remembering, Understanding, Applying, etc.) and allows generating related follow-up cards.
+
 - **On-Demand AI Explanations**: Reviewing a tricky card? Request a concise, educational AI explanation for any card's question-and-answer pair.
+<img width="1920" height="1080" alt="51" src="https://github.com/user-attachments/assets/0ca81d72-6e7c-4f48-861c-d54cd0c1a9bc" />
+
+- **Gamification & Community**: Adding incentive to learn more and grow together.
+<img width="1920" height="1080" alt="54" src="https://github.com/user-attachments/assets/655aa11b-5b13-4ec4-8cab-d2fc861978f9" />
 
 ## How It Works
 
