@@ -8,6 +8,7 @@ import pdf from 'pdf-parse-debugging-disabled';
 import { v4 as uuid } from 'uuid';
 import fetchImage from './fetchImage.js';
 import { Groq } from 'groq-sdk';
+import { customRateLimiter } from '../middleware/limiter.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -16,9 +17,36 @@ const router = express.Router();
 
 const groq = new Groq();
 
+
+const generateLimiter = customRateLimiter(5, 60 * 60 * 1000); // 5 requests per hour
+const queryLimiter = customRateLimiter(60, 60 * 1000); // 60 requests per minute
+
 const uploadDir = os.tmpdir();
 
-const upload = multer({ dest: uploadDir });
+const upload = multer({ 
+  dest: uploadDir,
+  limits: { fileSize: 2 * 1024 * 1024 }, // 2MB limit
+  fileFilter: (req, file, cb) => {
+    if (file.mimetype !== 'application/pdf') {
+      return cb(new Error('Only PDF files are allowed.'), false);
+    }
+    cb(null, true);
+  }
+});
+
+const uploadSinglePdf = (req, res, next) => {
+  upload.single('pdf')(req, res, (err) => {
+    if (err instanceof multer.MulterError) {
+      if (err.code === 'LIMIT_FILE_SIZE') {
+        return res.status(400).json({ error: 'File too large. Maximum size is 2MB.' });
+      }
+      return res.status(400).json({ error: `Upload error: ${err.message}` });
+    } else if (err) {
+      return res.status(400).json({ error: err.message });
+    }
+    next();
+  });
+};
 
 const JSON_PATH = path.resolve(__dirname, '../decks.json');
 const loadDecks = () => JSON.parse(fs.readFileSync(JSON_PATH, 'utf8'));
@@ -55,6 +83,7 @@ maximize learning efficiency and ensure complete content coverage.
 }
 Instructions & Rules
 Goal: Create flashcards that cover all key concepts, definitions, and applications found in the input Thai text using Bloom’s Taxonomy.
+Generate up to 10 flashcards (maximum 10). Do not generate more than 10 under any circumstances.
 Title: Begin with an emoji, followed by a short and clear Thai title summarizing the theme.
 Description: One sentence in Thai describing the purpose of the flashcard deck.
 Card Generation:
@@ -80,9 +109,9 @@ const SYS_QUIZ = {
   role: 'system',
   content: `You are an expert Thai educator.
 
-For the passage of Thai study text I send you, create as many open-ended questions that require a written answer as needed to cover ALL the material.
+For the passage of Thai study text I send you, create open-ended questions that require a written answer.
 
-maximize learning efficiency and ensure complete content coverage. Try to generate more than 5 questions.
+Generate up to 5 questions (maximum 5). Do not generate more than 5 under any circumstances.
 
 Return ONLY raw JSON in this schema:
 
@@ -222,7 +251,7 @@ function sanitizeMermaid(dsl) {
 
 // === Generate Deck Endpoint ===
 
-router.post('/generate-deck', upload.single('pdf'), async (req, res) => {
+router.post('/generate-deck', generateLimiter, uploadSinglePdf, async (req, res) => {
   try {
 
 
@@ -232,15 +261,24 @@ router.post('/generate-deck', upload.single('pdf'), async (req, res) => {
 
     const buffer = fs.readFileSync(req.file.path);
     const { text } = await pdf(buffer);
+    const sanitizedText = (text || '').substring(0, 15000);
 
     const userGenerate = {
       role: 'user',
-      content: `\n${text}\n-`
+      content: `\n${sanitizedText}\n-`
     };
 
     // === Learning Preferences ===
 
-    const prefs = JSON.parse(req.body.learningPrefs || '{}');
+    let prefs = {};
+    try {
+      prefs = JSON.parse(req.body.learningPrefs || '{}');
+      if (typeof prefs !== 'object' || prefs === null || Array.isArray(prefs)) {
+        prefs = {};
+      }
+    } catch {
+      prefs = {};
+    }
 
     // === Turn Parsed prefs into % Weights ===
 
@@ -268,6 +306,9 @@ router.post('/generate-deck', upload.single('pdf'), async (req, res) => {
     let deckRaw;
     try {
       deckRaw = JSON.parse(rawDeck);
+      if (deckRaw && deckRaw.cards && Array.isArray(deckRaw.cards)) {
+        deckRaw.cards = deckRaw.cards.slice(0, 10);
+      }
     } catch (e) {
       console.error('Invalid model response (after stripping):', rawDeck);
       throw new Error('Model did not return valid JSON');
@@ -313,7 +354,7 @@ router.post('/generate-deck', upload.single('pdf'), async (req, res) => {
 
     const summaryUser = {
       role: 'user',
-      content: `BEGIN RAW TEXT\n${text}\nEND RAW TEXT`
+      content: `BEGIN RAW TEXT\n${sanitizedText}\nEND RAW TEXT`
     };
 
     const sumResp = await groq.chat.completions.create({
@@ -327,7 +368,7 @@ router.post('/generate-deck', upload.single('pdf'), async (req, res) => {
 
     let diagramDsl = '';
     try {
-      diagramDsl = await generateDiagram(text);
+      diagramDsl = await generateDiagram(sanitizedText);
       if (!/^graph\s+(LR|RL|TB|BT)\b/.test(diagramDsl)) {
         console.warn('Diagram DSL invalid, dropping it:', diagramDsl);
         diagramDsl = '';
@@ -365,7 +406,7 @@ router.post('/generate-deck', upload.single('pdf'), async (req, res) => {
     const quizUser = {
       role: 'user',
       content: `BEGIN RAW TEXT
-${text}
+${sanitizedText}
 END RAW TEXT`
     };
 
@@ -381,6 +422,7 @@ END RAW TEXT`
       const raw = stripCodeFences(quizResp.choices[0].message.content.trim());
       quizItems = JSON.parse(raw);
       if (!Array.isArray(quizItems)) quizItems = [];
+      quizItems = quizItems.slice(0, 5);
     } catch (err) {
       console.warn('Quiz generation failed:', err);
       quizItems = [];
@@ -405,11 +447,17 @@ END RAW TEXT`
 
 // === Explanation Endpoint ===
 
-router.post('/explanation', async (req, res) => {
+router.post('/explanation', queryLimiter, async (req, res) => {
   try {
     const { question, answer } = req.body;
     if (!question || !answer) {
       return res.status(400).json({ error: "Missing question or answer." });
+    }
+    if (
+      typeof question !== 'string' || question.length > 1000 ||
+      typeof answer !== 'string' || answer.length > 1000
+    ) {
+      return res.status(400).json({ error: "Invalid or oversized input parameters." });
     }
 
 
@@ -487,11 +535,17 @@ async function generateDiagram(text) {
 
 // === Related Cards Endpoint ===
 
-router.post('/related-cards', async (req, res) => {
+router.post('/related-cards', queryLimiter, async (req, res) => {
   try {
     const { question, answer } = req.body;
     if (!question || !answer)
       return res.status(400).json({ error: 'Missing question or answer' });
+    if (
+      typeof question !== 'string' || question.length > 1000 ||
+      typeof answer !== 'string' || answer.length > 1000
+    ) {
+      return res.status(400).json({ error: "Invalid or oversized input parameters." });
+    }
 
     const userRelated = {
       role: 'user',
@@ -510,9 +564,9 @@ router.post('/related-cards', async (req, res) => {
     catch { throw new Error('LLM did not return valid JSON'); }
 
     if (Array.isArray(raw)) {
-
+      raw = raw.slice(0, 10);
     } else if (raw.cards && Array.isArray(raw.cards)) {
-      raw = raw.cards;
+      raw = raw.cards.slice(0, 10);
     } else {
       throw new Error('LLM did not return an array');
     }

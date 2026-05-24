@@ -1,15 +1,30 @@
 import express      from 'express';
 import { Groq }     from 'groq-sdk';
+import { customRateLimiter } from '../middleware/limiter.js';
 
 const router = express.Router();
 const groq   = new Groq();
 
+const gradeLimiter = customRateLimiter(60, 60 * 1000); // 60 requests per minute
 
-
-router.post('/', async (req, res) => {
+router.post('/', gradeLimiter, async (req, res) => {
   try {
     const { question, studentAnswer, answer, key_points } = req.body;
     
+    // Strict input validations
+    if (
+      typeof question !== 'string' || question.length > 1000 ||
+      typeof answer !== 'string' || answer.length > 1000 ||
+      typeof studentAnswer !== 'string' || studentAnswer.length > 1000
+    ) {
+      return res.status(400).json({ error: 'invalid_input', msg: 'Invalid or oversized input parameters.' });
+    }
+
+    if (key_points !== undefined) {
+      if (!Array.isArray(key_points) || key_points.length > 10 || key_points.some(p => typeof p !== 'string' || p.length > 200)) {
+        return res.status(400).json({ error: 'invalid_input', msg: 'Invalid or oversized key_points.' });
+      }
+    }
 
     const safePoints = Array.isArray(key_points) ? key_points : [];
 

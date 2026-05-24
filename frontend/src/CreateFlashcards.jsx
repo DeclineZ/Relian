@@ -65,7 +65,14 @@ export default function CreateFlashcards() {
         const accepted = [...fileList].filter(
             (file) => file.type === "application/pdf"
         );
-        if (accepted.length) setFiles(accepted.slice(0, 1));
+        if (accepted.length) {
+            const file = accepted[0];
+            if (file.size > 2 * 1024 * 1024) {
+                alert("File too large. Maximum allowed size is 2MB.");
+                return;
+            }
+            setFiles([file]);
+        }
     };
 
     const onDrop = (e) => {
@@ -275,8 +282,11 @@ export default function CreateFlashcards() {
                             <>
                                 <Upload size={32} />
                                 <p>
-                                    Drag & drop a PDF, text or images here, or{" "}
+                                    Drag & drop a PDF here, or{" "}
                                     <span className="underline">browse</span>
+                                </p>
+                                <p className="text-xs text-gray-400 mt-1">
+                                    Maximum file size: 2MB. Only PDF files are supported.
                                 </p>
                             </>
                         ) : (
