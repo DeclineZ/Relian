@@ -9,6 +9,7 @@ import { v4 as uuid } from 'uuid';
 import fetchImage from './fetchImage.js';
 import { Groq } from 'groq-sdk';
 import { customRateLimiter } from '../middleware/limiter.js';
+import { chunkText, mapReduceConcepts, SYS_UNIFIED_PROMPT } from '../lib/pipeline.js';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -63,142 +64,6 @@ const todayIso = () => new Date().toISOString().slice(0, 10);
 
 // === System Prompts ===
 
-const SYS_GENERATE = {
-  role: 'system',
-  content: `When I send you a chunk of Thai text, your job is to output only a single valid JSON object (no markdown, no code fences, no extra commentary) using the schema below, and follow the instructions carefully to generate comprehensive flashcards:
-maximize learning efficiency and ensure complete content coverage.
-{
-  "title":       "🏷️ ชื่อสั้น ๆ เป็นภาษาไทย",
-  "description": "คำอธิบายสั้น ๆ เป็นภาษาไทย",
-  "cards": [
-    {
-      "question":    "<คำถามภาษาไทย>",
-      "answer":      "<คำตอบภาษาไทย>",
-      "needs_image": <true|false>,
-      "keyword":     "<1-3 English words>",
-      "taxonomy":    "Remembering"|"Understanding"|"Applying"
-    },
-    …
-  ]
-}
-Instructions & Rules
-Goal: Create flashcards that cover all key concepts, definitions, and applications found in the input Thai text using Bloom’s Taxonomy.
-Generate up to 10 flashcards (maximum 10). Do not generate more than 10 under any circumstances.
-Title: Begin with an emoji, followed by a short and clear Thai title summarizing the theme.
-Description: One sentence in Thai describing the purpose of the flashcard deck.
-Card Generation:
-Generate multiple flashcards per Bloom level where possible.
-Ensure every major point, idea, or concept from the input is covered at least once.
-Focus on clarity and variety in question types across Bloom levels.
-needs_image:
-Set to true only if a visual aid would significantly enhance understanding.
-When true, provide 1-3 relevant English keywords for the image (e.g., "Thai flag", "voting booth").
-When false, use empty string "".
-taxonomy:
-Use "Remembering" for simple factual recall (e.g., dates, names, definitions).
-Use "Understanding" for concept interpretation or explanation.
-Use "Applying" for scenario-based or real-world use cases that require learners to use what they've learned.
-Output:
-Raw JSON only.
-Use double quotes for all strings.
-Do not include any markdown formatting, explanations, or extra text.
-`
-};
-
-const SYS_QUIZ = {
-  role: 'system',
-  content: `You are an expert Thai educator.
-
-For the passage of Thai study text I send you, create open-ended questions that require a written answer.
-
-Generate up to 5 questions (maximum 5). Do not generate more than 5 under any circumstances.
-
-Return ONLY raw JSON in this schema:
-
-[
-  {
-    "question": "<string>",
-    "answer":   "<ideal answer in 2-3 sentences>",
-    "key_points": ["<core point 1>", "<core point 2>", "..."]
-  },
-  ...
-]
-
-Rules:
-- key_points = 2-6 short phrases that must appear
-  (semantically) in any fully correct answer.
-- Do NOT output prose, markdown, or code fences.
-`
-};
-
-const SYS_SUMMARY = {
-  role: 'system',
-  content: `You are an expert educational writer, fluent in Thai, crafting effective and engaging summaries for learners.
-
-When I send you a chunk of Thai text, output **only** a self-contained HTML fragment—no markdown, no code fences, no additional commentary. Structure your summary using exactly these elements and classes:
-
-  1. Page title  
-     <h1 class="main-title">…</h1>
-
-  2. Section headings (use one or more as needed)  
-     <h2 class="section-heading">…</h2>
-
-  3. Key points list
-     <ul class="key-points">
-       <li class="list-item">…</li>
-       …
-     </ul>
-
-  4. Important terms (wrap only terms, not full sentences)  
-     <strong class="important-term">…</strong>
-
-  5. Emphasis notes (use sparingly for definitions or asides)  
-     <em class="emphasis-note">…</em>
-
-  6. Paragraph Text, Explanations, etc.
-    <p>...</p>
-
-**Additional styling rules:** 
-- Use plain text inside the tags—no inline styles, no other attributes.  
-- Preserve any Thai punctuation and diacritics exactly.  
-- Do not wrap your HTML in '<html>', '<body>', or '<div>'—just output the fragment.
-
-**Example output:**
-
-<h1 class="main-title">การเปลี่ยนแปลงสภาพภูมิอากาศ</h1>
-<h2 class="section-heading">ผลกระทบต่อเกษตรกรรม</h2>
-<ul class="key-points">
-  <li class="list-item">ความไม่แน่นอนของปริมาณน้ำฝน</li>
-  <li class="list-item">อุณหภูมิเพิ่มขึ้นกดทับผลผลิต</li>
-  <li class="list-item">ศัตรูพืชแพร่ระบาดรวดเร็ว</li>
-</ul>
-<p>คำว่า <strong class="important-term">การทำให้แห้ง</strong> หมายถึงการสูญเสียน้ำในดิน...</p>
-<em class="emphasis-note">หมายเหตุ: ข้อมูลนี้อิงจากรายงานปี 2024</em>
-`
-
-};
-
-const SYS_DIAGRAM = {
-  role: 'system',
-  content: `You are an expert educational diagram generator, fluent in Thai. Your goal is to turn any given Thai text into a clear, concise Mermaid flowchart that helps students grasp the concepts visually.
-
-When I send you a passage, output **only** the raw Mermaid DSL—no HTML, no markdown, no code fences. Follow these rules exactly:
-
-1. **Direction**: Always start with 'graph LR' (left-to-right).
-2. **Node IDs**: Use simple ASCII IDs only ('A, B, C…' or 'Node1, Node2…').
-3. **Labels**: Put Thai text inside the brackets, e.g. A["หินดินแร่"]
-4. **Edges**: Represent relationships with '-->' (e.g. 'A --> B').
-5. **Completeness**: Never truncate mid-line; ensure every '["…"]' is closed.
-6. **No extras**: Do not emit any comments, titles, or non-DSL text.
-
-**Example**  
-graph LR
-A["สภาพภูมิอากาศ"] --> B["ผลกระทบต่อเกษตรกรรม"]
-B --> C["ความไม่แน่นอนของน้ำฝน"]
-B --> D["อุณหภูมิเพิ่มสูง"]
-`
-};
-
 const SYS_EXPLANATION = {
   role: 'system',
   content: `You are an expert educator fluent in Thai.  
@@ -251,25 +116,28 @@ function sanitizeMermaid(dsl) {
 
 // === Generate Deck Endpoint ===
 
+// === Generate Deck Endpoint ===
+
 router.post('/generate-deck', generateLimiter, uploadSinglePdf, async (req, res) => {
   try {
-
-
     if (!req.file) throw new Error('No PDF uploaded');
 
     // === PDF-Parse ===
-
     const buffer = fs.readFileSync(req.file.path);
     const { text } = await pdf(buffer);
-    const sanitizedText = (text || '').substring(0, 15000);
+    const rawText = text || '';
 
-    const userGenerate = {
-      role: 'user',
-      content: `\n${sanitizedText}\n-`
-    };
+    // === Chunking and Map-Reduce (for long text) ===
+    let inputSource = '';
+    if (rawText.length > 15000) {
+      console.log(`PDF text length (${rawText.length}) exceeds 15,000 chars. Running Map-Reduce chunking pipeline...`);
+      const chunks = chunkText(rawText, 10000, 1000);
+      inputSource = await mapReduceConcepts(chunks, groq);
+    } else {
+      inputSource = rawText;
+    }
 
     // === Learning Preferences ===
-
     let prefs = {};
     try {
       prefs = JSON.parse(req.body.learningPrefs || '{}');
@@ -280,52 +148,66 @@ router.post('/generate-deck', generateLimiter, uploadSinglePdf, async (req, res)
       prefs = {};
     }
 
-    // === Turn Parsed prefs into % Weights ===
-
     const w = Object.entries(prefs)
       .map(([k, v]) => `${k}:${(v * 100).toFixed(0)}%`)
       .join(', ');
-    const SYS_PREFS = {
-      role: 'system',
-      content: `Weight preferences: ${w}. Please prioritize images, real-world examples, logic, or text accordingly, But also generate some of the other types of cards in the deck while prioritizing the weights.`
-    };
+    const userPrefsPrompt = w ? `Learning preference weights (prioritize types of cards accordingly): ${w}` : '';
 
-    // === Flashcard Generation LLM ===
-
+    // === Unified Generation LLM Call ===
     const response = await groq.chat.completions.create({
       model: 'openai/gpt-oss-120b',
-      messages: [SYS_PREFS, SYS_GENERATE, userGenerate],
+      messages: [
+        { role: 'system', content: SYS_UNIFIED_PROMPT },
+        { role: 'user', content: `${userPrefsPrompt}\n\nSTUDY TEXT:\n${inputSource}` }
+      ],
       max_tokens: 35000,
       "reasoning_effort": "medium",
     });
 
-    const rawDeck = stripCodeFences(response.choices[0].message.content);
+    const rawResult = stripCodeFences(response.choices[0].message.content.trim());
 
-    // === Flashcard Output ===
-
-    let deckRaw;
+    // === Robust Unified JSON Parsing & Recovery ===
+    let parsedResult;
     try {
-      deckRaw = JSON.parse(rawDeck);
-      if (deckRaw && deckRaw.cards && Array.isArray(deckRaw.cards)) {
-        deckRaw.cards = deckRaw.cards.slice(0, 10);
+      parsedResult = JSON.parse(rawResult);
+    } catch (err) {
+      console.warn('JSON parsing failed. Attempting regex cleanup recovery...', err.message);
+      const jsonMatch = rawResult.match(/\{[\s\S]*\}/);
+      if (jsonMatch) {
+        try {
+          parsedResult = JSON.parse(jsonMatch[0]);
+        } catch (e2) {
+          throw new Error('LLM did not return a valid parseable JSON payload.');
+        }
+      } else {
+        throw new Error('LLM did not return a valid JSON payload.');
       }
-    } catch (e) {
-      console.error('Invalid model response (after stripping):', rawDeck);
-      throw new Error('Model did not return valid JSON');
+    }
+
+    // === Extract & Validate Assets ===
+    const rawCards = Array.isArray(parsedResult.cards) ? parsedResult.cards.slice(0, 10) : [];
+    const quizItems = Array.isArray(parsedResult.quiz) ? parsedResult.quiz.slice(0, 5) : [];
+    let diagramDsl = parsedResult.diagramDsl || '';
+
+    if (diagramDsl && !/^graph\s+(LR|RL|TB|BT)\b/.test(diagramDsl)) {
+      console.warn('Mermaid diagram invalid syntax, dropping:', diagramDsl);
+      diagramDsl = '';
+    }
+    if (diagramDsl) {
+      diagramDsl = sanitizeMermaid(diagramDsl);
     }
 
     // === Hydrate Cards with Images and Metadata ===
-
     async function hydrateCard(c) {
       const img = c.needs_image ? await fetchImage(c.keyword) : null;
       return {
         id: uuid(),
-        question: c.question,
-        answer: c.answer,
-        keyword: c.keyword,
-        needs_image: c.needs_image,
+        question: c.question || '',
+        answer: c.answer || '',
+        keyword: c.keyword || '',
+        needs_image: !!c.needs_image,
         image: img,
-        ...(c.taxonomy && { taxonomy: c.taxonomy }),
+        taxonomy: c.taxonomy || 'Remembering',
         point: 0,
         repetitions: 0,
         interval: 0,
@@ -334,106 +216,30 @@ router.post('/generate-deck', generateLimiter, uploadSinglePdf, async (req, res)
       };
     }
 
-    // === Create New Deck Object ===
+    const cards = await Promise.all(rawCards.map(hydrateCard));
 
-    const cards = await Promise.all(deckRaw.cards.map(hydrateCard));
-
-    const decks = loadDecks();
+    // === Build Final Deck Object ===
     const newDeck = {
       id: uuid(),
-      name: deckRaw.title,
-      description: deckRaw.description,
+      name: parsedResult.title || '🏷️ Study Deck',
+      description: parsedResult.description || '',
       studied: false,
       total: cards.length,
       learned: 0,
       due: cards.length,
-      cards
+      cards,
+      summaryHtml: parsedResult.summaryHtml || '',
+      quiz: quizItems
     };
-
-    // === Generate Summary HTML ===
-
-    const summaryUser = {
-      role: 'user',
-      content: `BEGIN RAW TEXT\n${sanitizedText}\nEND RAW TEXT`
-    };
-
-    const sumResp = await groq.chat.completions.create({
-      model: 'meta-llama/llama-4-maverick-17b-128e-instruct',
-      messages: [SYS_SUMMARY, summaryUser],
-      max_tokens: 1800,
-    });
-    newDeck.summaryHtml = sumResp.choices[0].message.content.trim();
-
-    // === Generate Mermaid Diagram & Validation ===
-
-    let diagramDsl = '';
-    try {
-      diagramDsl = await generateDiagram(sanitizedText);
-      if (!/^graph\s+(LR|RL|TB|BT)\b/.test(diagramDsl)) {
-        console.warn('Diagram DSL invalid, dropping it:', diagramDsl);
-        diagramDsl = '';
-      }
-    } catch (err) {
-      console.warn('Diagram generation failed:', err);
-    }
-
-    // === Add Diagram into Summary ===
 
     if (diagramDsl) {
       newDeck.summaryHtml += `\n<div class="mermaid">\n${diagramDsl}\n</div>`;
     }
 
-    let html = newDeck.summaryHtml;
-
-    const MERMAID_RE = /<div\s+class="mermaid">\s*([\s\S]*?)\s*<\/div>/g;
-
-    let match;
-    let cleanHtml = html;
-
-    // === Final Mermaid Diagram Validization ===
-
-    while ((match = MERMAID_RE.exec(html)) !== null) {
-      const dsl = match[1].trim();
-      if (!/^(graph|flowchart|sequenceDiagram|classDiagram|stateDiagram)\b/.test(dsl)) {
-        cleanHtml = cleanHtml.replace(match[0], '');
-      }
-    }
-
-    newDeck.summaryHtml = cleanHtml;
-
-    // === Generate Quiz Questions ===
-
-    const quizUser = {
-      role: 'user',
-      content: `BEGIN RAW TEXT
-${sanitizedText}
-END RAW TEXT`
-    };
-
-    let quizItems = [];
-    try {
-      const quizResp = await groq.chat.completions.create({
-        model: 'openai/gpt-oss-120b',
-        messages: [SYS_QUIZ, quizUser],
-        "reasoning_effort": "medium",
-        max_tokens: 6000,
-      });
-
-      const raw = stripCodeFences(quizResp.choices[0].message.content.trim());
-      quizItems = JSON.parse(raw);
-      if (!Array.isArray(quizItems)) quizItems = [];
-      quizItems = quizItems.slice(0, 5);
-    } catch (err) {
-      console.warn('Quiz generation failed:', err);
-      quizItems = [];
-    }
-
-    newDeck.quiz = quizItems;
-
+    const decks = loadDecks();
     decks.push(newDeck);
     saveDecks(decks);
 
-    // === Send Response & Cleanup ===
     res.json(newDeck);
   } catch (err) {
     console.error('generate-deck error:', err);
@@ -491,47 +297,7 @@ router.get('/summarize-deck/:id', (req, res) => {
   return res.json({ summaryHtml: deck.summaryHtml || '' });
 });
 
-// === Diagram Generation Function ===
 
-async function generateDiagram(text) {
-  const userMsg = { role: 'user', content: `=== INPUT TEXT ===\n${text}\n=== END INPUT ===` };
-  let resp = await groq.chat.completions.create({
-    model: 'openai/gpt-oss-120b',
-    messages: [SYS_DIAGRAM, userMsg],
-    max_tokens: 1024,
-    temperature: 0.6,
-    "reasoning_effort": "low",
-  });
-
-  let dsl = stripCodeFences(resp.choices[0].message.content.normalize('NFC'));
-
-  // === LLM Check for Mermaid Diagram Completeness ===
-
-  if (!isCompleteDSL(dsl)) {
-    console.warn('Initial diagram DSL incomplete, attempting to finish it.');
-    const tailPrompt = {
-      role: 'user',
-      content: `The Mermaid DSL below got cut off. Please _only_ continue from the last valid line, finishing any open labels or brackets. Do not repeat lines you already sent.\n\n\`\`\`mermaid\n${dsl}\n\`\`\``
-    };
-    const follow = await groq.chat.completions.create({
-      model: 'openai/gpt-oss-120b',
-      messages: [SYS_DIAGRAM, tailPrompt],
-      max_tokens: 100,
-      "reasoning_effort": "none",
-    });
-    const more = stripCodeFences(follow.choices[0].message.content.normalize('NFC'));
-    dsl = `${dsl}\n${more}`;
-  }
-
-  dsl = dsl
-    .split('\n')
-    .filter(line => !/\[\s*$/.test(line))
-    .join('\n');
-
-  dsl = sanitizeMermaid(dsl);
-
-  return dsl.trim();
-}
 
 // === Related Cards Endpoint ===
 
